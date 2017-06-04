@@ -2,9 +2,9 @@
 ## Practical Teamwork Project
 
 ## Team "Glyph"
-### Mihaela Ivanova
-### Simeon Gerginov
-### Ivaylo Damyanov
+### * Mihaela Ivanova
+### * Simeon Gerginov
+### * Ivaylo Damyanov
 
 ## Assignement
 
