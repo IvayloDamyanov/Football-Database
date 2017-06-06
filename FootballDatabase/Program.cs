@@ -10,6 +10,8 @@ namespace FootballDatabase
     {
         static void Main(string[] args)
         {
+            var countries = JSONReader.ReadCountries("../../Data/countries.json");
+            //Console.WriteLine(countries[0].CountryName);
         }
     }
 }
