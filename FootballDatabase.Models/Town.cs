@@ -4,14 +4,14 @@
 
     public class Town
     {
-        public int TownId { get; set; }
+        public int Id { get; set; }
 
-        public int TownName { get; set; }
+        public int Name { get; set; }
 
         public int CountryId { get; set; }
 
         public virtual Country Country { get; set; }
 
-        public virtual ICollection<FootballTeam> FootballTeams { get; set; }
+        public virtual ICollection<Team> Teams { get; set; }
     }
 }
