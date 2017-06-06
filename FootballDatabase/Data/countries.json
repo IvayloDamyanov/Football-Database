@@ -1,6 +1,18 @@
 [
-    {"CountryName": "Italy", "CountryId": "1"},
-    {"CountryName": "Spain", "CountryId": "2"},
-    {"CountryName": "England", "CountryId": "3"},
-    {"CountryName": "Germany", "CountryId": "4"}
+    {
+        "Name": "Italy",
+         "Id": "1"
+         },
+    {
+        "Name": "Spain",
+         "Id": "2"
+         },
+    {
+        "Name": "England",
+         "Id": "3"
+         },
+    {
+        "Name": "Germany",
+         "Id": "4"
+         }
 ]

@@ -1,0 +1,238 @@
+[
+    {
+        "Name": "Keylor Navas", 
+        "Team":"Real Madrid", 
+        "Position":"goalkeeper", 
+        "Nationality":"Spain", 
+        "Age":31, 
+        "Salary": 55000, 
+        "Contract":4, 
+        "Id": "1"
+        },
+    {
+        "Name": "Kiko Casilla", 
+        "Team":"Real Madrid", 
+        "Position":"goalkeeper", 
+        "Nationality":"Costa Rica",
+         "Age":31, "Salary": 25000, 
+         "Contract":4, "Id": "2"
+         },
+    {
+        "Name": "Rubén Yáñez",
+         "Team":"Real Madrid",
+          "Position":"goalkeeper", 
+          "Nationality":"Spain", 
+          "Age":24,
+           "Salary": 4000, 
+           "Contract":4,
+            "Id": "3"
+            },
+    {
+        "Name": "Sergio Ramos",
+         "Team":"Real Madrid", 
+         "Position":"defender",
+          "Nationality":"Spain", 
+          "Age":31, 
+          "Salary": 160000,
+           "Contract":4, 
+           "Id": "4"
+           },
+    {
+        "Name": "Rafael Varane",
+        "Team":"Real Madrid", 
+        "Position":"defender",
+        "Nationality":"France",
+        "Age":24,
+        "Salary": 80000,
+        "Contract":4,
+        "Id": "5"
+        },
+    {
+        "Name": "Nacho Fernandez",
+        "Team":"Real Madrid", 
+        "Position":"defender", 
+        "Nationality":"Spain", 
+        "Age":27, 
+        "Salary": 60000, 
+        "Contract":4, 
+        "Id": "6"
+        },
+    {
+        "Name": "Pepe", 
+        "Team":"Real Madrid", 
+        "Position":"defender", 
+        "Nationality":"Portugal", 
+        "Age":34, 
+        "Salary": 110000, 
+        "Contract":1, 
+        "Id": "7"
+        },
+    {
+        "Name": "Marcelo", 
+        "Team":"Real Madrid", 
+        "Position":"defender", 
+        "Nationality":"Brazil", 
+        "Age":29, 
+        "Salary": 80000, 
+        "Contract":4, 
+        "Id": "8"
+        },
+    {
+        "Name": "Fabio Coentrao",
+        "Team":"Real Madrid", 
+        "Position":"defender", 
+        "Nationality":"Portugal", 
+        "Age":29, 
+        "Salary": 80000, 
+        "Contract":3, "Id": "9"
+        },
+    {
+        "Name": "Daniel Carvajal", 
+        "Team":"Real Madrid", 
+        "Position":"defender", 
+        "Nationality":"Spain", 
+        "Age":25, 
+        "Salary": 35000, 
+        "Contract":4, 
+        "Id": "10"
+        },
+    {
+        "Name": "Danilo", 
+        "Team":"Real Madrid", 
+        "Position":"defender", 
+        "Nationality":"Brazil", 
+        "Age":25, 
+        "Salary": 60000, 
+        "Contract":5, 
+        "Id": "11"
+        },
+    {
+        "Name": "Casemiro", 
+        "Team":"Real Madrid", 
+        "Position":"midfielder", 
+        "Nationality":"Brazil", 
+        "Age":25, 
+        "Salary": 45000, 
+        "Contract":1, "Id": "12"
+        },
+    {
+        "Name": "Toni Kroos", 
+        "Team":"Real Madrid", 
+        "Position":"midfielder", 
+        "Nationality":"Germany", 
+        "Age":27, 
+        "Salary": 156000, 
+        "Contract":4, 
+        "Id": "13"
+        },
+    {
+        "Name": "Luka Modric", 
+        "Team":"Real Madrid", 
+        "Position":"midfielder", 
+        "Nationality":"Croatia", 
+        "Age":31, 
+        "Salary": 180000, 
+        "Contract":4, 
+        "Id": "14"
+        },
+    {
+        "Name": "Mateo Kovacic", 
+        "Team":"Real Madrid", 
+        "Position":"midfielder", 
+        "Nationality":"Croatia", 
+        "Age":23, 
+        "Salary": 60000, 
+        "Contract":5, 
+        "Id": "15"
+        },
+    {
+        "Name": "James Rodriguez", 
+        "Team":"Real Madrid", 
+        "Position":"midfielder", 
+        "Nationality":"Colombia", 
+        "Age":25, 
+        "Salary": 120000,
+        "Contract":4, 
+        "Id": "16"
+        },
+    {
+        "Name": "Christiano Ronaldo", 
+        "Team":"Real Madrid", 
+        "Position":"forward", 
+        "Nationality":"Portugal", 
+        "Age":32, "Salary": 365000, 
+        "Contract":5, 
+        "Id": "17"
+        },
+    {
+        "Name": "Marco Asensio", 
+        "Team":"Real Madrid", 
+        "Position":"forward", 
+        "Nationality":"Spain", 
+        "Age":21, 
+        "Salary": 10000, 
+        "Contract":4, 
+        "Id": "18"
+        },
+    {
+        "Name": "Gareth Bale", 
+        "Team":"Real Madrid", 
+        "Position":"forward", 
+        "Nationality":"Wales", 
+        "Age":27, 
+        "Salary": 350000, 
+        "Contract":6, 
+        "Id": "19"
+        },
+    {
+        "Name": "Lucas Vazquez", 
+        "Team":"Real Madrid", 
+        "Position":"forward", 
+        "Nationality":"Spain", 
+        "Age":25, 
+        "Salary": 30000, 
+        "Contract":4, 
+        "Id": "20"},
+    {
+        "Name": "Karim Benzema", 
+        "Team":"Real Madrid", 
+        "Position":"forward", 
+        "Nationality":"France", 
+        "Age":29, 
+        "Salary": 150000, 
+        "Contract":3, 
+        "Id": "21"
+        },
+    {
+        "Name": "Alvaro Morata", 
+        "Team":"Real Madrid", 
+        "Position":"forward", 
+        "Nationality":"Spain", 
+        "Age":24, 
+        "Salary": 80000, 
+        "Contract":5, 
+        "Id": "22"
+        },
+    {
+        "Name": "Mariano Diaz", 
+        "Team":"Real Madrid", 
+        "Position":"forward", 
+        "Nationality":"Dominican Republic", 
+        "Age":23, 
+        "Salary": 5000, 
+        "Contract":5, 
+        "Id": "23"
+        },
+
+     {
+        "Name": "Emil Audero", 
+        "Team":"Juventus", 
+        "Position":"goalkeeper", 
+        "Nationality":"Italy", 
+        "Age":20, 
+        "Salary": 5000, 
+        "Contract":5, 
+        "Id": "23"
+        }
+
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "Name": "Milano",
+         "Id": "1"
+         },
+    {
+        "Name": "Torino",
+         "Id": "2"
+         },
+    {
+        "Name": "Madrid",
+        "Id": "3"
+        },
+    {
+        "Name": "Munich",
+         "Id": "4"
+         },
+    {
+        "Name": "London",
+         "Id": "5"
+         }    
+]
