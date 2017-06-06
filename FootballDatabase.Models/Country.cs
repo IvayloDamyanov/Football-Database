@@ -4,12 +4,12 @@
 
     public class Country
     {
-        public int CountryId { get; set; }
+        public int Id { get; set; }
 
-        public string CountryName { get; set; }
+        public string Name { get; set; }
 
         public virtual ICollection<Town> Towns { get; set; }
 
-        public virtual ICollection<FootballTeam> FootballTeams { get; set; }
+        public virtual ICollection<Team> Teams { get; set; }
     }
 }

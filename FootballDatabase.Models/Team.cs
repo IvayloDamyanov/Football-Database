@@ -2,11 +2,15 @@
 {
     using System.Collections.Generic;
 
-    public class Position
+    public class Team
     {
         public int Id { get; set; }
 
         public string Name { get; set; }
+
+        public virtual Town Town { get; set; }
+
+        public virtual Country Country { get; set; }
 
         public virtual ICollection<Player> Players { get; set; }
     }

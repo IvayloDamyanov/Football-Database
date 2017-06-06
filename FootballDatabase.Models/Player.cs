@@ -2,11 +2,11 @@
 {
     using System.Collections.Generic;
 
-    public class FootballPlayer
+    public class Player
     { 
-        public int FootballPlayerId { get; set; }
+        public int Id { get; set; }
 
-        public string FootballPlayerName { get; set; }
+        public string Name { get; set; }
 
         public int Age { get; set; }
 
@@ -18,6 +18,6 @@
 
         public virtual ICollection<Position> Position { get; set; }
 
-        public virtual FootballTeam FootballTeam { get; set; }
+        public virtual Team Team { get; set; }
     }
 }
