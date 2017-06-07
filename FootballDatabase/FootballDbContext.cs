@@ -1,9 +1,9 @@
-﻿using System.Data.Entity;
-using FootballDatabase.Models;
-
-namespace FootballDatabase
+﻿namespace FootballDatabase
 {
-    class FootballDbContext : DbContext
+    using System.Data.Entity;
+    using FootballDatabase.Models;
+
+    public class FootballDbContext : DbContext
     {
         public DbSet<Country> Countries { get; set; }
 

@@ -1,17 +1,18 @@
-﻿using System;
-using System.IO;
-using System.Data.OleDb;
-using System.Data;
-using System.Web.Script.Serialization;
-using FootballDatabase.Models;
-
-namespace FootballDatabase
+﻿namespace FootballDatabase
 {
-    static class JSONReader
+    using System;
+    using System.IO;
+    using System.Data.OleDb;
+    using System.Data;
+    using System.Web.Script.Serialization;
+    using FootballDatabase.Models;
+
+    public static class JSONReader
     {
         private static JavaScriptSerializer serializer = new JavaScriptSerializer();
 
-        public static Country[] ReadCountries(string filePath) {
+        public static Country[] ReadCountries(string filePath)
+        {
             Country[] countries;
 
             using (StreamReader streamReader = new StreamReader(filePath))
