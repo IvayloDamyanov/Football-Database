@@ -17,8 +17,7 @@
         {
             this.Position = new HashSet<Position>();
         }
-
-
+    
         public int Id { get; set; }
 
         [Required]

@@ -1,9 +1,6 @@
 ﻿namespace FootballDatabase
 {
-    using System;
     using System.IO;
-    using System.Data.OleDb;
-    using System.Data;
     using System.Web.Script.Serialization;
     using FootballDatabase.Models;
 
