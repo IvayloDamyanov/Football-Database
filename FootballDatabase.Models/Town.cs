@@ -5,6 +5,11 @@
 
     public class Town
     {
+        public Town()
+        {
+            this.Country = new Country();
+            this.Teams = new HashSet<Team>();
+        }
 
         private const int MinNameLength = 2;
         private const int MaxNameLength = 50;

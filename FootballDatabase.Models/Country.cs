@@ -8,6 +8,12 @@
         private const int MinNameLength = 2;
         private const int MaxNameLength = 50;
 
+        public Country()
+        {
+            this.Towns = new HashSet<Town>();
+            this.Teams = new HashSet<Team>();
+        }
+
         public int Id { get; set; }
 
         [Required]

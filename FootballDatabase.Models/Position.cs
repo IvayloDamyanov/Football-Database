@@ -5,6 +5,11 @@
 
     public class Position
     {
+        public Position()
+        {
+            this.Players = new HashSet<Player>();
+        }
+
         private const int MinNameLength = 2;
         private const int MaxNameLength = 50;
 

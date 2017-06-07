@@ -13,6 +13,12 @@
         private const double MinSalary = 0.0;
         private const int MinYears = 0;
 
+        public Player()
+        {
+            this.Team = new Team();
+            this.Position = new HashSet<Position>();
+        }
+
 
         public int Id { get; set; }
 
