@@ -1,10 +1,9 @@
 ﻿namespace FootballDatabase
 {
+    using FootballDatabase.Data;
+    using FootballDatabase.Models;
     using System;
-    using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public class Startup
     {
@@ -12,6 +11,8 @@
         {
             var countries = JSONReader.ReadCountries("../../Data/countries.json");
             //Console.WriteLine(countries[0].CountryName);
+
+            var dbContext = new FootballDbContext();
         }
     }
 }

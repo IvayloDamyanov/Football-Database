@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDatabase", "Footbal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDatabase.Models", "FootballDatabase.Models\FootballDatabase.Models.csproj", "{A4B22FC3-B6F8-4445-A09B-62AA8D6CED8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDatabase.Data", "FootballDatabase.Data\FootballDatabase.Data.csproj", "{95C2C446-EEEB-482D-80A1-59D2C25DDCAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A4B22FC3-B6F8-4445-A09B-62AA8D6CED8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4B22FC3-B6F8-4445-A09B-62AA8D6CED8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4B22FC3-B6F8-4445-A09B-62AA8D6CED8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C2C446-EEEB-482D-80A1-59D2C25DDCAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C2C446-EEEB-482D-80A1-59D2C25DDCAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C2C446-EEEB-482D-80A1-59D2C25DDCAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C2C446-EEEB-482D-80A1-59D2C25DDCAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

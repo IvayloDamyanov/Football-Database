@@ -1,7 +1,7 @@
-﻿namespace FootballDatabase
+﻿namespace FootballDatabase.Data
 {
-    using System.Data.Entity;
     using FootballDatabase.Models;
+    using System.Data.Entity;
 
     public class FootballDbContext : DbContext
     {
