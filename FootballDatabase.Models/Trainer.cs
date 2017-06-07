@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FootballDatabase.Models
 {
-    class Trainer
+   public class Trainer
     {
         private const int MinNameLength = 2;
         private const int MaxNameLength = 50;

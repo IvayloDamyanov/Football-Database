@@ -18,6 +18,7 @@
 
         public DbSet<Player> Players { get; set; }
 
-        public DbSet<Position> Positions { get; set; }
+        public DbSet<Trainer> Trainers { get; set; }
+
     }
 }
