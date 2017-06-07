@@ -13,6 +13,17 @@
             //Console.WriteLine(countries[0].CountryName);
 
             var dbContext = new FootballDbContext();
+
+            var country = new Country
+            {
+                Name = "Italy"
+            };
+
+            dbContext
+                .Countries
+                .Add(country);
+
+            dbContext.SaveChanges();
         }
     }
 }

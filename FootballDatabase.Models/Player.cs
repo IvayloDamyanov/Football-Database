@@ -15,7 +15,6 @@
 
         public Player()
         {
-            this.Team = new Team();
             this.Position = new HashSet<Position>();
         }
 

@@ -7,7 +7,6 @@
     {
         public Town()
         {
-            this.Country = new Country();
             this.Teams = new HashSet<Team>();
         }
 
