@@ -1,0 +1,10 @@
+E:\telerik\Databases\Teamwork\Football-Database\FootballDatabase.Models\bin\Debug\FootballDatabase.Models.dll.config
+E:\telerik\Databases\Teamwork\Football-Database\FootballDatabase.Models\bin\Debug\FootballDatabase.Models.dll
+E:\telerik\Databases\Teamwork\Football-Database\FootballDatabase.Models\bin\Debug\FootballDatabase.Models.pdb
+E:\telerik\Databases\Teamwork\Football-Database\FootballDatabase.Models\bin\Debug\EntityFramework.dll
+E:\telerik\Databases\Teamwork\Football-Database\FootballDatabase.Models\bin\Debug\EntityFramework.SqlServer.dll
+E:\telerik\Databases\Teamwork\Football-Database\FootballDatabase.Models\bin\Debug\EntityFramework.xml
+E:\telerik\Databases\Teamwork\Football-Database\FootballDatabase.Models\bin\Debug\EntityFramework.SqlServer.xml
+E:\telerik\Databases\Teamwork\Football-Database\FootballDatabase.Models\obj\Debug\FootballDatabase.Models.dll
+E:\telerik\Databases\Teamwork\Football-Database\FootballDatabase.Models\obj\Debug\FootballDatabase.Models.pdb
+E:\telerik\Databases\Teamwork\Football-Database\FootballDatabase.Models\obj\Debug\FootballDatabase.Models.csprojResolveAssemblyReference.cache

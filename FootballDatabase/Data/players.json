@@ -1,908 +1,913 @@
-[
-    {
-        "Name": "Keylor Navas", 
-        "Team":"Real Madrid", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Spain", 
-        "Age":31, 
-        "Salary": 55000, 
-        "Contract":4, 
-        "Id": "1"
-        },
-    {
-        "Name": "Kiko Casilla", 
-        "Team":"Real Madrid", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Costa Rica",
-         "Age":31, "Salary": 25000, 
-         "Contract":4, "Id": "2"
-         },
-    {
-        "Name": "Rubén Yáñez",
-         "Team":"Real Madrid",
-          "Position":"Goalkeeper", 
-          "Nationality":"Spain", 
-          "Age":24,
-           "Salary": 4000, 
-           "Contract":4,
-            "Id": "3"
-            },
-    {
-        "Name": "Sergio Ramos",
-         "Team":"Real Madrid", 
-         "Position":"Defender",
-          "Nationality":"Spain", 
-          "Age":31, 
-          "Salary": 160000,
-           "Contract":4, 
-           "Id": "4"
-           },
-    {
-        "Name": "Rafael Varane",
-        "Team":"Real Madrid", 
-        "Position":"Defender",
-        "Nationality":"France",
-        "Age":24,
-        "Salary": 80000,
-        "Contract":4,
-        "Id": "5"
-        },
-    {
-        "Name": "Nacho Fernandez",
-        "Team":"Real Madrid", 
-        "Position":"Defender", 
-        "Nationality":"Spain", 
-        "Age":27, 
-        "Salary": 60000, 
-        "Contract":4, 
-        "Id": "6"
-        },
-    {
-        "Name": "Pepe", 
-        "Team":"Real Madrid", 
-        "Position":"Defender", 
-        "Nationality":"Portugal", 
-        "Age":34, 
-        "Salary": 110000, 
-        "Contract":1, 
-        "Id": "7"
-        },
-    {
-        "Name": "Marcelo", 
-        "Team":"Real Madrid", 
-        "Position":"Defender", 
-        "Nationality":"Brazil", 
-        "Age":29, 
-        "Salary": 80000, 
-        "Contract":4, 
-        "Id": "8"
-        },
-    {
-        "Name": "Fabio Coentrao",
-        "Team":"Real Madrid", 
-        "Position":"Defender", 
-        "Nationality":"Portugal", 
-        "Age":29, 
-        "Salary": 80000, 
-        "Contract":3, "Id": "9"
-        },
-    {
-        "Name": "Daniel Carvajal", 
-        "Team":"Real Madrid", 
-        "Position":"Defender", 
-        "Nationality":"Spain", 
-        "Age":25, 
-        "Salary": 35000, 
-        "Contract":4, 
-        "Id": "10"
-        },
-    {
-        "Name": "Danilo", 
-        "Team":"Real Madrid", 
-        "Position":"Defender", 
-        "Nationality":"Brazil", 
-        "Age":25, 
-        "Salary": 60000, 
-        "Contract":5, 
-        "Id": "11"
-        },
-    {
-        "Name": "Casemiro", 
-        "Team":"Real Madrid", 
-        "Position":"Midfielder", 
-        "Nationality":"Brazil", 
-        "Age":25, 
-        "Salary": 45000, 
-        "Contract":1, "Id": "12"
-        },
-    {
-        "Name": "Toni Kroos", 
-        "Team":"Real Madrid", 
-        "Position":"Midfielder", 
-        "Nationality":"Germany", 
-        "Age":27, 
-        "Salary": 156000, 
-        "Contract":4, 
-        "Id": "13"
-        },
-    {
-        "Name": "Luka Modric", 
-        "Team":"Real Madrid", 
-        "Position":"Midfielder", 
-        "Nationality":"Croatia", 
-        "Age":31, 
-        "Salary": 180000, 
-        "Contract":4, 
-        "Id": "14"
-        },
-    {
-        "Name": "Mateo Kovacic", 
-        "Team":"Real Madrid", 
-        "Position":"Midfielder", 
-        "Nationality":"Croatia", 
-        "Age":23, 
-        "Salary": 60000, 
-        "Contract":5, 
-        "Id": "15"
-        },
-    {
-        "Name": "James Rodriguez", 
-        "Team":"Real Madrid", 
-        "Position":"Midfielder", 
-        "Nationality":"Colombia", 
-        "Age":25, 
-        "Salary": 120000,
-        "Contract":4, 
-        "Id": "16"
-        },
-    {
-        "Name": "Christiano Ronaldo", 
-        "Team":"Real Madrid", 
-        "Position":"Forward", 
-        "Nationality":"Portugal", 
-        "Age":32, "Salary": 365000, 
-        "Contract":5, 
-        "Id": "17"
-        },
-    {
-        "Name": "Marco Asensio", 
-        "Team":"Real Madrid", 
-        "Position":"Forward", 
-        "Nationality":"Spain", 
-        "Age":21, 
-        "Salary": 10000, 
-        "Contract":4, 
-        "Id": "18"
-        },
-    {
-        "Name": "Gareth Bale", 
-        "Team":"Real Madrid", 
-        "Position":"Forward", 
-        "Nationality":"Wales", 
-        "Age":27, 
-        "Salary": 350000, 
-        "Contract":6, 
-        "Id": "19"
-        },
-    {
-        "Name": "Lucas Vazquez", 
-        "Team":"Real Madrid", 
-        "Position":"Forward", 
-        "Nationality":"Spain", 
-        "Age":25, 
-        "Salary": 30000, 
-        "Contract":4, 
-        "Id": "20"},
-    {
-        "Name": "Karim Benzema", 
-        "Team":"Real Madrid", 
-        "Position":"Forward", 
-        "Nationality":"France", 
-        "Age":29, 
-        "Salary": 150000, 
-        "Contract":3, 
-        "Id": "21"
-        },
-    {
-        "Name": "Alvaro Morata", 
-        "Team":"Real Madrid", 
-        "Position":"Forward", 
-        "Nationality":"Spain", 
-        "Age":24, 
-        "Salary": 80000, 
-        "Contract":5, 
-        "Id": "22"
-        },
-    {
-        "Name": "Mariano Diaz", 
-        "Team":"Real Madrid", 
-        "Position":"Forward", 
-        "Nationality":"Dominican Republic", 
-        "Age":23, 
-        "Salary": 5000, 
-        "Contract":5, 
-        "Id": "23"
-        },
+[{
+		"Name": "Keylor Navas",
+		"Team": "Real Madrid",
+		"Position": "Goalkeeper",
+		"Nationality": "Spain",
+		"Age": 31,
+		"Salary": 55000,
+		"Contract": 4,
+		"Id": "1"
+	},
+	{
+		"Name": "Kiko Casilla",
+		"Team": "Real Madrid",
+		"Position": "Goalkeeper",
+		"Nationality": "Costa Rica",
+		"Age": 31,
+		"Salary": 25000,
+		"Contract": 4,
+		"Id": "2"
+	},
+	{
+		"Name": "Rubén Yáñez",
+		"Team": "Real Madrid",
+		"Position": "Goalkeeper",
+		"Nationality": "Spain",
+		"Age": 24,
+		"Salary": 4000,
+		"Contract": 4,
+		"Id": "3"
+	},
+	{
+		"Name": "Sergio Ramos",
+		"Team": "Real Madrid",
+		"Position": "Defender",
+		"Nationality": "Spain",
+		"Age": 31,
+		"Salary": 160000,
+		"Contract": 4,
+		"Id": "4"
+	},
+	{
+		"Name": "Rafael Varane",
+		"Team": "Real Madrid",
+		"Position": "Defender",
+		"Nationality": "France",
+		"Age": 24,
+		"Salary": 80000,
+		"Contract": 4,
+		"Id": "5"
+	},
+	{
+		"Name": "Nacho Fernandez",
+		"Team": "Real Madrid",
+		"Position": "Defender",
+		"Nationality": "Spain",
+		"Age": 27,
+		"Salary": 60000,
+		"Contract": 4,
+		"Id": "6"
+	},
+	{
+		"Name": "Pepe",
+		"Team": "Real Madrid",
+		"Position": "Defender",
+		"Nationality": "Portugal",
+		"Age": 34,
+		"Salary": 110000,
+		"Contract": 1,
+		"Id": "7"
+	},
+	{
+		"Name": "Marcelo",
+		"Team": "Real Madrid",
+		"Position": "Defender",
+		"Nationality": "Brazil",
+		"Age": 29,
+		"Salary": 80000,
+		"Contract": 4,
+		"Id": "8"
+	},
+	{
+		"Name": "Fabio Coentrao",
+		"Team": "Real Madrid",
+		"Position": "Defender",
+		"Nationality": "Portugal",
+		"Age": 29,
+		"Salary": 80000,
+		"Contract": 3,
+		"Id": "9"
+	},
+	{
+		"Name": "Daniel Carvajal",
+		"Team": "Real Madrid",
+		"Position": "Defender",
+		"Nationality": "Spain",
+		"Age": 25,
+		"Salary": 35000,
+		"Contract": 4,
+		"Id": "10"
+	},
+	{
+		"Name": "Danilo",
+		"Team": "Real Madrid",
+		"Position": "Defender",
+		"Nationality": "Brazil",
+		"Age": 25,
+		"Salary": 60000,
+		"Contract": 5,
+		"Id": "11"
+	},
+	{
+		"Name": "Casemiro",
+		"Team": "Real Madrid",
+		"Position": "Midfielder",
+		"Nationality": "Brazil",
+		"Age": 25,
+		"Salary": 45000,
+		"Contract": 1,
+		"Id": "12"
+	},
+	{
+		"Name": "Toni Kroos",
+		"Team": "Real Madrid",
+		"Position": "Midfielder",
+		"Nationality": "Germany",
+		"Age": 27,
+		"Salary": 156000,
+		"Contract": 4,
+		"Id": "13"
+	},
+	{
+		"Name": "Luka Modric",
+		"Team": "Real Madrid",
+		"Position": "Midfielder",
+		"Nationality": "Croatia",
+		"Age": 31,
+		"Salary": 180000,
+		"Contract": 4,
+		"Id": "14"
+	},
+	{
+		"Name": "Mateo Kovacic",
+		"Team": "Real Madrid",
+		"Position": "Midfielder",
+		"Nationality": "Croatia",
+		"Age": 23,
+		"Salary": 60000,
+		"Contract": 5,
+		"Id": "15"
+	},
+	{
+		"Name": "James Rodriguez",
+		"Team": "Real Madrid",
+		"Position": "Midfielder",
+		"Nationality": "Colombia",
+		"Age": 25,
+		"Salary": 120000,
+		"Contract": 4,
+		"Id": "16"
+	},
+	{
+		"Name": "Christiano Ronaldo",
+		"Team": "Real Madrid",
+		"Position": "Forward",
+		"Nationality": "Portugal",
+		"Age": 32,
+		"Salary": 365000,
+		"Contract": 5,
+		"Id": "17"
+	},
+	{
+		"Name": "Marco Asensio",
+		"Team": "Real Madrid",
+		"Position": "Forward",
+		"Nationality": "Spain",
+		"Age": 21,
+		"Salary": 10000,
+		"Contract": 4,
+		"Id": "18"
+	},
+	{
+		"Name": "Gareth Bale",
+		"Team": "Real Madrid",
+		"Position": "Forward",
+		"Nationality": "Wales",
+		"Age": 27,
+		"Salary": 350000,
+		"Contract": 6,
+		"Id": "19"
+	},
+	{
+		"Name": "Lucas Vazquez",
+		"Team": "Real Madrid",
+		"Position": "Forward",
+		"Nationality": "Spain",
+		"Age": 25,
+		"Salary": 30000,
+		"Contract": 4,
+		"Id": "20"
+	},
+	{
+		"Name": "Karim Benzema",
+		"Team": "Real Madrid",
+		"Position": "Forward",
+		"Nationality": "France",
+		"Age": 29,
+		"Salary": 150000,
+		"Contract": 3,
+		"Id": "21"
+	},
+	{
+		"Name": "Alvaro Morata",
+		"Team": "Real Madrid",
+		"Position": "Forward",
+		"Nationality": "Spain",
+		"Age": 24,
+		"Salary": 80000,
+		"Contract": 5,
+		"Id": "22"
+	},
+	{
+		"Name": "Mariano Diaz",
+		"Team": "Real Madrid",
+		"Position": "Forward",
+		"Nationality": "Dominican Republic",
+		"Age": 23,
+		"Salary": 5000,
+		"Contract": 5,
+		"Id": "23"
+	},
 
-     {
-        "Name": "Emil Audero", 
-        "Team":"Juventus", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Italy", 
-        "Age":20, 
-        "Salary": 2200, 
-        "Contract":4, 
-        "Id": "24"
-        },
-    {
-        "Name": "Gianluigi Buffon", 
-        "Team":"Juventus", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Italy", 
-        "Age":39, 
-        "Salary": 66000, 
-        "Contract":2, 
-        "Id": "25"
-        },
-    {
-        "Name": "Matita Del Favero", 
-        "Team":"Juventus", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Italy", 
-        "Age":19, 
-        "Salary": null, 
-        "Contract":null, 
-        "Id": "26"
-        },
-    {
-        "Name": "Leonardo Loria", 
-        "Team":"Juventus", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Italy", 
-        "Age":18, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "27"
-        },
-    {
-        "Name": "Neto", 
-        "Team":"Juventus", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Brazil", 
-        "Age":27, 
-        "Salary": 33000, 
-        "Contract":3, 
-        "Id": "28"
-        },
-    {
-        "Name": "Alex Sandro", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Brazil", 
-        "Age":26, 
-        "Salary": 47000, 
-        "Contract":4, 
-        "Id": "29"
-        },
-    {
-        "Name": "Andrea Barzagli", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":36, 
-        "Salary": 47000, 
-        "Contract": 2, 
-        "Id": "30"
-        }, 
-    {
-        "Name": "Medhi Benatia", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Marocco", 
-        "Age":30, 
-        "Salary": 33000, 
-        "Contract": 2, 
-        "Id": "31"
-        },  
-    {
-        "Name": "Leonardo Bonucci", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":30, 
-        "Salary": 59000, 
-        "Contract": 4, 
-        "Id": "32"
-        }, 
-    {
-        "Name": "Giorgio Chiellini", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":36, 
-        "Salary": 59000, 
-        "Contract": 4, 
-        "Id": "33"
-        },
-    {
-        "Name": "Luca Coccolo", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":19, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "34"
-        },
-    {
-        "Name": "Dani Alves", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Brazil", 
-        "Age":34, 
-        "Salary": 67000, 
-        "Contract": 2, 
-        "Id": "35"
-        },
-    {
-        "Name": "Paolo De Ceglie", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":30, 
-        "Salary": null, 
-        "Contract": 1, 
-        "Id": "36"
-        },
-    {
-        "Name": "Stephan Lichtsteiner", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Switzerland", 
-        "Age":33, 
-        "Salary": , 
-        "Contract":, 
-        "Id": "37"
-        },
-    {
-        "Name": "Daniele Rugani", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":22, 
-        "Salary": 47000, 
-        "Contract": 1, 
-        "Id": "38"
-        },
-    {
-        "Name": "Alessandro Semprini", 
-        "Team":"Juventus", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":19, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "39"
-        },
-    {
-        "Name": "Kwadwo Asamoah", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Ghana", 
-        "Age":28, 
-        "Salary": 28000, 
-        "Contract": 2, 
-        "Id": "40"
-        },
-    {
-        "Name": "Juan Cuadrado", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Colombia", 
-        "Age":29, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "41"
-        },
-    {
-        "Name": "Sami Khedira", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Germany", 
-        "Age":30, 
-        "Salary": 70000, 
-        "Contract": 3, 
-        "Id": "42"
-        },
-    {
-        "Name": "Mario Lemina", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Gabon", 
-        "Age":23, 
-        "Salary": 20000, 
-        "Contract": 4, 
-        "Id": "43"
-        },
-    {
-        "Name": "Medhi Leris", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"France", 
-        "Age":19, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "44"
-        },
-    {
-        "Name": "Ronaldo Mandragora", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":19, 
-        "Salary": null, 
-        "Contract": 4, 
-        "Id": "45"
-        },
-    {
-        "Name": "Claudio Marchisio", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":31, 
-        "Salary": , 
-        "Contract":, 
-        "Id": "46"
-        },
-    {
-        "Name": "Federico Mattiello", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":21, 
-        "Salary": 59000, 
-        "Contract": 5, 
-        "Id": "47"
-        },
-    {
-        "Name": "Simeone Muratore", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":19, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "48"
-        },
-    {
-        "Name": "Miralem Pjanic", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Bosnia-Herzegovina", 
-        "Age":27, 
-        "Salary": 92000, 
-        "Contract": 5, 
-        "Id": "49"
-        },
-    {
-        "Name": "Tomas Rincon", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Venezuela", 
-        "Age":29, 
-        "Salary": 84000, 
-        "Contract": 3, 
-        "Id": "50"
-        },
-    {
-        "Name": "Stefano Sturano", 
-        "Team":"Juventus", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":24, 
-        "Salary": 25000, 
-        "Contract": 3, 
-        "Id": "51"
-        },
-    {
-        "Name": "Paulo Dybala", 
-        "Team":"Juventus", 
-        "Position":"Forward", 
-        "Nationality":"Argentina", 
-        "Age":23, 
-        "Salary": 50000, 
-        "Contract": 4, 
-        "Id": "52"
-        },
-    {
-        "Name": "Gonzalo Higuain", 
-        "Team":"Juventus", 
-        "Position":"Forward", 
-        "Nationality":"Argentina", 
-        "Age":29, 
-        "Salary": , 
-        "Contract": 5, 
-        "Id": "53"
-        },
-    {
-        "Name": "Moise Kean", 
-        "Team":"Juventus", 
-        "Position":"Forward", 
-        "Nationality":"Italy", 
-        "Age":17, 
-        "Salary": 130000, 
-        "Contract":, 
-        "Id": "54"
-        },
-    {
-        "Name": "Mario Mandzukic", 
-        "Team":"Juventus", 
-        "Position":"Forward", 
-        "Nationality":"Croatia", 
-        "Age":31, 
-        "Salary": 59000, 
-        "Contract": 3, 
-        "Id": "55"
-        },
-    {
-        "Name": "Marco Pjaca", 
-        "Team":"Juventus", 
-        "Position":"Forward", 
-        "Nationality":"Croatia", 
-        "Age":22, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "56"
-        },
+	{
+		"Name": "Emil Audero",
+		"Team": "Juventus",
+		"Position": "Goalkeeper",
+		"Nationality": "Italy",
+		"Age": 20,
+		"Salary": 2200,
+		"Contract": 4,
+		"Id": "24"
+	},
+	{
+		"Name": "Gianluigi Buffon",
+		"Team": "Juventus",
+		"Position": "Goalkeeper",
+		"Nationality": "Italy",
+		"Age": 39,
+		"Salary": 66000,
+		"Contract": 2,
+		"Id": "25"
+	},
+	{
+		"Name": "Matita Del Favero",
+		"Team": "Juventus",
+		"Position": "Goalkeeper",
+		"Nationality": "Italy",
+		"Age": 19,
+		"Salary": null,
+		"Contract": null,
+		"Id": "26"
+	},
+	{
+		"Name": "Leonardo Loria",
+		"Team": "Juventus",
+		"Position": "Goalkeeper",
+		"Nationality": "Italy",
+		"Age": 18,
+		"Salary": null,
+		"Contract": null,
+		"Id": "27"
+	},
+	{
+		"Name": "Neto",
+		"Team": "Juventus",
+		"Position": "Goalkeeper",
+		"Nationality": "Brazil",
+		"Age": 27,
+		"Salary": 33000,
+		"Contract": 3,
+		"Id": "28"
+	},
+	{
+		"Name": "Alex Sandro",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Brazil",
+		"Age": 26,
+		"Salary": 47000,
+		"Contract": 4,
+		"Id": "29"
+	},
+	{
+		"Name": "Andrea Barzagli",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 36,
+		"Salary": 47000,
+		"Contract": 2,
+		"Id": "30"
+	},
+	{
+		"Name": "Medhi Benatia",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Marocco",
+		"Age": 30,
+		"Salary": 33000,
+		"Contract": 2,
+		"Id": "31"
+	},
+	{
+		"Name": "Leonardo Bonucci",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 30,
+		"Salary": 59000,
+		"Contract": 4,
+		"Id": "32"
+	},
+	{
+		"Name": "Giorgio Chiellini",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 36,
+		"Salary": 59000,
+		"Contract": 4,
+		"Id": "33"
+	},
+	{
+		"Name": "Luca Coccolo",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 19,
+		"Salary": null,
+		"Contract": null,
+		"Id": "34"
+	},
+	{
+		"Name": "Dani Alves",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Brazil",
+		"Age": 34,
+		"Salary": 67000,
+		"Contract": 2,
+		"Id": "35"
+	},
+	{
+		"Name": "Paolo De Ceglie",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 30,
+		"Salary": null,
+		"Contract": 1,
+		"Id": "36"
+	},
+	{
+		"Name": "Stephan Lichtsteiner",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Switzerland",
+		"Age": 33,
+		"Salary": null,
+		"Contract": null,
+		"Id": "37"
+	},
+	{
+		"Name": "Daniele Rugani",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 22,
+		"Salary": 47000,
+		"Contract": 1,
+		"Id": "38"
+	},
+	{
+		"Name": "Alessandro Semprini",
+		"Team": "Juventus",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 19,
+		"Salary": null,
+		"Contract": null,
+		"Id": "39"
+	},
+	{
+		"Name": "Kwadwo Asamoah",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Ghana",
+		"Age": 28,
+		"Salary": 28000,
+		"Contract": 2,
+		"Id": "40"
+	},
+	{
+		"Name": "Juan Cuadrado",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Colombia",
+		"Age": 29,
+		"Salary": null,
+		"Contract": null,
+		"Id": "41"
+	},
+	{
+		"Name": "Sami Khedira",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Germany",
+		"Age": 30,
+		"Salary": 70000,
+		"Contract": 3,
+		"Id": "42"
+	},
+	{
+		"Name": "Mario Lemina",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Gabon",
+		"Age": 23,
+		"Salary": 20000,
+		"Contract": 4,
+		"Id": "43"
+	},
+	{
+		"Name": "Medhi Leris",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "France",
+		"Age": 19,
+		"Salary": null,
+		"Contract": null,
+		"Id": "44"
+	},
+	{
+		"Name": "Ronaldo Mandragora",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 19,
+		"Salary": null,
+		"Contract": 4,
+		"Id": "45"
+	},
+	{
+		"Name": "Claudio Marchisio",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 31,
+		"Salary": null,
+		"Contract": null,
+		"Id": "46"
+	},
+	{
+		"Name": "Federico Mattiello",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 21,
+		"Salary": 59000,
+		"Contract": 5,
+		"Id": "47"
+	},
+	{
+		"Name": "Simeone Muratore",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 19,
+		"Salary": null,
+		"Contract": null,
+		"Id": "48"
+	},
+	{
+		"Name": "Miralem Pjanic",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Bosnia-Herzegovina",
+		"Age": 27,
+		"Salary": 92000,
+		"Contract": 5,
+		"Id": "49"
+	},
+	{
+		"Name": "Tomas Rincon",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Venezuela",
+		"Age": 29,
+		"Salary": 84000,
+		"Contract": 3,
+		"Id": "50"
+	},
+	{
+		"Name": "Stefano Sturano",
+		"Team": "Juventus",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 24,
+		"Salary": 25000,
+		"Contract": 3,
+		"Id": "51"
+	},
+	{
+		"Name": "Paulo Dybala",
+		"Team": "Juventus",
+		"Position": "Forward",
+		"Nationality": "Argentina",
+		"Age": 23,
+		"Salary": 50000,
+		"Contract": 4,
+		"Id": "52"
+	},
+	{
+		"Name": "Gonzalo Higuain",
+		"Team": "Juventus",
+		"Position": "Forward",
+		"Nationality": "Argentina",
+		"Age": 29,
+		"Salary": null,
+		"Contract": 5,
+		"Id": "53"
+	},
+	{
+		"Name": "Moise Kean",
+		"Team": "Juventus",
+		"Position": "Forward",
+		"Nationality": "Italy",
+		"Age": 17,
+		"Salary": 130000,
+		"Contract": null,
+		"Id": "54"
+	},
+	{
+		"Name": "Mario Mandzukic",
+		"Team": "Juventus",
+		"Position": "Forward",
+		"Nationality": "Croatia",
+		"Age": 31,
+		"Salary": 59000,
+		"Contract": 3,
+		"Id": "55"
+	},
+	{
+		"Name": "Marco Pjaca",
+		"Team": "Juventus",
+		"Position": "Forward",
+		"Nationality": "Croatia",
+		"Age": 22,
+		"Salary": null,
+		"Contract": null,
+		"Id": "56"
+	},
 
-    {
-        "Name": "Gianluigi Donnarumma", 
-        "Team":"Milan", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Italy", 
-        "Age":18, 
-        "Salary": 1500, 
-        "Contract": 2, 
-        "Id": "57"
-        },
-    {
-        "Name": "Alessandro Guarnone", 
-        "Team":"Milan", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Italy", 
-        "Age":18, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "58"
-        },
-    {
-        "Name": "Alessandro Plizzari", 
-        "Team":"Milan", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Italy", 
-        "Age":17, 
-        "Salary": null, 
-        "Contract": 2, 
-        "Id": "59"
-        },
-    {
-        "Name": "Marco Storari", 
-        "Team":"Milan", 
-        "Position":"Goalkeeper", 
-        "Nationality":"Italy", 
-        "Age":40, 
-        "Salary": null, 
-        "Contract": 2, 
-        "Id": "60"
-        },
-    {
-        "Name": "Ignazio Abate", 
-        "Team":"Milan", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":30, 
-        "Salary": 39000, 
-        "Contract": 3, 
-        "Id": "61"
-        },
-    {
-        "Name": "Giorgio Altare", 
-        "Team":"Milan", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":17, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "62"
-        },
-    {
-        "Name": "Luca Antonelli", 
-        "Team":"Milan", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":30, 
-        "Salary": 30000, 
-        "Contract": 2, 
-        "Id": "63"
-        },
-    {
-        "Name": "David Calabria", 
-        "Team":"Milan", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":20, 
-        "Salary": 20000, 
-        "Contract": 4, 
-        "Id": "64"
-        },
-    {
-        "Name": "Mattia De Sciglio", 
-        "Team":"Milan", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":24, 
-        "Salary": 25000, 
-        "Contract": 2, 
-        "Id": "65"
-        },
-    {
-        "Name": "Gustavo Gomez", 
-        "Team":"Milan", 
-        "Position":"Defender", 
-        "Nationality":"Paraguay", 
-        "Age":24, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "66"
-        },
-    {
-        "Name": "Gabriel Paletta", 
-        "Team":"Milan", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":30, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "67"
-        },
-    {
-        "Name": "Alessio Romagnoli", 
-        "Team":"Milan", 
-        "Position":"Defender", 
-        "Nationality":"Italy", 
-        "Age":22, 
-        "Salary": 34000, 
-        "Contract": 4, 
-        "Id": "68"
-        },
-    {
-        "Name": "Leonel Vangioni", 
-        "Team":"Milan", 
-        "Position":"Defender", 
-        "Nationality":"Argentina", 
-        "Age":30, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "69"
-        },
-    {
-        "Name": "Cristian Zapata", 
-        "Team":"Milan", 
-        "Position":"Defender", 
-        "Nationality":"Colombia", 
-        "Age":30, 
-        "Salary": null, 
-        "Contract": 1, 
-        "Id": "70"
-        },
-    {
-        "Name": "Andrea Betolacci", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":26, 
-        "Salary": 34000, 
-        "Contract": 3, 
-        "Id": "71"
-        },
-    {
-        "Name": "Giacomo Bonaventura", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":27, 
-        "Salary": 17000, 
-        "Contract": 3, 
-        "Id": "72"
-        },
-    {
-        "Name": "Mattia El Hilali", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"CItaly", 
-        "Age":19, 
-        "Salary": 25000, 
-        "Contract": 2, 
-        "Id": "73"
-        },
-    {
-        "Name": "Matias Fernandez", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Chilie", 
-        "Age":31, 
-        "Salary": null, 
-        "Contract": 1, 
-        "Id": "74"
-        },
-    {
-        "Name": "Matteo Gabbia", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":17, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "75"
-        },
-    {
-        "Name": "Keisuke Honda", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Japan", 
-        "Age":31, 
-        "Salary": 42000, 
-        "Contract": 1, 
-        "Id": "76"
-        },
-    {
-        "Name": "Juraj Kucka", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Slovakia", 
-        "Age":30, 
-        "Salary": 25000, 
-        "Contract": 3, 
-        "Id": "77"
-        },
-    {
-        "Name": "Manuel Locatelli", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":19, 
-        "Salary": null, 
-        "Contract": 4, 
-        "Id": "78"
-        },
-    {
-        "Name": "Riccardo Montolivo", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":32, 
-        "Salary": 59000, 
-        "Contract": 3, 
-        "Id": "79"
-        },
-    {
-        "Name": "Lucas Ocampos", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Argentina", 
-        "Age":23, 
-        "Salary": null, 
-        "Contract": 1, 
-        "Id": "80"
-        },
-    {
-        "Name": "Nnamdi Oduamadi", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Nigeria", 
-        "Age":26, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "81"
-        },
-    {
-        "Name": "Mario Pasalic", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Croatia", 
-        "Age":22, 
-        "Salary": 1, 
-        "Contract": null, 
-        "Id": "82"
-        },
-    {
-        "Name": "Adrea Poli", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":27, 
-        "Salary": 25000, 
-        "Contract": 2, 
-        "Id": "83"
-        },
-    {
-        "Name": "Jose Sose", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Argentina", 
-        "Age":32, 
-        "Salary": 13500, 
-        "Contract": 3, 
-        "Id": "84"
-        },
-    {
-        "Name": "Suso", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Spain", 
-        "Age":23, 
-        "Salary": null, 
-        "Contract": 3, 
-        "Id": "85"
-        },
-    {
-        "Name": "Niccolo Zonellato", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":18, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "86"
-        },
-    {
-        "Name": "Raul Zucchetti", 
-        "Team":"Milan", 
-        "Position":"Midfielder", 
-        "Nationality":"Italy", 
-        "Age":19, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "87"
-        },
-    {
-        "Name": "Carlos Bacca", 
-        "Team":"Milan", 
-        "Position":"Forward", 
-        "Nationality":"Colombia", 
-        "Age":30, 
-        "Salary": 58500, 
-        "Contract": 3, 
-        "Id": "88"
-        },
-    {
-        "Name": "Patrick Cutrone", 
-        "Team":"Milan", 
-        "Position":"Forward", 
-        "Nationality":"Italy", 
-        "Age":19, 
-        "Salary": null, 
-        "Contract": 2, 
-        "Id": "89"
-        },
-    {
-        "Name": "Gerard Deulofeu", 
-        "Team":"Milan", 
-        "Position":"Forward", 
-        "Nationality":"Spain", 
-        "Age":23, 
-        "Salary": null, 
-        "Contract": null, 
-        "Id": "90"
-        },
-    {
-        "Name": "Gianluca Lapadula", 
-        "Team":"Milan", 
-        "Position":"Forward", 
-        "Nationality":"Italy", 
-        "Age":27, 
-        "Salary": null, 
-        "Contract": 4, 
-        "Id": "91"
-        },
+	{
+		"Name": "Gianluigi Donnarumma",
+		"Team": "Milan",
+		"Position": "Goalkeeper",
+		"Nationality": "Italy",
+		"Age": 18,
+		"Salary": 1500,
+		"Contract": 2,
+		"Id": "57"
+	},
+	{
+		"Name": "Alessandro Guarnone",
+		"Team": "Milan",
+		"Position": "Goalkeeper",
+		"Nationality": "Italy",
+		"Age": 18,
+		"Salary": null,
+		"Contract": null,
+		"Id": "58"
+	},
+	{
+		"Name": "Alessandro Plizzari",
+		"Team": "Milan",
+		"Position": "Goalkeeper",
+		"Nationality": "Italy",
+		"Age": 17,
+		"Salary": null,
+		"Contract": 2,
+		"Id": "59"
+	},
+	{
+		"Name": "Marco Storari",
+		"Team": "Milan",
+		"Position": "Goalkeeper",
+		"Nationality": "Italy",
+		"Age": 40,
+		"Salary": null,
+		"Contract": 2,
+		"Id": "60"
+	},
+	{
+		"Name": "Ignazio Abate",
+		"Team": "Milan",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 30,
+		"Salary": 39000,
+		"Contract": 3,
+		"Id": "61"
+	},
+	{
+		"Name": "Giorgio Altare",
+		"Team": "Milan",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 17,
+		"Salary": null,
+		"Contract": null,
+		"Id": "62"
+	},
+	{
+		"Name": "Luca Antonelli",
+		"Team": "Milan",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 30,
+		"Salary": 30000,
+		"Contract": 2,
+		"Id": "63"
+	},
+	{
+		"Name": "David Calabria",
+		"Team": "Milan",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 20,
+		"Salary": 20000,
+		"Contract": 4,
+		"Id": "64"
+	},
+	{
+		"Name": "Mattia De Sciglio",
+		"Team": "Milan",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 24,
+		"Salary": 25000,
+		"Contract": 2,
+		"Id": "65"
+	},
+	{
+		"Name": "Gustavo Gomez",
+		"Team": "Milan",
+		"Position": "Defender",
+		"Nationality": "Paraguay",
+		"Age": 24,
+		"Salary": null,
+		"Contract": null,
+		"Id": "66"
+	},
+	{
+		"Name": "Gabriel Paletta",
+		"Team": "Milan",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 30,
+		"Salary": null,
+		"Contract": null,
+		"Id": "67"
+	},
+	{
+		"Name": "Alessio Romagnoli",
+		"Team": "Milan",
+		"Position": "Defender",
+		"Nationality": "Italy",
+		"Age": 22,
+		"Salary": 34000,
+		"Contract": 4,
+		"Id": "68"
+	},
+	{
+		"Name": "Leonel Vangioni",
+		"Team": "Milan",
+		"Position": "Defender",
+		"Nationality": "Argentina",
+		"Age": 30,
+		"Salary": null,
+		"Contract": null,
+		"Id": "69"
+	},
+	{
+		"Name": "Cristian Zapata",
+		"Team": "Milan",
+		"Position": "Defender",
+		"Nationality": "Colombia",
+		"Age": 30,
+		"Salary": null,
+		"Contract": 1,
+		"Id": "70"
+	},
+	{
+		"Name": "Andrea Betolacci",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 26,
+		"Salary": 34000,
+		"Contract": 3,
+		"Id": "71"
+	},
+	{
+		"Name": "Giacomo Bonaventura",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 27,
+		"Salary": 17000,
+		"Contract": 3,
+		"Id": "72"
+	},
+	{
+		"Name": "Mattia El Hilali",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "CItaly",
+		"Age": 19,
+		"Salary": 25000,
+		"Contract": 2,
+		"Id": "73"
+	},
+	{
+		"Name": "Matias Fernandez",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Chilie",
+		"Age": 31,
+		"Salary": null,
+		"Contract": 1,
+		"Id": "74"
+	},
+	{
+		"Name": "Matteo Gabbia",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 17,
+		"Salary": null,
+		"Contract": null,
+		"Id": "75"
+	},
+	{
+		"Name": "Keisuke Honda",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Japan",
+		"Age": 31,
+		"Salary": 42000,
+		"Contract": 1,
+		"Id": "76"
+	},
+	{
+		"Name": "Juraj Kucka",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Slovakia",
+		"Age": 30,
+		"Salary": 25000,
+		"Contract": 3,
+		"Id": "77"
+	},
+	{
+		"Name": "Manuel Locatelli",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 19,
+		"Salary": null,
+		"Contract": 4,
+		"Id": "78"
+	},
+	{
+		"Name": "Riccardo Montolivo",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 32,
+		"Salary": 59000,
+		"Contract": 3,
+		"Id": "79"
+	},
+	{
+		"Name": "Lucas Ocampos",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Argentina",
+		"Age": 23,
+		"Salary": null,
+		"Contract": 1,
+		"Id": "80"
+	},
+	{
+		"Name": "Nnamdi Oduamadi",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Nigeria",
+		"Age": 26,
+		"Salary": null,
+		"Contract": null,
+		"Id": "81"
+	},
+	{
+		"Name": "Mario Pasalic",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Croatia",
+		"Age": 22,
+		"Salary": 1,
+		"Contract": null,
+		"Id": "82"
+	},
+	{
+		"Name": "Adrea Poli",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 27,
+		"Salary": 25000,
+		"Contract": 2,
+		"Id": "83"
+	},
+	{
+		"Name": "Jose Sose",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Argentina",
+		"Age": 32,
+		"Salary": 13500,
+		"Contract": 3,
+		"Id": "84"
+	},
+	{
+		"Name": "Suso",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Spain",
+		"Age": 23,
+		"Salary": null,
+		"Contract": 3,
+		"Id": "85"
+	},
+	{
+		"Name": "Niccolo Zonellato",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 18,
+		"Salary": null,
+		"Contract": null,
+		"Id": "86"
+	},
+	{
+		"Name": "Raul Zucchetti",
+		"Team": "Milan",
+		"Position": "Midfielder",
+		"Nationality": "Italy",
+		"Age": 19,
+		"Salary": null,
+		"Contract": null,
+		"Id": "87"
+	},
+	{
+		"Name": "Carlos Bacca",
+		"Team": "Milan",
+		"Position": "Forward",
+		"Nationality": "Colombia",
+		"Age": 30,
+		"Salary": 58500,
+		"Contract": 3,
+		"Id": "88"
+	},
+	{
+		"Name": "Patrick Cutrone",
+		"Team": "Milan",
+		"Position": "Forward",
+		"Nationality": "Italy",
+		"Age": 19,
+		"Salary": null,
+		"Contract": 2,
+		"Id": "89"
+	},
+	{
+		"Name": "Gerard Deulofeu",
+		"Team": "Milan",
+		"Position": "Forward",
+		"Nationality": "Spain",
+		"Age": 23,
+		"Salary": null,
+		"Contract": null,
+		"Id": "90"
+	},
+	{
+		"Name": "Gianluca Lapadula",
+		"Team": "Milan",
+		"Position": "Forward",
+		"Nationality": "Italy",
+		"Age": 27,
+		"Salary": null,
+		"Contract": 4,
+		"Id": "91"
+	}
 ]
