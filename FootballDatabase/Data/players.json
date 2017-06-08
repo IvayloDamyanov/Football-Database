@@ -7,35 +7,36 @@
         "Age":31, 
         "Salary": 55000, 
         "Contract":4, 
-        "Id": "1"
+        "Id": 1
         },
     {
         "Name": "Kiko Casilla", 
         "Team":"Real Madrid", 
         "Position":"Goalkeeper", 
         "Nationality":"Costa Rica",
-         "Age":31, "Salary": 25000, 
-         "Contract":4, "Id": "2"
+        "Age":31, "Salary": 25000, 
+        "Contract":4, 
+        "Id": 2
          },
     {
         "Name": "Rubén Yáñez",
-         "Team":"Real Madrid",
-          "Position":"Goalkeeper", 
-          "Nationality":"Spain", 
-          "Age":24,
-           "Salary": 4000, 
-           "Contract":4,
-            "Id": "3"
+        "Team":"Real Madrid",
+        "Position":"Goalkeeper", 
+        "Nationality":"Spain", 
+        "Age":24,
+        "Salary": 4000, 
+        "Contract":4,
+        "Id": 3
             },
     {
         "Name": "Sergio Ramos",
-         "Team":"Real Madrid", 
-         "Position":"Defender",
-          "Nationality":"Spain", 
-          "Age":31, 
-          "Salary": 160000,
-           "Contract":4, 
-           "Id": "4"
+        "Team":"Real Madrid", 
+        "Position":"Defender",
+        "Nationality":"Spain", 
+        "Age":31, 
+        "Salary": 160000,
+        "Contract":4, 
+        "Id": 4
            },
     {
         "Name": "Rafael Varane",
@@ -45,7 +46,7 @@
         "Age":24,
         "Salary": 80000,
         "Contract":4,
-        "Id": "5"
+        "Id": 5
         },
     {
         "Name": "Nacho Fernandez",
@@ -55,7 +56,7 @@
         "Age":27, 
         "Salary": 60000, 
         "Contract":4, 
-        "Id": "6"
+        "Id": 6
         },
     {
         "Name": "Pepe", 
@@ -65,7 +66,7 @@
         "Age":34, 
         "Salary": 110000, 
         "Contract":1, 
-        "Id": "7"
+        "Id": 7
         },
     {
         "Name": "Marcelo", 
@@ -75,7 +76,7 @@
         "Age":29, 
         "Salary": 80000, 
         "Contract":4, 
-        "Id": "8"
+        "Id": 8
         },
     {
         "Name": "Fabio Coentrao",
@@ -84,7 +85,8 @@
         "Nationality":"Portugal", 
         "Age":29, 
         "Salary": 80000, 
-        "Contract":3, "Id": "9"
+        "Contract":3,
+        "Id": 9
         },
     {
         "Name": "Daniel Carvajal", 
@@ -94,7 +96,7 @@
         "Age":25, 
         "Salary": 35000, 
         "Contract":4, 
-        "Id": "10"
+        "Id": 10
         },
     {
         "Name": "Danilo", 
@@ -104,7 +106,7 @@
         "Age":25, 
         "Salary": 60000, 
         "Contract":5, 
-        "Id": "11"
+        "Id": 11
         },
     {
         "Name": "Casemiro", 
@@ -113,7 +115,8 @@
         "Nationality":"Brazil", 
         "Age":25, 
         "Salary": 45000, 
-        "Contract":1, "Id": "12"
+        "Contract":1,
+        "Id": 12
         },
     {
         "Name": "Toni Kroos", 
@@ -123,7 +126,7 @@
         "Age":27, 
         "Salary": 156000, 
         "Contract":4, 
-        "Id": "13"
+        "Id": 13
         },
     {
         "Name": "Luka Modric", 
@@ -133,7 +136,7 @@
         "Age":31, 
         "Salary": 180000, 
         "Contract":4, 
-        "Id": "14"
+        "Id": 14
         },
     {
         "Name": "Mateo Kovacic", 
@@ -143,7 +146,7 @@
         "Age":23, 
         "Salary": 60000, 
         "Contract":5, 
-        "Id": "15"
+        "Id": 15
         },
     {
         "Name": "James Rodriguez", 
@@ -153,7 +156,7 @@
         "Age":25, 
         "Salary": 120000,
         "Contract":4, 
-        "Id": "16"
+        "Id": 16
         },
     {
         "Name": "Christiano Ronaldo", 
@@ -162,7 +165,7 @@
         "Nationality":"Portugal", 
         "Age":32, "Salary": 365000, 
         "Contract":5, 
-        "Id": "17"
+        "Id": 17
         },
     {
         "Name": "Marco Asensio", 
@@ -172,7 +175,7 @@
         "Age":21, 
         "Salary": 10000, 
         "Contract":4, 
-        "Id": "18"
+        "Id": 18
         },
     {
         "Name": "Gareth Bale", 
@@ -182,7 +185,7 @@
         "Age":27, 
         "Salary": 350000, 
         "Contract":6, 
-        "Id": "19"
+        "Id": 19
         },
     {
         "Name": "Lucas Vazquez", 
@@ -192,7 +195,8 @@
         "Age":25, 
         "Salary": 30000, 
         "Contract":4, 
-        "Id": "20"},
+        "Id": 20
+        },
     {
         "Name": "Karim Benzema", 
         "Team":"Real Madrid", 
@@ -201,7 +205,7 @@
         "Age":29, 
         "Salary": 150000, 
         "Contract":3, 
-        "Id": "21"
+        "Id": 21
         },
     {
         "Name": "Alvaro Morata", 
@@ -211,7 +215,7 @@
         "Age":24, 
         "Salary": 80000, 
         "Contract":5, 
-        "Id": "22"
+        "Id": 22
         },
     {
         "Name": "Mariano Diaz", 
@@ -221,7 +225,7 @@
         "Age":23, 
         "Salary": 5000, 
         "Contract":5, 
-        "Id": "23"
+        "Id": 23
         },
 
      {
@@ -232,7 +236,7 @@
         "Age":20, 
         "Salary": 2200, 
         "Contract":4, 
-        "Id": "24"
+        "Id": 24
         },
     {
         "Name": "Gianluigi Buffon", 
@@ -242,7 +246,7 @@
         "Age":39, 
         "Salary": 66000, 
         "Contract":2, 
-        "Id": "25"
+        "Id": 25
         },
     {
         "Name": "Matita Del Favero", 
@@ -252,7 +256,7 @@
         "Age":19, 
         "Salary": null, 
         "Contract":null, 
-        "Id": "26"
+        "Id": 26
         },
     {
         "Name": "Leonardo Loria", 
@@ -262,7 +266,7 @@
         "Age":18, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "27"
+        "Id": 27
         },
     {
         "Name": "Neto", 
@@ -272,7 +276,7 @@
         "Age":27, 
         "Salary": 33000, 
         "Contract":3, 
-        "Id": "28"
+        "Id": 28
         },
     {
         "Name": "Alex Sandro", 
@@ -282,7 +286,7 @@
         "Age":26, 
         "Salary": 47000, 
         "Contract":4, 
-        "Id": "29"
+        "Id": 29
         },
     {
         "Name": "Andrea Barzagli", 
@@ -292,7 +296,7 @@
         "Age":36, 
         "Salary": 47000, 
         "Contract": 2, 
-        "Id": "30"
+        "Id": 30
         }, 
     {
         "Name": "Medhi Benatia", 
@@ -302,7 +306,7 @@
         "Age":30, 
         "Salary": 33000, 
         "Contract": 2, 
-        "Id": "31"
+        "Id": 31
         },  
     {
         "Name": "Leonardo Bonucci", 
@@ -312,7 +316,7 @@
         "Age":30, 
         "Salary": 59000, 
         "Contract": 4, 
-        "Id": "32"
+        "Id": 32
         }, 
     {
         "Name": "Giorgio Chiellini", 
@@ -322,7 +326,7 @@
         "Age":36, 
         "Salary": 59000, 
         "Contract": 4, 
-        "Id": "33"
+        "Id": 33
         },
     {
         "Name": "Luca Coccolo", 
@@ -332,7 +336,7 @@
         "Age":19, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "34"
+        "Id": 34
         },
     {
         "Name": "Dani Alves", 
@@ -342,7 +346,7 @@
         "Age":34, 
         "Salary": 67000, 
         "Contract": 2, 
-        "Id": "35"
+        "Id": 35
         },
     {
         "Name": "Paolo De Ceglie", 
@@ -352,7 +356,7 @@
         "Age":30, 
         "Salary": null, 
         "Contract": 1, 
-        "Id": "36"
+        "Id": 36
         },
     {
         "Name": "Stephan Lichtsteiner", 
@@ -362,7 +366,7 @@
         "Age":33, 
         "Salary": , 
         "Contract":, 
-        "Id": "37"
+        "Id": 37
         },
     {
         "Name": "Daniele Rugani", 
@@ -372,7 +376,7 @@
         "Age":22, 
         "Salary": 47000, 
         "Contract": 1, 
-        "Id": "38"
+        "Id": 38
         },
     {
         "Name": "Alessandro Semprini", 
@@ -382,7 +386,7 @@
         "Age":19, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "39"
+        "Id": 39
         },
     {
         "Name": "Kwadwo Asamoah", 
@@ -392,7 +396,7 @@
         "Age":28, 
         "Salary": 28000, 
         "Contract": 2, 
-        "Id": "40"
+        "Id": 40
         },
     {
         "Name": "Juan Cuadrado", 
@@ -402,7 +406,7 @@
         "Age":29, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "41"
+        "Id": 41
         },
     {
         "Name": "Sami Khedira", 
@@ -412,7 +416,7 @@
         "Age":30, 
         "Salary": 70000, 
         "Contract": 3, 
-        "Id": "42"
+        "Id": 42
         },
     {
         "Name": "Mario Lemina", 
@@ -422,7 +426,7 @@
         "Age":23, 
         "Salary": 20000, 
         "Contract": 4, 
-        "Id": "43"
+        "Id": 43
         },
     {
         "Name": "Medhi Leris", 
@@ -432,7 +436,7 @@
         "Age":19, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "44"
+        "Id": 44
         },
     {
         "Name": "Ronaldo Mandragora", 
@@ -442,7 +446,7 @@
         "Age":19, 
         "Salary": null, 
         "Contract": 4, 
-        "Id": "45"
+        "Id": 45
         },
     {
         "Name": "Claudio Marchisio", 
@@ -452,7 +456,7 @@
         "Age":31, 
         "Salary": , 
         "Contract":, 
-        "Id": "46"
+        "Id": 46
         },
     {
         "Name": "Federico Mattiello", 
@@ -462,7 +466,7 @@
         "Age":21, 
         "Salary": 59000, 
         "Contract": 5, 
-        "Id": "47"
+        "Id": 47
         },
     {
         "Name": "Simeone Muratore", 
@@ -472,7 +476,7 @@
         "Age":19, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "48"
+        "Id": 48
         },
     {
         "Name": "Miralem Pjanic", 
@@ -482,7 +486,7 @@
         "Age":27, 
         "Salary": 92000, 
         "Contract": 5, 
-        "Id": "49"
+        "Id": 49
         },
     {
         "Name": "Tomas Rincon", 
@@ -492,7 +496,7 @@
         "Age":29, 
         "Salary": 84000, 
         "Contract": 3, 
-        "Id": "50"
+        "Id": 50
         },
     {
         "Name": "Stefano Sturano", 
@@ -502,7 +506,7 @@
         "Age":24, 
         "Salary": 25000, 
         "Contract": 3, 
-        "Id": "51"
+        "Id": 51
         },
     {
         "Name": "Paulo Dybala", 
@@ -512,7 +516,7 @@
         "Age":23, 
         "Salary": 50000, 
         "Contract": 4, 
-        "Id": "52"
+        "Id": 52
         },
     {
         "Name": "Gonzalo Higuain", 
@@ -522,7 +526,7 @@
         "Age":29, 
         "Salary": , 
         "Contract": 5, 
-        "Id": "53"
+        "Id": 53
         },
     {
         "Name": "Moise Kean", 
@@ -532,7 +536,7 @@
         "Age":17, 
         "Salary": 130000, 
         "Contract":, 
-        "Id": "54"
+        "Id": 54
         },
     {
         "Name": "Mario Mandzukic", 
@@ -542,7 +546,7 @@
         "Age":31, 
         "Salary": 59000, 
         "Contract": 3, 
-        "Id": "55"
+        "Id": 55
         },
     {
         "Name": "Marco Pjaca", 
@@ -552,7 +556,7 @@
         "Age":22, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "56"
+        "Id": 56
         },
 
     {
@@ -563,7 +567,7 @@
         "Age":18, 
         "Salary": 1500, 
         "Contract": 2, 
-        "Id": "57"
+        "Id": 57
         },
     {
         "Name": "Alessandro Guarnone", 
@@ -573,7 +577,7 @@
         "Age":18, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "58"
+        "Id": 58
         },
     {
         "Name": "Alessandro Plizzari", 
@@ -583,7 +587,7 @@
         "Age":17, 
         "Salary": null, 
         "Contract": 2, 
-        "Id": "59"
+        "Id": 59
         },
     {
         "Name": "Marco Storari", 
@@ -593,7 +597,7 @@
         "Age":40, 
         "Salary": null, 
         "Contract": 2, 
-        "Id": "60"
+        "Id": 60
         },
     {
         "Name": "Ignazio Abate", 
@@ -603,7 +607,7 @@
         "Age":30, 
         "Salary": 39000, 
         "Contract": 3, 
-        "Id": "61"
+        "Id": 61
         },
     {
         "Name": "Giorgio Altare", 
@@ -613,7 +617,7 @@
         "Age":17, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "62"
+        "Id": 62
         },
     {
         "Name": "Luca Antonelli", 
@@ -623,7 +627,7 @@
         "Age":30, 
         "Salary": 30000, 
         "Contract": 2, 
-        "Id": "63"
+        "Id": 63
         },
     {
         "Name": "David Calabria", 
@@ -633,7 +637,7 @@
         "Age":20, 
         "Salary": 20000, 
         "Contract": 4, 
-        "Id": "64"
+        "Id": 64
         },
     {
         "Name": "Mattia De Sciglio", 
@@ -643,7 +647,7 @@
         "Age":24, 
         "Salary": 25000, 
         "Contract": 2, 
-        "Id": "65"
+        "Id": 65
         },
     {
         "Name": "Gustavo Gomez", 
@@ -653,7 +657,7 @@
         "Age":24, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "66"
+        "Id": 66
         },
     {
         "Name": "Gabriel Paletta", 
@@ -663,7 +667,7 @@
         "Age":30, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "67"
+        "Id": 67
         },
     {
         "Name": "Alessio Romagnoli", 
@@ -673,7 +677,7 @@
         "Age":22, 
         "Salary": 34000, 
         "Contract": 4, 
-        "Id": "68"
+        "Id": 68
         },
     {
         "Name": "Leonel Vangioni", 
@@ -683,7 +687,7 @@
         "Age":30, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "69"
+        "Id": 69
         },
     {
         "Name": "Cristian Zapata", 
@@ -693,7 +697,7 @@
         "Age":30, 
         "Salary": null, 
         "Contract": 1, 
-        "Id": "70"
+        "Id": 70
         },
     {
         "Name": "Andrea Betolacci", 
@@ -703,7 +707,7 @@
         "Age":26, 
         "Salary": 34000, 
         "Contract": 3, 
-        "Id": "71"
+        "Id": 71
         },
     {
         "Name": "Giacomo Bonaventura", 
@@ -713,7 +717,7 @@
         "Age":27, 
         "Salary": 17000, 
         "Contract": 3, 
-        "Id": "72"
+        "Id": 72
         },
     {
         "Name": "Mattia El Hilali", 
@@ -723,7 +727,7 @@
         "Age":19, 
         "Salary": 25000, 
         "Contract": 2, 
-        "Id": "73"
+        "Id": 73
         },
     {
         "Name": "Matias Fernandez", 
@@ -733,7 +737,7 @@
         "Age":31, 
         "Salary": null, 
         "Contract": 1, 
-        "Id": "74"
+        "Id": 74
         },
     {
         "Name": "Matteo Gabbia", 
@@ -743,7 +747,7 @@
         "Age":17, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "75"
+        "Id": 75
         },
     {
         "Name": "Keisuke Honda", 
@@ -753,7 +757,7 @@
         "Age":31, 
         "Salary": 42000, 
         "Contract": 1, 
-        "Id": "76"
+        "Id": 76
         },
     {
         "Name": "Juraj Kucka", 
@@ -763,7 +767,7 @@
         "Age":30, 
         "Salary": 25000, 
         "Contract": 3, 
-        "Id": "77"
+        "Id": 77
         },
     {
         "Name": "Manuel Locatelli", 
@@ -773,7 +777,7 @@
         "Age":19, 
         "Salary": null, 
         "Contract": 4, 
-        "Id": "78"
+        "Id": 78
         },
     {
         "Name": "Riccardo Montolivo", 
@@ -783,7 +787,7 @@
         "Age":32, 
         "Salary": 59000, 
         "Contract": 3, 
-        "Id": "79"
+        "Id": 79
         },
     {
         "Name": "Lucas Ocampos", 
@@ -793,7 +797,7 @@
         "Age":23, 
         "Salary": null, 
         "Contract": 1, 
-        "Id": "80"
+        "Id": 80
         },
     {
         "Name": "Nnamdi Oduamadi", 
@@ -803,7 +807,7 @@
         "Age":26, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "81"
+        "Id": 81
         },
     {
         "Name": "Mario Pasalic", 
@@ -813,7 +817,7 @@
         "Age":22, 
         "Salary": 1, 
         "Contract": null, 
-        "Id": "82"
+        "Id": 82
         },
     {
         "Name": "Adrea Poli", 
@@ -823,7 +827,7 @@
         "Age":27, 
         "Salary": 25000, 
         "Contract": 2, 
-        "Id": "83"
+        "Id": 83
         },
     {
         "Name": "Jose Sose", 
@@ -833,7 +837,7 @@
         "Age":32, 
         "Salary": 13500, 
         "Contract": 3, 
-        "Id": "84"
+        "Id": 84
         },
     {
         "Name": "Suso", 
@@ -843,7 +847,7 @@
         "Age":23, 
         "Salary": null, 
         "Contract": 3, 
-        "Id": "85"
+        "Id": 85
         },
     {
         "Name": "Niccolo Zonellato", 
@@ -853,7 +857,7 @@
         "Age":18, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "86"
+        "Id": 86
         },
     {
         "Name": "Raul Zucchetti", 
@@ -863,7 +867,7 @@
         "Age":19, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "87"
+        "Id": 87
         },
     {
         "Name": "Carlos Bacca", 
@@ -873,7 +877,7 @@
         "Age":30, 
         "Salary": 58500, 
         "Contract": 3, 
-        "Id": "88"
+        "Id": 88
         },
     {
         "Name": "Patrick Cutrone", 
@@ -883,7 +887,7 @@
         "Age":19, 
         "Salary": null, 
         "Contract": 2, 
-        "Id": "89"
+        "Id": 89
         },
     {
         "Name": "Gerard Deulofeu", 
@@ -893,7 +897,7 @@
         "Age":23, 
         "Salary": null, 
         "Contract": null, 
-        "Id": "90"
+        "Id": 90
         },
     {
         "Name": "Gianluca Lapadula", 
@@ -903,6 +907,861 @@
         "Age":27, 
         "Salary": null, 
         "Contract": 4, 
-        "Id": "91"
+        "Id": 91
         },
+
+    {
+        "Name": "Gianluca Lapadula", 
+        "Team":"Milan", 
+        "Position":"Forward", 
+        "Nationality":"Italy", 
+        "Age":27, 
+        "Salary": null, 
+        "Contract": 4, 
+        "Id": 92
+        },
+
+    {
+        "Name": "Tommaso Berni", 
+        "Team":"Inter", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Italy", 
+        "Age":34, 
+        "Salary": 2538, 
+        "Contract":1, 
+        "Id": 93
+        },
+    {
+        "Name": "Juan Carrizo", 
+        "Team":"Inter", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Argentina", 
+        "Age":33, 
+        "Salary": 3385, 
+        "Contract":1, 
+        "Id": 94
+        },
+    {
+        "Name": "Samir Handanovic", 
+        "Team":"Inter", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Slovenia", 
+        "Age":33, 
+        "Salary": 156538, 
+        "Contract":3, 
+        "Id": 95
+        },
+    {
+        "Name": "Ionut Radu", 
+        "Team":"Inter", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Romania", 
+        "Age":20, 
+        "Salary": null, 
+        "Contract":null, 
+        "Id": 96
+        },
+    {
+        "Name": "Marco Andreolli", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Italy", 
+        "Age":31, 
+        "Salary": null, 
+        "Contract":1, 
+        "Id": 97
+        },
+    {
+        "Name": "Cristian Ansaldi", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Argentina", 
+        "Age":30, 
+        "Salary": null, 
+        "Contract":null, 
+        "Id": 98
+        },
+    {
+        "Name": "Danilo D'Ambrosio", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Italy", 
+        "Age":28, 
+        "Salary": 23269, 
+        "Contract":4, 
+        "Id": 99
+        },
+    {
+        "Name": "Andrew Gravillon", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Guadeloupe", 
+        "Age":19, 
+        "Salary": null, 
+        "Contract":null, 
+        "Id": 100
+        },
+    {
+        "Name": "Eloge Koffi Yao Guy", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Ivory Coast", 
+        "Age":21, 
+        "Salary": null, 
+        "Contract":null, 
+        "Id": 101
+        },
+    {
+        "Name": "Miranda", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Brazil", 
+        "Age":32, 
+        "Salary": null, 
+        "Contract":2, 
+        "Id": 102
+        },
+    {
+        "Name": "Jeison Murillo", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Colombia", 
+        "Age":25, 
+        "Salary": 22564, 
+        "Contract":4, 
+        "Id": 103
+        },
+    {
+        "Name": "Yuto Nagatomo", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Japan", 
+        "Age":30, 
+        "Salary": 84615, 
+        "Contract":3, 
+        "Id": 104
+        },
+    {
+        "Name": "Trent Sainsbury", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Australia", 
+        "Age":25, 
+        "Salary": null, 
+        "Contract":1, 
+        "Id": 105
+        },
+    {
+        "Name": "Davide Santon", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Italy", 
+        "Age":26, 
+        "Salary": 118462, 
+        "Contract":2, 
+        "Id": 106
+        },
+    {
+        "Name": "Zinho Vanheusden", 
+        "Team":"Inter", 
+        "Position":"Defender", 
+        "Nationality":"Belgium", 
+        "Age":17, 
+        "Salary": null, 
+        "Contract":null, 
+        "Id": 107
+        },
+    {
+        "Name": "Ever Banega", 
+        "Team":"Inter", 
+        "Position":"Midfielder", 
+        "Nationality":"Argentina", 
+        "Age":28, 
+        "Salary": null, 
+        "Contract":3, 
+        "Id": 108
+        },
+    {
+        "Name": "Marcelo Brozovic", 
+        "Team":"Inter", 
+        "Position":"Midfielder", 
+        "Nationality":"Croatia", 
+        "Age":25, 
+        "Salary": 53846, 
+        "Contract":5, 
+        "Id": 109
+        },
+    {
+        "Name": "Antonio Candreva", 
+        "Team":"Inter", 
+        "Position":"Midfielder", 
+        "Nationality":"Italy", 
+        "Age":30, 
+        "Salary": null, 
+        "Contract":4, 
+        "Id": 110
+        },
+    {
+        "Name": "Roberto Gagliardini", 
+        "Team":"Inter", 
+        "Position":"Midfielder", 
+        "Nationality":"Italy", 
+        "Age":23, 
+        "Salary": null, 
+        "Contract":null, 
+        "Id": 111
+        },
+    {
+        "Name": "Joao Mario", 
+        "Team":"Inter", 
+        "Position":"Midfielder", 
+        "Nationality":"Portugal", 
+        "Age":24, 
+        "Salary": null, 
+        "Contract":5, 
+        "Id": 112
+        },
+    {
+        "Name": "Geoffrey Kondogbia", 
+        "Team":"Inter", 
+        "Position":"Midfielder", 
+        "Nationality":"France", 
+        "Age":24, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 113
+        },
+    {
+        "Name": "Gary Medel", 
+        "Team":"Inter", 
+        "Position":"Midfielder", 
+        "Nationality":"Chile", 
+        "Age":29, 
+        "Salary": 42308, 
+        "Contract": null, 
+        "Id": 114
+        },
+    {
+        "Name": "Ivan Perisic", 
+        "Team":"Inter", 
+        "Position":"Midfielder", 
+        "Nationality":"Croatia", 
+        "Age":27, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 115
+        },
+    {
+        "Name": "Axel Mohamed Bakayoko", 
+        "Team":"Inter", 
+        "Position":"Forward", 
+        "Nationality":"France", 
+        "Age":19, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 116
+        },
+    {
+        "Name": "Jonathan Biabiany", 
+        "Team":"Inter", 
+        "Position":"Forward", 
+        "Nationality":"France", 
+        "Age":29, 
+        "Salary":null , 
+        "Contract":3, 
+        "Id": 117
+        },
+    {
+        "Name": "Eder", 
+        "Team":"Inter", 
+        "Position":"Forward", 
+        "Nationality":"Italy", 
+        "Age":30, 
+        "Salary": null, 
+        "Contract":4, 
+        "Id": 118
+        },
+    {
+        "Name": "Gabriel Barbosa", 
+        "Team":"Inter", 
+        "Position":"Forward", 
+        "Nationality":"Brazil", 
+        "Age":20, 
+        "Salary": null, 
+        "Contract":5, 
+        "Id": 119
+        },
+    {
+        "Name": "Mauro Icardi", 
+        "Team":"Inter", 
+        "Position":"Forward", 
+        "Nationality":"Argentina", 
+        "Age":24, 
+        "Salary": 84615, 
+        "Contract":5, 
+        "Id": 120
+        },
+    {
+        "Name": "Rodrigo Palacio", 
+        "Team":"Inter", 
+        "Position":"Forward", 
+        "Nationality":"Argentina", 
+        "Age":35, 
+        "Salary": 26923, 
+        "Contract":null, 
+        "Id": 121
+        },
+    {
+        "Name": "Andrea Pinamonti", 
+        "Team":"Inter", 
+        "Position":"Forward", 
+        "Nationality":"Italy", 
+        "Age":18, 
+        "Salary": null, 
+        "Contract":5, 
+        "Id": 122
+        },
+    {
+        "Name": "Rigoberto Rivas Vindel", 
+        "Team":"Inter", 
+        "Position":"Forward", 
+        "Nationality":"Honduras", 
+        "Age":19, 
+        "Salary":null , 
+        "Contract":null, 
+        "Id": 123
+        },
+
+    {
+        "Name": "Asmir Begovic", 
+        "Team":"Chelsea", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Bosna-Herzegovinar", 
+        "Age":30, 
+        "Salary": 60000, 
+        "Contract": 3, 
+        "Id": 124
+        },
+    {
+        "Name": "Thibaut Courtois", 
+        "Team":"Chelsea", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Belgium", 
+        "Age":25, 
+        "Salary": 120000, 
+        "Contract": 3, 
+        "Id": 125
+        },
+    {
+        "Name": "Eduardo", 
+        "Team":"Chelsea", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Portugal", 
+        "Age":34, 
+        "Salary": 10000, 
+        "Contract": 1, 
+        "Id": 126
+        },
+    {
+        "Name": "Ola Aina", 
+        "Team":"Chelsea", 
+        "Position":"Defenderr", 
+        "Nationality":"England", 
+        "Age":20, 
+        "Salary": null, 
+        "Contract": 4, 
+        "Id": 127
+        },
+    {
+        "Name": "Nathan Ake", 
+        "Team":"Chelsea", 
+        "Position":"Defenderr", 
+        "Nationality":"Netherlands", 
+        "Age":22, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 128
+        },
+    {
+        "Name": "Azpilicueta", 
+        "Team":"Chelsea", 
+        "Position":"Defenderr", 
+        "Nationality":"Spain", 
+        "Age":27, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 129
+        },
+    {
+        "Name": "Gary Cahill", 
+        "Team":"Chelsea", 
+        "Position":"Defenderr", 
+        "Nationality":"England", 
+        "Age":31, 
+        "Salary": 85000, 
+        "Contract": 3, 
+        "Id": 130
+        },
+    {
+        "Name": "David Luiz", 
+        "Team":"Chelsea", 
+        "Position":"Defenderr", 
+        "Nationality":"Brazil", 
+        "Age":30, 
+        "Salary": 120000, 
+        "Contract": 3, 
+        "Id": 131
+        },
+    {
+        "Name": "John Terry", 
+        "Team":"Chelsea", 
+        "Position":"Defenderr", 
+        "Nationality":"England", 
+        "Age":36, 
+        "Salary": 150000, 
+        "Contract": 1, 
+        "Id": 132
+        },
+    {
+        "Name": "Wallace", 
+        "Team":"Chelsea", 
+        "Position":"Defenderr", 
+        "Nationality":"Brazil", 
+        "Age":22, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 133
+        },
+    {
+        "Name": "Kurt Zouma", 
+        "Team":"Chelsea", 
+        "Position":"Defenderr", 
+        "Nationality":"France", 
+        "Age":22, 
+        "Salary": 40000, 
+        "Contract": 3, 
+        "Id": 134
+        },
+    {
+        "Name": "Cesc Fabregas", 
+        "Team":"Chelsea", 
+        "Position":"Midfielder", 
+        "Nationality":"Spain", 
+        "Age":30, 
+        "Salary": 156000, 
+        "Contract": 3, 
+        "Id": 135
+        },
+    {
+        "Name": "Nathaniel Chalobah", 
+        "Team":"Chelsea", 
+        "Position":"Midfielder", 
+        "Nationality":"England", 
+        "Age":22, 
+        "Salary": 5000, 
+        "Contract": 4, 
+        "Id": 136
+        },
+    {
+        "Name": "N'Golo Kante", 
+        "Team":"Chelsea", 
+        "Position":"Midfielder", 
+        "Nationality":"France", 
+        "Age":26, 
+        "Salary": 110000, 
+        "Contract": 5, 
+        "Id": 137
+        },
+    {
+        "Name": "Kenedy", 
+        "Team":"Chelsea", 
+        "Position":"Midfielder", 
+        "Nationality":"Brazil", 
+        "Age":21, 
+        "Salary": 5000, 
+        "Contract": 4, 
+        "Id": 138
+        },
+    {
+        "Name": "Ruben Loftus-Cheek", 
+        "Team":"Chelsea", 
+        "Position":"Midfielder", 
+        "Nationality":"England", 
+        "Age":21, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 139
+        },
+    {
+        "Name": "Macros Alonso", 
+        "Team":"Chelsea", 
+        "Position":"Midfielder", 
+        "Nationality":"Spain", 
+        "Age":26, 
+        "Salary": 70000, 
+        "Contract": 5, 
+        "Id": 140
+        },
+    {
+        "Name": "Nemanja Matic", 
+        "Team":"Chelsea", 
+        "Position":"Midfielder", 
+        "Nationality":"Serbia", 
+        "Age":28, 
+        "Salary": 90000, 
+        "Contract": 3, 
+        "Id": 141
+        },
+    {
+        "Name": "Michy Batshuayi", 
+        "Team":"Chelsea", 
+        "Position":"Forward", 
+        "Nationality":"Belgium", 
+        "Age":23, 
+        "Salary": 90000, 
+        "Contract": 5, 
+        "Id": 142
+        },
+    {
+        "Name": "Diego Costa", 
+        "Team":"Chelsea", 
+        "Position":"Forward", 
+        "Nationality":"Spain", 
+        "Age":28, 
+        "Salary": 185000, 
+        "Contract": 3, 
+        "Id": 143
+        },
+    {
+        "Name": "Eden Hazard", 
+        "Team":"Chelsea", 
+        "Position":"Forward", 
+        "Nationality":"Belgium", 
+        "Age":26, 
+        "Salary": 200000, 
+        "Contract": 4, 
+        "Id": 144
+        },
+    {
+        "Name": "Pedro", 
+        "Team":"Chelsea", 
+        "Position":"Forward", 
+        "Nationality":"Spain", 
+        "Age":29, 
+        "Salary": 100000, 
+        "Contract": 3, 
+        "Id": 145
+        },
+    {
+        "Name": "Dominic Solanke", 
+        "Team":"Chelsea", 
+        "Position":"Forward", 
+        "Nationality":"England", 
+        "Age":19, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 146
+        },
+    {
+        "Name": "Willian", 
+        "Team":"Chelsea", 
+        "Position":"Forward", 
+        "Nationality":"Brazil", 
+        "Age":28, 
+        "Salary": 110000, 
+        "Contract": 4, 
+        "Id": 147
+        },
+
+    {
+        "Name": "Manuel Neuer", 
+        "Team":"Bayern", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Germany", 
+        "Age":31, 
+        "Salary": 127000, 
+        "Contract": 4, 
+        "Id": 148
+        },
+    {
+        "Name": "Tom Startke", 
+        "Team":"Bayern", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Germany", 
+        "Age":36, 
+        "Salary": 8500, 
+        "Contract": 1, 
+        "Id": 149
+        },
+    {
+        "Name": "Sven Ulreich", 
+        "Team":"Bayern", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Germany", 
+        "Age":38, 
+        "Salary": 47000, 
+        "Contract": 3, 
+        "Id": 150
+        },
+    {
+        "Name": "Leo Weinkauf", 
+        "Team":"Bayern", 
+        "Position":"Goalkeeper", 
+        "Nationality":"Germany", 
+        "Age":21, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 151
+        },
+    {
+        "Name": "David Alaba", 
+        "Team":"Bayern", 
+        "Position":"Defender", 
+        "Nationality":"Austria", 
+        "Age":24, 
+        "Salary": 77000, 
+        "Contract": 3, 
+        "Id": 152
+        },
+    {
+        "Name": "Jerome Boateng", 
+        "Team":"Bayern", 
+        "Position":"Defender", 
+        "Nationality":"Germany", 
+        "Age":28, 
+        "Salary": 77000, 
+        "Contract": 3, 
+        "Id": 153
+        },
+    {
+        "Name": "Nicolas Feldhahn", 
+        "Team":"Bayern", 
+        "Position":"Defender", 
+        "Nationality":"Germany", 
+        "Age":30, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 154
+        },
+    {
+        "Name": "Marco Friedl", 
+        "Team":"Bayern", 
+        "Position":"Defender", 
+        "Nationality":"Austria", 
+        "Age":19, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 155
+        },
+    {
+        "Name": "Felix Gotze", 
+        "Team":"Bayern", 
+        "Position":"Defender", 
+        "Nationality":"Germany", 
+        "Age":18, 
+        "Salary": null , 
+        "Contract": null, 
+        "Id": 156
+        },
+    {
+        "Name": "Mats Hummels", 
+        "Team":"Bayern", 
+        "Position":"Defender", 
+        "Nationality":"Germany", 
+        "Age":28, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 157
+        },
+    {
+        "Name": "Javi Martinez", 
+        "Team":"Bayern", 
+        "Position":"Defender", 
+        "Nationality":"Spain", 
+        "Age":28, 
+        "Salary": 94000, 
+        "Contract": 2, 
+        "Id": 158
+        },
+    {
+        "Name": "Juan Bernat", 
+        "Team":"Bayern", 
+        "Position":"Defender", 
+        "Nationality":"Spain", 
+        "Age":24, 
+        "Salary": 56000, 
+        "Contract": 4, 
+        "Id": 159
+        },
+    {
+        "Name": "Philipp Lahm", 
+        "Team":"Bayern", 
+        "Position":"Defender", 
+        "Nationality":"Germany", 
+        "Age":34, 
+        "Salary": 136000, 
+        "Contract": 3, 
+        "Id": 160
+        },
+    {
+        "Name": "Rafinha", 
+        "Team":"Bayern", 
+        "Position":"Defender", 
+        "Nationality":"Brazil", 
+        "Age":31, 
+        "Salary": 64000, 
+        "Contract": 2, 
+        "Id": 161
+        },
+    {
+        "Name": "Fabian Benko", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"Germany", 
+        "Age":19, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 162
+        },
+    {
+        "Name": "Niklas Dorsch", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"Germany", 
+        "Age":19, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 163
+        },
+    {
+        "Name": "Douglas Costa", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"Brazil", 
+        "Age":26, 
+        "Salary": 85000, 
+        "Contract": 5, 
+        "Id": 164
+        },
+    {
+        "Name": "Joshua Kimmich", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"Germany", 
+        "Age":22, 
+        "Salary": 850, 
+        "Contract": 5, 
+        "Id": 165
+        },
+    {
+        "Name": "Raphael Obermair", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"Germany", 
+        "Age":21, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 166
+        },
+    {
+        "Name": "Erdal Ozturk", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"Germany", 
+        "Age":21, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 167
+        },
+    {
+        "Name": "Renato Sanches", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"Portugal", 
+        "Age":19, 
+        "Salary": null, 
+        "Contract": null, 
+        "Id": 168
+        },
+    {
+        "Name": "Frank Ribery", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"France", 
+        "Age":33, 
+        "Salary": 136000, 
+        "Contract": 3, 
+        "Id": 169
+        },
+    {
+        "Name": "Thiago", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"Spain", 
+        "Age":26, 
+        "Salary": 77000, 
+        "Contract": 2, 
+        "Id": 170
+        },
+    {
+        "Name": "Arturo Vidal", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"Chile", 
+        "Age":30, 
+        "Salary": 128000, 
+        "Contract": 4, 
+        "Id": 171
+        },
+    {
+        "Name": "Xabi Alonso", 
+        "Team":"Bayern", 
+        "Position":"Midfielder", 
+        "Nationality":"Spain", 
+        "Age":35, 
+        "Salary": 102000, 
+        "Contract": 1, 
+        "Id": 172
+        },
+    {
+        "Name": "Kingsley Coman", 
+        "Team":"Bayern", 
+        "Position":"Forward", 
+        "Nationality":"France", 
+        "Age":21, 
+        "Salary": , 
+        "Contract": , 
+        "Id": 173
+        },
+    {
+        "Name": "Robert Lewandowski", 
+        "Team":"Bayern", 
+        "Position":"Forward", 
+        "Nationality":"Poland", 
+        "Age":28, 
+        "Salary": 136000, 
+        "Contract": 4, 
+        "Id": 174
+        },
+    {
+        "Name": "Thomas Muller", 
+        "Team":"Bayern", 
+        "Position":"Forward", 
+        "Nationality":"France", 
+        "Age":27, 
+        "Salary": 128000, 
+        "Contract": 4, 
+        "Id": 174
+        },
+    {
+        "Name": "Arjen Robben", 
+        "Team":"Bayern", 
+        "Position":"Forward", 
+        "Nationality":"Netherlands", 
+        "Age":33, 
+        "Salary": 136000, 
+        "Contract": 2, 
+        "Id": 175
+        },
+
 ]
