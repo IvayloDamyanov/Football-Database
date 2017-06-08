@@ -6,7 +6,7 @@
     public class FootballDbContext : DbContext
     {
         public FootballDbContext()
-            : base("FootballDb")
+            : base("FootballConnection")
         {
         }
 

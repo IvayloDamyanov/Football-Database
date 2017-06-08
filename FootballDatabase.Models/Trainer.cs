@@ -16,26 +16,26 @@ namespace FootballDatabase.Models
 
         public int Id { get; set; }
 
-        [Required]
-        [MinLength(MinNameLength)]
-        [MaxLength(MaxNameLength)]
+        //[Required]
+        //[MinLength(MinNameLength)]
+        //[MaxLength(MaxNameLength)]
         public string Name { get; set; }
 
-        [Range(MinAge, MaxAge)]
+        //[Range(MinAge, MaxAge)]
         public int Age { get; set; }
 
-        [MinLength(MinNameLength)]
-        [MaxLength(MaxNameLength)]
+        //[MinLength(MinNameLength)]
+        //[MaxLength(MaxNameLength)]
         public string Nationality { get; set; }
 
-        [Range(MinSalary, Double.MaxValue)]
+        //[Range(MinSalary, Double.MaxValue)]
         public decimal Salary { get; set; }
 
-        [Range(MinYears, Double.MaxValue)]
+        //[Range(MinYears, Double.MaxValue)]
         public int Contract { get; set; }
 
-        [MinLength(MinNameLength)]
-        [MaxLength(MaxNameLength)]
+        //[MinLength(MinNameLength)]
+        //[MaxLength(MaxNameLength)]
         public virtual Team Team { get; set; }
     }
 }
