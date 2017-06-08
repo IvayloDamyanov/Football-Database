@@ -48,13 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FootballDbContext.cs" />
-    <Compile Include="Migrations\201706081448561_init5.cs" />
-    <Compile Include="Migrations\201706081448561_init5.Designer.cs">
-      <DependentUpon>201706081448561_init5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706081454290_countries.cs" />
-    <Compile Include="Migrations\201706081454290_countries.Designer.cs">
-      <DependentUpon>201706081454290_countries.cs</DependentUpon>
+    <Compile Include="Migrations\201706082219376_test4.cs" />
+    <Compile Include="Migrations\201706082219376_test4.Designer.cs">
+      <DependentUpon>201706082219376_test4.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,11 +68,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706081448561_init5.resx">
-      <DependentUpon>201706081448561_init5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706081454290_countries.resx">
-      <DependentUpon>201706081454290_countries.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706082219376_test4.resx">
+      <DependentUpon>201706082219376_test4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

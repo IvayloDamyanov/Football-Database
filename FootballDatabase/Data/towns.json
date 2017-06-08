@@ -1,22 +1,27 @@
 [
     {
         "Name": "Milano",
-         "Id": "1"
+         "Id": 1,
+         "CountryId": 1
          },
     {
         "Name": "Torino",
-         "Id": "2"
+         "Id": 2,
+         "CountryId": 1
          },
     {
         "Name": "Madrid",
-        "Id": "3"
+        "Id": 3,
+         "CountryId": 2
         },
     {
         "Name": "Munich",
-         "Id": "4"
+         "Id": 4,
+         "CountryId": 4
          },
     {
         "Name": "London",
-         "Id": "5"
+         "Id": 5,
+         "CountryId": 3
          }    
 ]

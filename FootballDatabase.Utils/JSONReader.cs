@@ -20,6 +20,12 @@
             return fileContent;
         }
 
+        //public static object[] ReadPlayers(string filePath)
+        //{
+        //    string fileContent = ReadJSON(filePath);
+        //    return serializer.Deserialize<object[]>(fileContent);
+        //}
+
         public static Player[] ReadPlayers(string filePath)
         {
             string fileContent = ReadJSON(filePath);

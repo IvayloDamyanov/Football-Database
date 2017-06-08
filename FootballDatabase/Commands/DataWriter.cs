@@ -6,6 +6,7 @@ namespace FootballDatabase.Commands
     public class DataWriter
     {
         private FootballDbContext dbContext;
+        //private object[] players = JSONReader.ReadPlayers("../../../FootballDatabase/Data/players.json");
         private Player[] players = JSONReader.ReadPlayers("../../../FootballDatabase/Data/players.json");
         private Country[] countries = JSONReader.ReadCountries("../../../FootballDatabase/Data/countries.json");
         private Town[] towns = JSONReader.ReadTowns("../../../FootballDatabase/Data/towns.json");
@@ -27,6 +28,17 @@ namespace FootballDatabase.Commands
             this.AddCountries(this.DbContext, this.countries);
             this.AddTowns(this.DbContext, this.towns);
         }
+
+        //public void AddPlayers(FootballDbContext context, object[] players)
+        //{
+        //    for (int i = 0; i < players.Length; i += 1)
+        //    {
+        //        System.Console.WriteLine(players[i].ToString());
+        //        //context.Players.Add(players[i]);
+        //    }
+
+        //    context.SaveChanges();
+        //}
 
         public void AddPlayers(FootballDbContext context, Player[] players)
         {

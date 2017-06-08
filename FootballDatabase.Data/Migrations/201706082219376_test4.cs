@@ -3,7 +3,7 @@ namespace FootballDatabase.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class init5 : DbMigration
+    public partial class test4 : DbMigration
     {
         public override void Up()
         {
@@ -52,7 +52,7 @@ namespace FootballDatabase.Data.Migrations
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        Name = c.Int(nullable: false),
+                        Name = c.String(),
                         CountryId = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.Id)

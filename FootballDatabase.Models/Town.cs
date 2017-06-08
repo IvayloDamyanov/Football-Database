@@ -18,7 +18,7 @@
         //[Required]
         //[MinLength(MinNameLength)]
         //[MaxLength(MaxNameLength)]
-        public int Name { get; set; }
+        public string Name { get; set; }
 
         public int CountryId { get; set; }
 

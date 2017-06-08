@@ -15,7 +15,7 @@
 
         public Player()
         {
-            this.Position = new HashSet<Position>();
+            //this.Position = new HashSet<Position>();
         }
     
         public int Id { get; set; }
@@ -38,10 +38,10 @@
         //[Range(MinYears, Double.MaxValue)]
         public int Contract { get; set; }
 
-        public virtual ICollection<Position> Position { get; set; }
+        //public virtual ICollection<Position> Position { get; set; }
 
         //[MinLength(MinNameLength)]
         //[MaxLength(MaxNameLength)]
-        public virtual Team Team { get; set; }
+        //public int Team { get; set; }
     }
 }
