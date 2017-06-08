@@ -19,5 +19,13 @@
         public DbSet<Player> Players { get; set; }
 
         public DbSet<Trainer> Trainers { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Player>().HasKey(x => x.Id);
+            //modelBuilder.Entity<Player>().HasRequired(x => x.Name);
+
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
