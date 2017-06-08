@@ -48,23 +48,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FootballDbContext.cs" />
-    <Compile Include="Migrations\201706080800095_Initial.cs" />
-    <Compile Include="Migrations\201706080800095_Initial.Designer.cs">
-      <DependentUpon>201706080800095_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706081514322_Country, Team and Town Validations.cs" />
-    <Compile Include="Migrations\201706081514322_Country, Team and Town Validations.Designer.cs">
-      <DependentUpon>201706081514322_Country, Team and Town Validations.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706081528053_Player Validations.cs" />
-    <Compile Include="Migrations\201706081528053_Player Validations.Designer.cs">
-      <DependentUpon>201706081528053_Player Validations.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -72,17 +62,6 @@
       <Project>{a4b22fc3-b6f8-4445-a09b-62aa8d6ced8d}</Project>
       <Name>FootballDatabase.Models</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706080800095_Initial.resx">
-      <DependentUpon>201706080800095_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706081514322_Country, Team and Town Validations.resx">
-      <DependentUpon>201706081514322_Country, Team and Town Validations.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706081528053_Player Validations.resx">
-      <DependentUpon>201706081528053_Player Validations.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
