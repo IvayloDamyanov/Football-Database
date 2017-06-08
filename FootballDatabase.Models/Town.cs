@@ -15,10 +15,10 @@
 
         public int Id { get; set; }
 
-        //[Required]
-        //[MinLength(MinNameLength)]
-        //[MaxLength(MaxNameLength)]
-        public int Name { get; set; }
+        [Required]
+        [MinLength(MinNameLength)]
+        [MaxLength(MaxNameLength)]
+        public string Name { get; set; }
 
         public int CountryId { get; set; }
 
