@@ -20,14 +20,14 @@
 
         public DbSet<Trainer> Trainers { get; set; }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.HasDefaultSchema("public");
+        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.HasDefaultSchema("public");
 
-            modelBuilder.Entity<Player>().HasKey(x => x.Id);
-            //modelBuilder.Entity<Player>().HasRequired(x => x.Name);
+        //    modelBuilder.Entity<Player>().HasKey(x => x.Id);
+        //    //modelBuilder.Entity<Player>().HasRequired(x => x.Name);
 
-            base.OnModelCreating(modelBuilder);
-        }
+        //    base.OnModelCreating(modelBuilder);
+        //}
     }
 }
