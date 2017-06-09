@@ -15,7 +15,7 @@
 
         public Player()
         {
-
+            this.IsDeleted = false;
         }
     
         public int Id { get; set; }
@@ -42,8 +42,17 @@
         //[MaxLength(MaxNameLength)]
         public int TeamId { get; set; }
 
+        public bool IsDeleted { get; set; }
+
         public virtual Team Team { get; set; }
 
         public virtual Position Position { get; set; }
+
+        public override string ToString()
+        {
+            //return this.Team.Name; check how to extract player's team name
+
+            return string.Format($@"Id: {this.Id}, Name: {this.Name}, Age: {this.Age}, Nationality: {this.Nationality}, Salary: {this.Salary}, Contract(in years): {this.Contract}, Position: {this.Position}");
+        }
     }
 }

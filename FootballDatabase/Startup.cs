@@ -5,6 +5,7 @@
 
     public class Startup
     {
+        // Use only to populate the database
         public static void Main()
         {
             IEngine engine = new Engine();
