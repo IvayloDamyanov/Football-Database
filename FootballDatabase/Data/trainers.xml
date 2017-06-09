@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trainers>
+    <trainer>
+        <id>1</id>
+        <name>Vincenzo Montella</name>
+        <team>Milan</team>
+        <nationality>Italy</nationalityr>
+        <age>42</age>
+        <salary>null</salary>
+        <contract>3</contract>
+    </trainer>
+    <trainer>
+        <id>2</id>    
+        <name>Vincenzo Montella</name>
+        <team>Milan</team>
+        <nationality>Italy</nationalityr>
+        <age>42</age>
+        <salary>null</salary>
+        <contract>3</contract>
+    </trainer>
+     <trainer>
+        <id>3</id>     
+        <name>Vincenzo Montella</name>
+        <team>Milan</team>
+        <nationality>Italy</nationalityr>
+        <age>42</age>
+        <salary>null</salary>
+        <contract>3</contract>
+    </trainer>
+    <trainer>
+        <id>4</id>
+        <name>Vincenzo Montella</name>
+        <team>Milan</team>
+        <nationality>Italy</nationalityr>
+        <age>42</age>
+        <salary>null</salary>
+        <contract>3</contract>
+    </trainer>
+    <trainer>
+        <id>5</id>    
+        <name>Vincenzo Montella</name>
+        <team>Milan</team>
+        <nationality>Italy</nationalityr>
+        <age>42</age>
+        <salary>null</salary>
+        <contract>3</contract>
+    </trainer>
+    <trainer>
+        <id>6</id>    
+        <name>Vincenzo Montella</name>
+        <team>Milan</team>
+        <nationality>Italy</nationalityr>
+        <age>42</age>
+        <salary>null</salary>
+        <contract>3</contract>
+    </trainer>
+</trainers>
