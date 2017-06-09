@@ -2,6 +2,7 @@
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public class Team
     {
@@ -22,8 +23,7 @@
 
         public virtual Town Town { get; set; }
 
-        public virtual Country Country { get; set; }
-
+        [ForeignKey("Team_Id")]
         public virtual ICollection<Player> Players { get; set; }
     }
 }
