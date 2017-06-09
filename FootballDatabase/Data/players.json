@@ -1266,7 +1266,7 @@
 	{
 		"Name": "Ola Aina",
 		"TeamId": 5,
-		"Position": "Defenderr",
+		"Position": "Defender",
 		"Nationality": "England",
 		"Age": 20,
 		"Salary": 0,
@@ -1276,7 +1276,7 @@
 	{
 		"Name": "Nathan Ake",
 		"TeamId": 5,
-		"Position": "Defenderr",
+		"Position": "Defender",
 		"Nationality": "Netherlands",
 		"Age": 22,
 		"Salary": 0,
@@ -1286,7 +1286,7 @@
 	{
 		"Name": "Azpilicueta",
 		"TeamId": 5,
-		"Position": "Defenderr",
+		"Position": "Defender",
 		"Nationality": "Spain",
 		"Age": 27,
 		"Salary": 0,
@@ -1296,7 +1296,7 @@
 	{
 		"Name": "Gary Cahill",
 		"TeamId": 5,
-		"Position": "Defenderr",
+		"Position": "Defender",
 		"Nationality": "England",
 		"Age": 31,
 		"Salary": 85000,
@@ -1306,7 +1306,7 @@
 	{
 		"Name": "David Luiz",
 		"TeamId": 5,
-		"Position": "Defenderr",
+		"Position": "Defender",
 		"Nationality": "Brazil",
 		"Age": 30,
 		"Salary": 120000,
@@ -1316,7 +1316,7 @@
 	{
 		"Name": "John Terry",
 		"TeamId": 5,
-		"Position": "Defenderr",
+		"Position": "Defender",
 		"Nationality": "England",
 		"Age": 36,
 		"Salary": 150000,
@@ -1326,7 +1326,7 @@
 	{
 		"Name": "Wallace",
 		"TeamId": 5,
-		"Position": "Defenderr",
+		"Position": "Defender",
 		"Nationality": "Brazil",
 		"Age": 22,
 		"Salary": 0,
@@ -1336,7 +1336,7 @@
 	{
 		"Name": "Kurt Zouma",
 		"TeamId": 5,
-		"Position": "Defenderr",
+		"Position": "Defender",
 		"Nationality": "France",
 		"Age": 22,
 		"Salary": 40000,
