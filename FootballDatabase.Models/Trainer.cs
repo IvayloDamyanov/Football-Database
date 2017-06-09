@@ -34,6 +34,8 @@ namespace FootballDatabase.Models
         //[Range(MinYears, Double.MaxValue)]
         public int Contract { get; set; }
 
+        public int TeamId { get; set; }
+
         //[MinLength(MinNameLength)]
         //[MaxLength(MaxNameLength)]
         public virtual Team Team { get; set; }

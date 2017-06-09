@@ -21,9 +21,10 @@
         [MaxLength(MaxNameLength)]
         public string Name { get; set; }
 
+        public int TownId { get; set; }
+
         public virtual Town Town { get; set; }
 
-        [ForeignKey("Team_Id")]
         public virtual ICollection<Player> Players { get; set; }
     }
 }

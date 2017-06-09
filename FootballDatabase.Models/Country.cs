@@ -11,7 +11,6 @@
         public Country()
         {
             this.Towns = new HashSet<Town>();
-            //this.Teams = new HashSet<Team>();
         }
 
         public int Id { get; set; }
@@ -22,7 +21,5 @@
         public string Name { get; set; }
 
         public virtual ICollection<Town> Towns { get; set; }
-
-        //public virtual ICollection<Team> Teams { get; set; }
     }
 }

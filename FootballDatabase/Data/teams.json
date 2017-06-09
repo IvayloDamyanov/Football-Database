@@ -2,28 +2,28 @@
     {
         "Name": "Milan",
          "Id": 1,
-         "Town_Id": 1
+         "TownId": 1
     },
     {
         "Name": "Inter",
          "Id": 2,
-         "Town_Id": 1
+         "TownId": 1
     },{
         "Name": "Juventus",
          "Id": 3,
-         "Town_Id": 2
+         "TownId": 2
     },{
         "Name": "Real Madrid",
          "Id": 4,
-         "Town_Id": 3
+         "TownId": 3
     },{
         "Name": "Chelsea",
          "Id": 5,
-         "Town_Id": 5
+         "TownId": 5
     },
     {
         "Name": "Bayern",
          "Id": 6,
-         "Town_Id": 4
+         "TownId": 4
     }
 ]
