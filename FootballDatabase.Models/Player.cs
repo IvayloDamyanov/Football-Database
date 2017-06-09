@@ -42,6 +42,6 @@
 
         //[MinLength(MinNameLength)]
         //[MaxLength(MaxNameLength)]
-        //public int Team { get; set; }
+        public int Team_Id { get; set; }
     }
 }
