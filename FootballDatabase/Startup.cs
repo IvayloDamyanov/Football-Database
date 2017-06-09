@@ -1,12 +1,13 @@
-﻿using FootballDatabase.Core;
-
-namespace FootballDatabase
+﻿namespace FootballDatabase
 {
+    using FootballDatabase.Contracts;
+    using FootballDatabase.Core;
+
     public class Startup
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
-            Engine engine = new Engine();
+            IEngine engine = new Engine();
             engine.Start();
         }
     }

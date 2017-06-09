@@ -1,21 +1,22 @@
-﻿using FootballDatabase.Commands;
-using FootballDatabase.Data;
-
-namespace FootballDatabase.Core
+﻿namespace FootballDatabase.Core
 {
-    public class Engine
+    using FootballDatabase.Commands;
+    using FootballDatabase.Contracts;
+    using FootballDatabase.Data;
+
+    public class Engine : IEngine
     {
         private FootballDbContext context = new FootballDbContext();
+        private readonly DataWriter dataWriter;
 
         public Engine()
         {
-
+            this.dataWriter = new DataWriter(this.context);
         }
 
         public void Start()
         {
-            DataWriter dataWriter = new DataWriter(this.context);
-            dataWriter.Populate();
+            this.dataWriter.Populate();
         }
     }
 }

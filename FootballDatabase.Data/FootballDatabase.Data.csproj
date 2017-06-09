@@ -48,6 +48,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FootballDbContext.cs" />
+    <Compile Include="Migrations\201706090457198_Initial.cs" />
+    <Compile Include="Migrations\201706090457198_Initial.Designer.cs">
+      <DependentUpon>201706090457198_Initial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,6 +66,11 @@
       <Project>{a4b22fc3-b6f8-4445-a09b-62aa8d6ced8d}</Project>
       <Name>FootballDatabase.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201706090457198_Initial.resx">
+      <DependentUpon>201706090457198_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

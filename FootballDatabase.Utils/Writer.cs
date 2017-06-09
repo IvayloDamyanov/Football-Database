@@ -1,11 +1,13 @@
-﻿using FootballDatabase.Utils.Contracts;
-using System;
-
-namespace FootballDatabase.Utils
+﻿namespace FootballDatabase.Utils
 {
+    using FootballDatabase.Utils.Contracts;
+    using System;
+
     public class Writer : IWriter
     {
-        public Writer() { }
+        public Writer()
+        {
+        }
 
         public void Write(string message)
         {

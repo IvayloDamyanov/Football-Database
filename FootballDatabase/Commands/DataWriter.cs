@@ -1,8 +1,8 @@
-﻿using FootballDatabase.Data;
-using FootballDatabase.Models;
-
-namespace FootballDatabase.Commands
+﻿namespace FootballDatabase.Commands
 {
+    using FootballDatabase.Data;
+    using FootballDatabase.Models;
+
     public class DataWriter
     {
         private FootballDbContext dbContext;

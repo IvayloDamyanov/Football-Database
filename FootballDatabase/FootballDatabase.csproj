@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\DataWriter.cs" />
+    <Compile Include="Contracts\IEngine.cs" />
     <Compile Include="Core\Engine.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
