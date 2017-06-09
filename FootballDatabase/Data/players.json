@@ -1,6 +1,6 @@
 [{
 		"Name": "Keylor Navas",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Goalkeeper",
 		"Nationality": "Spain",
 		"Age": 31,
@@ -10,7 +10,7 @@
 	},
 	{
 		"Name": "Kiko Casilla",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Goalkeeper",
 		"Nationality": "Costa Rica",
 		"Age": 31,
@@ -20,7 +20,7 @@
 	},
 	{
 		"Name": "Rubén Yáñez",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Goalkeeper",
 		"Nationality": "Spain",
 		"Age": 24,
@@ -30,7 +30,7 @@
 	},
 	{
 		"Name": "Sergio Ramos",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Defender",
 		"Nationality": "Spain",
 		"Age": 31,
@@ -40,7 +40,7 @@
 	},
 	{
 		"Name": "Rafael Varane",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Defender",
 		"Nationality": "France",
 		"Age": 24,
@@ -50,7 +50,7 @@
 	},
 	{
 		"Name": "Nacho Fernandez",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Defender",
 		"Nationality": "Spain",
 		"Age": 27,
@@ -60,7 +60,7 @@
 	},
 	{
 		"Name": "Pepe",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Defender",
 		"Nationality": "Portugal",
 		"Age": 34,
@@ -70,7 +70,7 @@
 	},
 	{
 		"Name": "Marcelo",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Defender",
 		"Nationality": "Brazil",
 		"Age": 29,
@@ -80,7 +80,7 @@
 	},
 	{
 		"Name": "Fabio Coentrao",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Defender",
 		"Nationality": "Portugal",
 		"Age": 29,
@@ -90,7 +90,7 @@
 	},
 	{
 		"Name": "Daniel Carvajal",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Defender",
 		"Nationality": "Spain",
 		"Age": 25,
@@ -100,7 +100,7 @@
 	},
 	{
 		"Name": "Danilo",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Defender",
 		"Nationality": "Brazil",
 		"Age": 25,
@@ -110,7 +110,7 @@
 	},
 	{
 		"Name": "Casemiro",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Midfielder",
 		"Nationality": "Brazil",
 		"Age": 25,
@@ -120,7 +120,7 @@
 	},
 	{
 		"Name": "Toni Kroos",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Midfielder",
 		"Nationality": "Germany",
 		"Age": 27,
@@ -130,7 +130,7 @@
 	},
 	{
 		"Name": "Luka Modric",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Midfielder",
 		"Nationality": "Croatia",
 		"Age": 31,
@@ -140,7 +140,7 @@
 	},
 	{
 		"Name": "Mateo Kovacic",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Midfielder",
 		"Nationality": "Croatia",
 		"Age": 23,
@@ -150,7 +150,7 @@
 	},
 	{
 		"Name": "James Rodriguez",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Midfielder",
 		"Nationality": "Colombia",
 		"Age": 25,
@@ -160,7 +160,7 @@
 	},
 	{
 		"Name": "Christiano Ronaldo",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Forward",
 		"Nationality": "Portugal",
 		"Age": 32,
@@ -170,7 +170,7 @@
 	},
 	{
 		"Name": "Marco Asensio",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Forward",
 		"Nationality": "Spain",
 		"Age": 21,
@@ -180,7 +180,7 @@
 	},
 	{
 		"Name": "Gareth Bale",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Forward",
 		"Nationality": "Wales",
 		"Age": 27,
@@ -190,7 +190,7 @@
 	},
 	{
 		"Name": "Lucas Vazquez",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Forward",
 		"Nationality": "Spain",
 		"Age": 25,
@@ -200,7 +200,7 @@
 	},
 	{
 		"Name": "Karim Benzema",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Forward",
 		"Nationality": "France",
 		"Age": 29,
@@ -210,7 +210,7 @@
 	},
 	{
 		"Name": "Alvaro Morata",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Forward",
 		"Nationality": "Spain",
 		"Age": 24,
@@ -220,7 +220,7 @@
 	},
 	{
 		"Name": "Mariano Diaz",
-		"TeamId": 1,
+		"TeamID": 4,
 		"Position": "Forward",
 		"Nationality": "Dominican Republic",
 		"Age": 23,
@@ -231,7 +231,7 @@
 
 	{
 		"Name": "Emil Audero",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Goalkeeper",
 		"Nationality": "Italy",
 		"Age": 20,
@@ -241,7 +241,7 @@
 	},
 	{
 		"Name": "Gianluigi Buffon",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Goalkeeper",
 		"Nationality": "Italy",
 		"Age": 39,
@@ -251,27 +251,27 @@
 	},
 	{
 		"Name": "Matita Del Favero",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Goalkeeper",
 		"Nationality": "Italy",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 26
 	},
 	{
 		"Name": "Leonardo Loria",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Goalkeeper",
 		"Nationality": "Italy",
 		"Age": 18,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 27
 	},
 	{
 		"Name": "Neto",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Goalkeeper",
 		"Nationality": "Brazil",
 		"Age": 27,
@@ -281,7 +281,7 @@
 	},
 	{
 		"Name": "Alex Sandro",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Brazil",
 		"Age": 26,
@@ -291,7 +291,7 @@
 	},
 	{
 		"Name": "Andrea Barzagli",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 36,
@@ -301,7 +301,7 @@
 	},
 	{
 		"Name": "Medhi Benatia",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Marocco",
 		"Age": 30,
@@ -311,7 +311,7 @@
 	},
 	{
 		"Name": "Leonardo Bonucci",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 30,
@@ -321,7 +321,7 @@
 	},
 	{
 		"Name": "Giorgio Chiellini",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 36,
@@ -331,17 +331,17 @@
 	},
 	{
 		"Name": "Luca Coccolo",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 34
 	},
 	{
 		"Name": "Dani Alves",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Brazil",
 		"Age": 34,
@@ -351,27 +351,27 @@
 	},
 	{
 		"Name": "Paolo De Ceglie",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 30,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 1,
 		"Id": 36
 	},
 	{
 		"Name": "Stephan Lichtsteiner",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Switzerland",
 		"Age": 33,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 37
 	},
 	{
 		"Name": "Daniele Rugani",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 22,
@@ -381,17 +381,17 @@
 	},
 	{
 		"Name": "Alessandro Semprini",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 39
 	},
 	{
 		"Name": "Kwadwo Asamoah",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Ghana",
 		"Age": 28,
@@ -401,17 +401,17 @@
 	},
 	{
 		"Name": "Juan Cuadrado",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Colombia",
 		"Age": 29,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 41
 	},
 	{
 		"Name": "Sami Khedira",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Germany",
 		"Age": 30,
@@ -421,7 +421,7 @@
 	},
 	{
 		"Name": "Mario Lemina",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Gabon",
 		"Age": 23,
@@ -431,37 +431,37 @@
 	},
 	{
 		"Name": "Medhi Leris",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "France",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 44
 	},
 	{
 		"Name": "Ronaldo Mandragora",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 19,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 4,
 		"Id": 45
 	},
 	{
 		"Name": "Claudio Marchisio",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 31,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 46
 	},
 	{
 		"Name": "Federico Mattiello",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 21,
@@ -471,17 +471,17 @@
 	},
 	{
 		"Name": "Simeone Muratore",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 48
 	},
 	{
 		"Name": "Miralem Pjanic",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Bosnia-Herzegovina",
 		"Age": 27,
@@ -491,7 +491,7 @@
 	},
 	{
 		"Name": "Tomas Rincon",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Venezuela",
 		"Age": 29,
@@ -501,7 +501,7 @@
 	},
 	{
 		"Name": "Stefano Sturano",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 24,
@@ -511,7 +511,7 @@
 	},
 	{
 		"Name": "Paulo Dybala",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Forward",
 		"Nationality": "Argentina",
 		"Age": 23,
@@ -521,27 +521,27 @@
 	},
 	{
 		"Name": "Gonzalo Higuain",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Forward",
 		"Nationality": "Argentina",
 		"Age": 29,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 5,
 		"Id": 53
 	},
 	{
 		"Name": "Moise Kean",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Forward",
 		"Nationality": "Italy",
 		"Age": 17,
 		"Salary": 130000,
-		"Contract": 0,
+		"Contract": null,
 		"Id": 54
 	},
 	{
 		"Name": "Mario Mandzukic",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Forward",
 		"Nationality": "Croatia",
 		"Age": 31,
@@ -551,18 +551,18 @@
 	},
 	{
 		"Name": "Marco Pjaca",
-		"TeamId": 2,
+		"TeamID": 3,
 		"Position": "Forward",
 		"Nationality": "Croatia",
 		"Age": 22,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 56
 	},
 
 	{
 		"Name": "Gianluigi Donnarumma",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Goalkeeper",
 		"Nationality": "Italy",
 		"Age": 18,
@@ -572,37 +572,37 @@
 	},
 	{
 		"Name": "Alessandro Guarnone",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Goalkeeper",
 		"Nationality": "Italy",
 		"Age": 18,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 58
 	},
 	{
 		"Name": "Alessandro Plizzari",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Goalkeeper",
 		"Nationality": "Italy",
 		"Age": 17,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 2,
 		"Id": 59
 	},
 	{
 		"Name": "Marco Storari",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Goalkeeper",
 		"Nationality": "Italy",
 		"Age": 40,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 2,
 		"Id": 60
 	},
 	{
 		"Name": "Ignazio Abate",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 30,
@@ -612,17 +612,17 @@
 	},
 	{
 		"Name": "Giorgio Altare",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 17,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 62
 	},
 	{
 		"Name": "Luca Antonelli",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 30,
@@ -632,7 +632,7 @@
 	},
 	{
 		"Name": "David Calabria",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 20,
@@ -642,7 +642,7 @@
 	},
 	{
 		"Name": "Mattia De Sciglio",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 24,
@@ -652,27 +652,27 @@
 	},
 	{
 		"Name": "Gustavo Gomez",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Defender",
 		"Nationality": "Paraguay",
 		"Age": 24,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 66
 	},
 	{
 		"Name": "Gabriel Paletta",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 30,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 67
 	},
 	{
 		"Name": "Alessio Romagnoli",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 22,
@@ -682,27 +682,27 @@
 	},
 	{
 		"Name": "Leonel Vangioni",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Defender",
 		"Nationality": "Argentina",
 		"Age": 30,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 69
 	},
 	{
 		"Name": "Cristian Zapata",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Defender",
 		"Nationality": "Colombia",
 		"Age": 30,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 1,
 		"Id": 70
 	},
 	{
 		"Name": "Andrea Betolacci",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 26,
@@ -712,7 +712,7 @@
 	},
 	{
 		"Name": "Giacomo Bonaventura",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 27,
@@ -722,7 +722,7 @@
 	},
 	{
 		"Name": "Mattia El Hilali",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 19,
@@ -732,27 +732,27 @@
 	},
 	{
 		"Name": "Matias Fernandez",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Chilie",
 		"Age": 31,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 1,
 		"Id": 74
 	},
 	{
 		"Name": "Matteo Gabbia",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 17,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 75
 	},
 	{
 		"Name": "Keisuke Honda",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Japan",
 		"Age": 31,
@@ -762,7 +762,7 @@
 	},
 	{
 		"Name": "Juraj Kucka",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Slovakia",
 		"Age": 30,
@@ -772,17 +772,17 @@
 	},
 	{
 		"Name": "Manuel Locatelli",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 19,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 4,
 		"Id": 78
 	},
 	{
 		"Name": "Riccardo Montolivo",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 32,
@@ -792,37 +792,37 @@
 	},
 	{
 		"Name": "Lucas Ocampos",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Argentina",
 		"Age": 23,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 1,
 		"Id": 80
 	},
 	{
 		"Name": "Nnamdi Oduamadi",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Nigeria",
 		"Age": 26,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 81
 	},
 	{
 		"Name": "Mario Pasalic",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Croatia",
 		"Age": 22,
 		"Salary": 1,
-		"Contract": 0,
+		"Contract": null,
 		"Id": 82
 	},
 	{
 		"Name": "Adrea Poli",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 27,
@@ -832,7 +832,7 @@
 	},
 	{
 		"Name": "Jose Sose",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Argentina",
 		"Age": 32,
@@ -842,37 +842,37 @@
 	},
 	{
 		"Name": "Suso",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Spain",
 		"Age": 23,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 3,
 		"Id": 85
 	},
 	{
 		"Name": "Niccolo Zonellato",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 18,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 86
 	},
 	{
 		"Name": "Raul Zucchetti",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 87
 	},
 	{
 		"Name": "Carlos Bacca",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Forward",
 		"Nationality": "Colombia",
 		"Age": 30,
@@ -882,49 +882,49 @@
 	},
 	{
 		"Name": "Patrick Cutrone",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Forward",
 		"Nationality": "Italy",
 		"Age": 19,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 2,
 		"Id": 89
 	},
 	{
 		"Name": "Gerard Deulofeu",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Forward",
 		"Nationality": "Spain",
 		"Age": 23,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 90
 	},
 	{
 		"Name": "Gianluca Lapadula",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Forward",
 		"Nationality": "Italy",
 		"Age": 27,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 4,
 		"Id": 91
 	},
 
 	{
 		"Name": "Gianluca Lapadula",
-		"TeamId": 3,
+		"TeamID": 1,
 		"Position": "Forward",
 		"Nationality": "Italy",
 		"Age": 27,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 4,
 		"Id": 92
 	},
 
 	{
 		"Name": "Tommaso Berni",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Goalkeeper",
 		"Nationality": "Italy",
 		"Age": 34,
@@ -934,7 +934,7 @@
 	},
 	{
 		"Name": "Juan Carrizo",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Goalkeeper",
 		"Nationality": "Argentina",
 		"Age": 33,
@@ -944,7 +944,7 @@
 	},
 	{
 		"Name": "Samir Handanovic",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Goalkeeper",
 		"Nationality": "Slovenia",
 		"Age": 33,
@@ -954,37 +954,37 @@
 	},
 	{
 		"Name": "Ionut Radu",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Goalkeeper",
 		"Nationality": "Romania",
 		"Age": 20,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 96
 	},
 	{
 		"Name": "Marco Andreolli",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 31,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 1,
 		"Id": 97
 	},
 	{
 		"Name": "Cristian Ansaldi",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Argentina",
 		"Age": 30,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 98
 	},
 	{
 		"Name": "Danilo D'Ambrosio",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 28,
@@ -994,37 +994,37 @@
 	},
 	{
 		"Name": "Andrew Gravillon",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Guadeloupe",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 100
 	},
 	{
 		"Name": "Eloge Koffi Yao Guy",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Ivory Coast",
 		"Age": 21,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 101
 	},
 	{
 		"Name": "Miranda",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Brazil",
 		"Age": 32,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 2,
 		"Id": 102
 	},
 	{
 		"Name": "Jeison Murillo",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Colombia",
 		"Age": 25,
@@ -1034,7 +1034,7 @@
 	},
 	{
 		"Name": "Yuto Nagatomo",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Japan",
 		"Age": 30,
@@ -1044,17 +1044,17 @@
 	},
 	{
 		"Name": "Trent Sainsbury",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Australia",
 		"Age": 25,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 1,
 		"Id": 105
 	},
 	{
 		"Name": "Davide Santon",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Italy",
 		"Age": 26,
@@ -1064,27 +1064,27 @@
 	},
 	{
 		"Name": "Zinho Vanheusden",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Defender",
 		"Nationality": "Belgium",
 		"Age": 17,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 107
 	},
 	{
 		"Name": "Ever Banega",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Midfielder",
 		"Nationality": "Argentina",
 		"Age": 28,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 3,
 		"Id": 108
 	},
 	{
 		"Name": "Marcelo Brozovic",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Midfielder",
 		"Nationality": "Croatia",
 		"Age": 25,
@@ -1094,107 +1094,107 @@
 	},
 	{
 		"Name": "Antonio Candreva",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 30,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 4,
 		"Id": 110
 	},
 	{
 		"Name": "Roberto Gagliardini",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Midfielder",
 		"Nationality": "Italy",
 		"Age": 23,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 111
 	},
 	{
 		"Name": "Joao Mario",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Midfielder",
 		"Nationality": "Portugal",
 		"Age": 24,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 5,
 		"Id": 112
 	},
 	{
 		"Name": "Geoffrey Kondogbia",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Midfielder",
 		"Nationality": "France",
 		"Age": 24,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 113
 	},
 	{
 		"Name": "Gary Medel",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Midfielder",
 		"Nationality": "Chilie",
 		"Age": 29,
 		"Salary": 42308,
-		"Contract": 0,
+		"Contract": null,
 		"Id": 114
 	},
 	{
 		"Name": "Ivan Perisic",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Midfielder",
 		"Nationality": "Croatia",
 		"Age": 27,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 115
 	},
 	{
 		"Name": "Axel Mohamed Bakayoko",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Forward",
 		"Nationality": "France",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 116
 	},
 	{
 		"Name": "Jonathan Biabiany",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Forward",
 		"Nationality": "France",
 		"Age": 29,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 3,
 		"Id": 117
 	},
 	{
 		"Name": "Eder",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Forward",
 		"Nationality": "Italy",
 		"Age": 30,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 4,
 		"Id": 118
 	},
 	{
 		"Name": "Gabriel Barbosa",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Forward",
 		"Nationality": "Brazil",
 		"Age": 20,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 5,
 		"Id": 119
 	},
 	{
 		"Name": "Mauro Icardi",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Forward",
 		"Nationality": "Argentina",
 		"Age": 24,
@@ -1204,32 +1204,32 @@
 	},
 	{
 		"Name": "Rodrigo Palacio",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Forward",
 		"Nationality": "Argentina",
 		"Age": 35,
 		"Salary": 26923,
-		"Contract": 0,
+		"Contract": null,
 		"Id": 121
 	},
 	{
 		"Name": "Andrea Pinamonti",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Forward",
 		"Nationality": "Italy",
 		"Age": 18,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 5,
 		"Id": 122
 	},
 	{
 		"Name": "Rigoberto Rivas Vindel",
-		"TeamId": 4,
+		"TeamID": 2,
 		"Position": "Forward",
 		"Nationality": "Honduras",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 123
 	},
 
@@ -1269,7 +1269,7 @@
 		"Position": "Defender",
 		"Nationality": "England",
 		"Age": 20,
-		"Salary": 0,
+		"Salary": null,
 		"Contract": 4,
 		"Id": 127
 	},
@@ -1279,8 +1279,8 @@
 		"Position": "Defender",
 		"Nationality": "Netherlands",
 		"Age": 22,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 128
 	},
 	{
@@ -1289,8 +1289,8 @@
 		"Position": "Defender",
 		"Nationality": "Spain",
 		"Age": 27,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 129
 	},
 	{
@@ -1329,8 +1329,8 @@
 		"Position": "Defender",
 		"Nationality": "Brazil",
 		"Age": 22,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 133
 	},
 	{
@@ -1389,8 +1389,8 @@
 		"Position": "Midfielder",
 		"Nationality": "England",
 		"Age": 21,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 139
 	},
 	{
@@ -1459,8 +1459,8 @@
 		"Position": "Forward",
 		"Nationality": "England",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 146
 	},
 	{
@@ -1510,8 +1510,8 @@
 		"Position": "Goalkeeper",
 		"Nationality": "Germany",
 		"Age": 21,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 151
 	},
 	{
@@ -1540,8 +1540,8 @@
 		"Position": "Defender",
 		"Nationality": "Germany",
 		"Age": 30,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 154
 	},
 	{
@@ -1550,8 +1550,8 @@
 		"Position": "Defender",
 		"Nationality": "Austria",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 155
 	},
 	{
@@ -1560,8 +1560,8 @@
 		"Position": "Defender",
 		"Nationality": "Germany",
 		"Age": 18,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 156
 	},
 	{
@@ -1570,8 +1570,8 @@
 		"Position": "Defender",
 		"Nationality": "Germany",
 		"Age": 28,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 157
 	},
 	{
@@ -1620,8 +1620,8 @@
 		"Position": "Midfielder",
 		"Nationality": "Germany",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 162
 	},
 	{
@@ -1630,8 +1630,8 @@
 		"Position": "Midfielder",
 		"Nationality": "Germany",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 163
 	},
 	{
@@ -1660,8 +1660,8 @@
 		"Position": "Midfielder",
 		"Nationality": "Germany",
 		"Age": 21,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 166
 	},
 	{
@@ -1670,8 +1670,8 @@
 		"Position": "Midfielder",
 		"Nationality": "Germany",
 		"Age": 21,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 167
 	},
 	{
@@ -1680,8 +1680,8 @@
 		"Position": "Midfielder",
 		"Nationality": "Portugal",
 		"Age": 19,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 168
 	},
 	{
@@ -1730,8 +1730,8 @@
 		"Position": "Forward",
 		"Nationality": "France",
 		"Age": 21,
-		"Salary": 0,
-		"Contract": 0,
+		"Salary": null,
+		"Contract": null,
 		"Id": 173
 	},
 	{

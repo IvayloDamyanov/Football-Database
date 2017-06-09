@@ -33,10 +33,10 @@
         public string Nationality { get; set; }
 
         [Range(MinSalary, Double.MaxValue)]
-        public decimal Salary { get; set; }
+        public decimal? Salary { get; set; }
 
         [Range(MinYears, Double.MaxValue)]
-        public int Contract { get; set; }
+        public int? Contract { get; set; }
 
         //[MinLength(MinNameLength)]
         //[MaxLength(MaxNameLength)]
