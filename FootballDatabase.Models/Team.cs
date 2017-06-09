@@ -9,6 +9,7 @@
         public Team()
         {
             this.Players = new HashSet<Player>();
+            this.IsDeleted = false;
         }
 
         private const int MinNameLength = 2;
@@ -23,8 +24,17 @@
 
         public int TownId { get; set; }
 
+        public bool IsDeleted { get; set; }
+
         public virtual Town Town { get; set; }
 
         public virtual ICollection<Player> Players { get; set; }
+
+        public override string ToString()
+        {
+            //return this.Team.Name; check how to extract team's town name, players, etc.
+
+            return string.Format($@"Id: {this.Id}, Name: {this.Name}");
+        }
     }
 }

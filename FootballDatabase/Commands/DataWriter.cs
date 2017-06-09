@@ -6,7 +6,6 @@
     public class DataWriter
     {
         private FootballDbContext dbContext;
-        //private object[] players = JSONReader.ReadPlayers("../../../FootballDatabase/Data/players.json");
         private Country[] countries = JSONReader.ReadCountries("../../../FootballDatabase/Data/countries.json");
         private Town[] towns = JSONReader.ReadTowns("../../../FootballDatabase/Data/towns.json");
         private Team[] teams = JSONReader.ReadTeams("../../../FootballDatabase/Data/teams.json");

@@ -14,6 +14,11 @@ namespace FootballDatabase.Models
         private const double MinSalary = 0.0;
         private const int MinYears = 0;
 
+        public Trainer()
+        {
+            this.IsDeleted = false;
+        }
+
         public int Id { get; set; }
 
         //[Required]
@@ -36,8 +41,17 @@ namespace FootballDatabase.Models
 
         public int TeamId { get; set; }
 
+        public bool IsDeleted { get; set; }
+
         //[MinLength(MinNameLength)]
         //[MaxLength(MaxNameLength)]
         public virtual Team Team { get; set; }
+
+        public override string ToString()
+        {
+            //return this.Team.Name; check how to extract trainer's team name
+
+            return string.Format($@"Id: {this.Id}, Name: {this.Name}, Age: {this.Age}, Nationality: {this.Nationality}, Salary: {this.Salary}, Contract(in years): {this.Contract}");
+        }
     }
 }
