@@ -15,9 +15,6 @@ namespace FootballDatabase.UI
         /// </summary>
         static void Main()
         {
-            IEngine engine = new Engine();
-            engine.Start();
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainWindow());

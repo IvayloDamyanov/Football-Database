@@ -9,8 +9,8 @@
 
     public class Engine : IEngine
     {
-        private static FootballDbContext context;
-        private static DataWriter dataWriter;
+        private FootballDbContext context;
+        private DataWriter dataWriter;
         //private static QueryBuilder queryBuilder;
 
         public Engine()

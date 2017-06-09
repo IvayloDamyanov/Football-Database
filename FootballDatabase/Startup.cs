@@ -3,7 +3,7 @@
     using FootballDatabase.Contracts;
     using FootballDatabase.Core;
 
-    public class NotStartup
+    public class Startup
     {
         // Use only to populate the database
         public static void Main()

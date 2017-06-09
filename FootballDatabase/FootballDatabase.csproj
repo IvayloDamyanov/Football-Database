@@ -65,7 +65,7 @@
     <Compile Include="Commands\QueryBuilder.cs" />
     <Compile Include="Contracts\IEngine.cs" />
     <Compile Include="Core\Engine.cs" />
-    <Compile Include="NotStartup.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
