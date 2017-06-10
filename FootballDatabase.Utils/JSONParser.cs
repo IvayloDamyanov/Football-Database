@@ -4,7 +4,7 @@
     using System.Web.Script.Serialization;
     using FootballDatabase.Models;
 
-    public static class JSONReader
+    public static class JSONParser
     {
         private static JavaScriptSerializer serializer = new JavaScriptSerializer();
 
