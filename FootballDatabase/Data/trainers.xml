@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trainers>
-    <trainer>
+<Trainers>
+    <Trainer>
         <id>1</id>
-        <name>Vincenzo Montella</name>
-        <team>Milan</team>
-        <nationality>Italy</nationalityr>
-        <age>42</age>
-        <salary>null</salary>
-        <contract>3</contract>
-    </trainer>
-    <trainer>
+        <Name>Vincenzo Montella</Name>
+        <TeamId>1</TeamId>
+        <Nationality>Italy</Nationality>
+        <Age>42</Age>
+        <Salary>0</Salary>
+        <Contract>3</Contract>
+    </Trainer>
+    <Trainer>
         <id>2</id>    
-        <name>Vincenzo Montella</name>
-        <team>Milan</team>
-        <nationality>Italy</nationalityr>
-        <age>42</age>
-        <salary>null</salary>
-        <contract>3</contract>
-    </trainer>
-     <trainer>
+        <Name>Vincenzo Montella</Name>
+        <TeamId>1</TeamId>
+        <Nationality>Italy</Nationality>
+        <Age>42</Age>
+        <Salary>0</Salary>
+        <Contract>3</Contract>
+    </Trainer>
+     <Trainer>
         <id>3</id>     
-        <name>Vincenzo Montella</name>
-        <team>Milan</team>
-        <nationality>Italy</nationalityr>
-        <age>42</age>
-        <salary>null</salary>
-        <contract>3</contract>
-    </trainer>
-    <trainer>
+        <Name>Vincenzo Montella</Name>
+        <TeamId>1</TeamId>
+        <Nationality>Italy</Nationality>
+        <Age>42</Age>
+        <Salary>0</Salary>
+        <Contract>3</Contract>
+    </Trainer>
+    <Trainer>
         <id>4</id>
-        <name>Vincenzo Montella</name>
-        <team>Milan</team>
-        <nationality>Italy</nationalityr>
-        <age>42</age>
-        <salary>null</salary>
-        <contract>3</contract>
-    </trainer>
-    <trainer>
+        <Name>Vincenzo Montella</Name>
+        <TeamId>1</TeamId>
+        <Nationality>Italy</Nationality>
+        <Age>42</Age>
+        <Salary>0</Salary>
+        <Contract>3</Contract>
+    </Trainer>
+    <Trainer>
         <id>5</id>    
-        <name>Vincenzo Montella</name>
-        <team>Milan</team>
-        <nationality>Italy</nationalityr>
-        <age>42</age>
-        <salary>null</salary>
-        <contract>3</contract>
-    </trainer>
-    <trainer>
+        <Name>Vincenzo Montella</Name>
+        <TeamId>1</TeamId>
+        <Nationality>Italy</Nationality>
+        <Age>42</Age>
+        <Salary>0</Salary>
+        <Contract>3</Contract>
+    </Trainer>
+    <Trainer>
         <id>6</id>    
-        <name>Vincenzo Montella</name>
-        <team>Milan</team>
-        <nationality>Italy</nationalityr>
-        <age>42</age>
-        <salary>null</salary>
-        <contract>3</contract>
-    </trainer>
-</trainers>
+        <Name>Vincenzo Montella</Name>
+        <TeamId>1</TeamId>
+        <Nationality>Italy</Nationality>
+        <Age>42</Age>
+        <Salary>0</Salary>
+        <Contract>3</Contract>
+    </Trainer>
+</Trainers>
