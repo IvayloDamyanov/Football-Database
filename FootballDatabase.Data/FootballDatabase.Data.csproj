@@ -57,14 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FootballDbContext.cs" />
-    <Compile Include="Migrations\201706091830262_initial.cs" />
-    <Compile Include="Migrations\201706091830262_initial.Designer.cs">
-      <DependentUpon>201706091830262_initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706091839273_nullable properties.cs" />
-    <Compile Include="Migrations\201706091839273_nullable properties.Designer.cs">
-      <DependentUpon>201706091839273_nullable properties.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -79,14 +71,6 @@
       <Project>{a4b22fc3-b6f8-4445-a09b-62aa8d6ced8d}</Project>
       <Name>FootballDatabase.Models</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706091830262_initial.resx">
-      <DependentUpon>201706091830262_initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706091839273_nullable properties.resx">
-      <DependentUpon>201706091839273_nullable properties.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

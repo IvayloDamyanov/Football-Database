@@ -55,6 +55,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FootballDbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FootballDbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FootballDbDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FootballDbDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FootballDbDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FootballDbDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FootballDbDataSet31.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FootballDbDataSet31.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FootballDbDataSet41.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FootballDbDataSet41.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FootballDbDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FootballDbDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FootballDbDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FootballDbDataSet6.xsd</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +110,83 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="FootballDbDataSet.xsc">
+      <DependentUpon>FootballDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FootballDbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FootballDbDataSet.xss">
+      <DependentUpon>FootballDbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet11.xsc">
+      <DependentUpon>FootballDbDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FootballDbDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FootballDbDataSet11.xss">
+      <DependentUpon>FootballDbDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet21.xsc">
+      <DependentUpon>FootballDbDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FootballDbDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FootballDbDataSet21.xss">
+      <DependentUpon>FootballDbDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet31.xsc">
+      <DependentUpon>FootballDbDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet31.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FootballDbDataSet31.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FootballDbDataSet31.xss">
+      <DependentUpon>FootballDbDataSet31.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet41.xsc">
+      <DependentUpon>FootballDbDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet41.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FootballDbDataSet41.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FootballDbDataSet41.xss">
+      <DependentUpon>FootballDbDataSet41.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet5.xsc">
+      <DependentUpon>FootballDbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FootballDbDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FootballDbDataSet5.xss">
+      <DependentUpon>FootballDbDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet6.xsc">
+      <DependentUpon>FootballDbDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="FootballDbDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FootballDbDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FootballDbDataSet6.xss">
+      <DependentUpon>FootballDbDataSet6.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

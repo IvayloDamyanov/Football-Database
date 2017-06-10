@@ -1,0 +1,11 @@
+0. Delete Old Database in Sql server
+1. Check connectionstrings in FootballDatabase>App.config and FootballDatabase.UI>App.config
+2. Build solution
+3. In console select as default FootballDatabase.Data
+4. Enable-Migrations
+5. Add-Migration
+6. Update-Database
+7. Set FootballDatabase project as Startup Project
+8. Ctrl+F5 (to populate the database)
+9. Set FootballDatabase.UI project as Startup Project
+10. Ctrl+F5 (table works with valid data)

@@ -28,27 +28,41 @@ namespace FootballDatabase.Commands
 
         public string AddQuery (string tableName, int id)
         {
-            string output = "";
+            string output = "empty query";
 
             switch (tableName)
             {
                 case "Countries":
-                    output = this.CountryQuery(id).ToString();
+                    if (!this.CountryQuery(id).IsDeleted)
+                    {
+                        output = this.CountryQuery(id).ToString();
+                    }
                     break;
                 case "Towns":
-                    output = this.TownQuery(id).ToString();
+                    if (!this.TownQuery(id).IsDeleted)
+                    {
+                        output = this.TownQuery(id).ToString();
+                    }
                     break;
                 case "Players":
-                    output = this.PlayerQuery(id).ToString();
+                    if (!this.PlayerQuery(id).IsDeleted)
+                    {
+                        output = this.PlayerQuery(id).ToString();
+                    }
                     break;
                 case "Teams":
-                    output = this.TeamQuery(id).ToString();
+                    if (!this.TeamQuery(id).IsDeleted)
+                    {
+                        output = this.TeamQuery(id).ToString();
+                    }
                     break;
                 case "Trainers":
-                    output = this.TrainerQuery(id).ToString();
+                    if (!this.TrainerQuery(id).IsDeleted)
+                    {
+                        output = this.TrainerQuery(id).ToString();
+                    }
                     break;
                 default:
-                    output = "empty query";
                     break;
             }
 
@@ -77,6 +91,7 @@ namespace FootballDatabase.Commands
                 default:
                     break;
             }
+            Context.SaveChanges();
         }
 
         public Country CountryQuery(int id)
