@@ -56,13 +56,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\IReader.cs" />
-    <Compile Include="Contracts\IWriter.cs" />
     <Compile Include="JSONReader.cs" />
     <Compile Include="PDFExporter.cs" />
-    <Compile Include="Reader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Writer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

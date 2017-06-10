@@ -60,9 +60,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\CommandParser.cs" />
     <Compile Include="Commands\DataWriter.cs" />
-    <Compile Include="Commands\QueryBuilder.cs" />
     <Compile Include="Contracts\IEngine.cs" />
     <Compile Include="Core\Engine.cs" />
     <Compile Include="Startup.cs" />
