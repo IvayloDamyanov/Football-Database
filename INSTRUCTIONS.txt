@@ -6,6 +6,6 @@
 5. Add-Migration
 6. Update-Database
 7. Set FootballDatabase project as Startup Project
-8. Ctrl+F5 (to populate the database)
+8. Ctrl+F5 (to populate the database). If you run it again it will make duplicate rows in the database.
 9. Set FootballDatabase.UI project as Startup Project
 10. Ctrl+F5 (table works with valid data)
