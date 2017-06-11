@@ -57,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FootballDbPostgreContext.cs" />
-    <Compile Include="Migrations\201706110556375_Postgre Initial.cs" />
-    <Compile Include="Migrations\201706110556375_Postgre Initial.Designer.cs">
-      <DependentUpon>201706110556375_Postgre Initial.cs</DependentUpon>
+    <Compile Include="Migrations\201706111610230_Initial.cs" />
+    <Compile Include="Migrations\201706111610230_Initial.Designer.cs">
+      <DependentUpon>201706111610230_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,8 +75,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706110556375_Postgre Initial.resx">
-      <DependentUpon>201706110556375_Postgre Initial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706111610230_Initial.resx">
+      <DependentUpon>201706111610230_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
