@@ -54,6 +54,12 @@
             this.townsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.footballDbDataSet1 = new FootballDatabase.UI.FootballDbDataSet1();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.PlayerPositionTextBox = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.PlayerTeamIdTextBox = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.PlayerContractTextBox = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.PlayerSalaryTextBox = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.PlayerNationalityTextBox = new System.Windows.Forms.TextBox();
@@ -76,6 +82,11 @@
             this.playersBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.footballDbDataSet2 = new FootballDatabase.UI.FootballDbDataSet2();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.TeamTownIdTextBox = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.TeamNameTextBox = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.idDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -84,6 +95,19 @@
             this.teamsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.footballDbDataSet3 = new FootballDatabase.UI.FootballDbDataSet3();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.TrainerTeamIdTextBox = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.TrainerContractTextBox = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.TrainerSalaryTextBox = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.TrainerNationalityTextBox = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.TrainerAgeTextBox = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.TrainerNameTextBox = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
             this.dataGridView5 = new System.Windows.Forms.DataGridView();
             this.idDataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -103,30 +127,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.PlayerContractTextBox = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.PlayerTeamIdTextBox = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.PlayerPositionTextBox = new System.Windows.Forms.TextBox();
-            this.TeamTownIdTextBox = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.TeamNameTextBox = new System.Windows.Forms.TextBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.TrainerTeamIdTextBox = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.TrainerContractTextBox = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.TrainerSalaryTextBox = new System.Windows.Forms.TextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.TrainerNationalityTextBox = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
-            this.TrainerAgeTextBox = new System.Windows.Forms.TextBox();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.TrainerNameTextBox = new System.Windows.Forms.TextBox();
-            this.label24 = new System.Windows.Forms.Label();
+            this.playerIdPDFExport = new System.Windows.Forms.NumericUpDown();
+            this.label25 = new System.Windows.Forms.Label();
+            this.exportPDFButton = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -148,6 +151,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trainersBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerIdPDFExport)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -355,6 +359,9 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.exportPDFButton);
+            this.tabPage3.Controls.Add(this.label25);
+            this.tabPage3.Controls.Add(this.playerIdPDFExport);
             this.tabPage3.Controls.Add(this.PlayerPositionTextBox);
             this.tabPage3.Controls.Add(this.label14);
             this.tabPage3.Controls.Add(this.PlayerTeamIdTextBox);
@@ -377,6 +384,54 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Players";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // PlayerPositionTextBox
+            // 
+            this.PlayerPositionTextBox.Location = new System.Drawing.Point(654, 398);
+            this.PlayerPositionTextBox.Name = "PlayerPositionTextBox";
+            this.PlayerPositionTextBox.Size = new System.Drawing.Size(100, 20);
+            this.PlayerPositionTextBox.TabIndex = 26;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(651, 382);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(117, 13);
+            this.label14.TabIndex = 25;
+            this.label14.Text = "*Valid Position Number:";
+            // 
+            // PlayerTeamIdTextBox
+            // 
+            this.PlayerTeamIdTextBox.Location = new System.Drawing.Point(545, 398);
+            this.PlayerTeamIdTextBox.Name = "PlayerTeamIdTextBox";
+            this.PlayerTeamIdTextBox.Size = new System.Drawing.Size(100, 20);
+            this.PlayerTeamIdTextBox.TabIndex = 24;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(542, 382);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(79, 13);
+            this.label13.TabIndex = 23;
+            this.label13.Text = "*Valid Team Id:";
+            // 
+            // PlayerContractTextBox
+            // 
+            this.PlayerContractTextBox.Location = new System.Drawing.Point(436, 398);
+            this.PlayerContractTextBox.Name = "PlayerContractTextBox";
+            this.PlayerContractTextBox.Size = new System.Drawing.Size(100, 20);
+            this.PlayerContractTextBox.TabIndex = 22;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(433, 382);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(50, 13);
+            this.label12.TabIndex = 21;
+            this.label12.Text = "Contract:";
             // 
             // PlayerSalaryTextBox
             // 
@@ -551,6 +606,47 @@
             this.tabPage4.Text = "Teams";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
+            // TeamTownIdTextBox
+            // 
+            this.TeamTownIdTextBox.Location = new System.Drawing.Point(123, 400);
+            this.TeamTownIdTextBox.Name = "TeamTownIdTextBox";
+            this.TeamTownIdTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TeamTownIdTextBox.TabIndex = 16;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(120, 384);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(92, 13);
+            this.label15.TabIndex = 15;
+            this.label15.Text = "*Existing Town Id:";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(3, 384);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(42, 13);
+            this.label16.TabIndex = 14;
+            this.label16.Text = "*Name:";
+            // 
+            // TeamNameTextBox
+            // 
+            this.TeamNameTextBox.Location = new System.Drawing.Point(6, 400);
+            this.TeamNameTextBox.Name = "TeamNameTextBox";
+            this.TeamNameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TeamNameTextBox.TabIndex = 13;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(3, 362);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(136, 13);
+            this.label17.TabIndex = 12;
+            this.label17.Text = "To Add a new row use this:";
+            // 
             // dataGridView4
             // 
             this.dataGridView4.AutoGenerateColumns = false;
@@ -623,6 +719,111 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Trainers";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // TrainerTeamIdTextBox
+            // 
+            this.TrainerTeamIdTextBox.Location = new System.Drawing.Point(545, 399);
+            this.TrainerTeamIdTextBox.Name = "TrainerTeamIdTextBox";
+            this.TrainerTeamIdTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TrainerTeamIdTextBox.TabIndex = 37;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(542, 383);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(79, 13);
+            this.label18.TabIndex = 36;
+            this.label18.Text = "*Valid Team Id:";
+            // 
+            // TrainerContractTextBox
+            // 
+            this.TrainerContractTextBox.Location = new System.Drawing.Point(436, 399);
+            this.TrainerContractTextBox.Name = "TrainerContractTextBox";
+            this.TrainerContractTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TrainerContractTextBox.TabIndex = 35;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(433, 383);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(50, 13);
+            this.label19.TabIndex = 34;
+            this.label19.Text = "Contract:";
+            // 
+            // TrainerSalaryTextBox
+            // 
+            this.TrainerSalaryTextBox.Location = new System.Drawing.Point(327, 399);
+            this.TrainerSalaryTextBox.Name = "TrainerSalaryTextBox";
+            this.TrainerSalaryTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TrainerSalaryTextBox.TabIndex = 33;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(324, 383);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(39, 13);
+            this.label20.TabIndex = 32;
+            this.label20.Text = "Salary:";
+            // 
+            // TrainerNationalityTextBox
+            // 
+            this.TrainerNationalityTextBox.Location = new System.Drawing.Point(220, 399);
+            this.TrainerNationalityTextBox.Name = "TrainerNationalityTextBox";
+            this.TrainerNationalityTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TrainerNationalityTextBox.TabIndex = 31;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(217, 383);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(59, 13);
+            this.label21.TabIndex = 30;
+            this.label21.Text = "Nationality:";
+            // 
+            // TrainerAgeTextBox
+            // 
+            this.TrainerAgeTextBox.Location = new System.Drawing.Point(113, 399);
+            this.TrainerAgeTextBox.Name = "TrainerAgeTextBox";
+            this.TrainerAgeTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TrainerAgeTextBox.TabIndex = 29;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(110, 383);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(33, 13);
+            this.label22.TabIndex = 28;
+            this.label22.Text = "*Age:";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(3, 383);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(42, 13);
+            this.label23.TabIndex = 27;
+            this.label23.Text = "*Name:";
+            // 
+            // TrainerNameTextBox
+            // 
+            this.TrainerNameTextBox.Location = new System.Drawing.Point(6, 399);
+            this.TrainerNameTextBox.Name = "TrainerNameTextBox";
+            this.TrainerNameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TrainerNameTextBox.TabIndex = 26;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(3, 361);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(136, 13);
+            this.label24.TabIndex = 25;
+            this.label24.Text = "To Add a new row use this:";
             // 
             // dataGridView5
             // 
@@ -751,199 +952,36 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "To Update use the following table:";
             // 
-            // PlayerContractTextBox
+            // playerIdPDFExport
             // 
-            this.PlayerContractTextBox.Location = new System.Drawing.Point(436, 398);
-            this.PlayerContractTextBox.Name = "PlayerContractTextBox";
-            this.PlayerContractTextBox.Size = new System.Drawing.Size(100, 20);
-            this.PlayerContractTextBox.TabIndex = 22;
+            this.playerIdPDFExport.Location = new System.Drawing.Point(955, 360);
+            this.playerIdPDFExport.Maximum = new decimal(new int[] {
+            300,
+            0,
+            0,
+            0});
+            this.playerIdPDFExport.Name = "playerIdPDFExport";
+            this.playerIdPDFExport.Size = new System.Drawing.Size(120, 20);
+            this.playerIdPDFExport.TabIndex = 27;
             // 
-            // label12
+            // label25
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(433, 382);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(50, 13);
-            this.label12.TabIndex = 21;
-            this.label12.Text = "Contract:";
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(952, 344);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(137, 13);
+            this.label25.TabIndex = 28;
+            this.label25.Text = "Select Player\'s Id To Export";
             // 
-            // PlayerTeamIdTextBox
+            // exportPDFButton
             // 
-            this.PlayerTeamIdTextBox.Location = new System.Drawing.Point(545, 398);
-            this.PlayerTeamIdTextBox.Name = "PlayerTeamIdTextBox";
-            this.PlayerTeamIdTextBox.Size = new System.Drawing.Size(100, 20);
-            this.PlayerTeamIdTextBox.TabIndex = 24;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(542, 382);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(79, 13);
-            this.label13.TabIndex = 23;
-            this.label13.Text = "*Valid Team Id:";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(651, 382);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(117, 13);
-            this.label14.TabIndex = 25;
-            this.label14.Text = "*Valid Position Number:";
-            // 
-            // PlayerPositionTextBox
-            // 
-            this.PlayerPositionTextBox.Location = new System.Drawing.Point(654, 398);
-            this.PlayerPositionTextBox.Name = "PlayerPositionTextBox";
-            this.PlayerPositionTextBox.Size = new System.Drawing.Size(100, 20);
-            this.PlayerPositionTextBox.TabIndex = 26;
-            // 
-            // TeamTownIdTextBox
-            // 
-            this.TeamTownIdTextBox.Location = new System.Drawing.Point(123, 400);
-            this.TeamTownIdTextBox.Name = "TeamTownIdTextBox";
-            this.TeamTownIdTextBox.Size = new System.Drawing.Size(100, 20);
-            this.TeamTownIdTextBox.TabIndex = 16;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(120, 384);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(92, 13);
-            this.label15.TabIndex = 15;
-            this.label15.Text = "*Existing Town Id:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(3, 384);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(42, 13);
-            this.label16.TabIndex = 14;
-            this.label16.Text = "*Name:";
-            // 
-            // TeamNameTextBox
-            // 
-            this.TeamNameTextBox.Location = new System.Drawing.Point(6, 400);
-            this.TeamNameTextBox.Name = "TeamNameTextBox";
-            this.TeamNameTextBox.Size = new System.Drawing.Size(100, 20);
-            this.TeamNameTextBox.TabIndex = 13;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(3, 362);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(136, 13);
-            this.label17.TabIndex = 12;
-            this.label17.Text = "To Add a new row use this:";
-            // 
-            // TrainerTeamIdTextBox
-            // 
-            this.TrainerTeamIdTextBox.Location = new System.Drawing.Point(545, 399);
-            this.TrainerTeamIdTextBox.Name = "TrainerTeamIdTextBox";
-            this.TrainerTeamIdTextBox.Size = new System.Drawing.Size(100, 20);
-            this.TrainerTeamIdTextBox.TabIndex = 37;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(542, 383);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(79, 13);
-            this.label18.TabIndex = 36;
-            this.label18.Text = "*Valid Team Id:";
-            // 
-            // TrainerContractTextBox
-            // 
-            this.TrainerContractTextBox.Location = new System.Drawing.Point(436, 399);
-            this.TrainerContractTextBox.Name = "TrainerContractTextBox";
-            this.TrainerContractTextBox.Size = new System.Drawing.Size(100, 20);
-            this.TrainerContractTextBox.TabIndex = 35;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(433, 383);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(50, 13);
-            this.label19.TabIndex = 34;
-            this.label19.Text = "Contract:";
-            // 
-            // TrainerSalaryTextBox
-            // 
-            this.TrainerSalaryTextBox.Location = new System.Drawing.Point(327, 399);
-            this.TrainerSalaryTextBox.Name = "TrainerSalaryTextBox";
-            this.TrainerSalaryTextBox.Size = new System.Drawing.Size(100, 20);
-            this.TrainerSalaryTextBox.TabIndex = 33;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(324, 383);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(39, 13);
-            this.label20.TabIndex = 32;
-            this.label20.Text = "Salary:";
-            // 
-            // TrainerNationalityTextBox
-            // 
-            this.TrainerNationalityTextBox.Location = new System.Drawing.Point(220, 399);
-            this.TrainerNationalityTextBox.Name = "TrainerNationalityTextBox";
-            this.TrainerNationalityTextBox.Size = new System.Drawing.Size(100, 20);
-            this.TrainerNationalityTextBox.TabIndex = 31;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(217, 383);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(59, 13);
-            this.label21.TabIndex = 30;
-            this.label21.Text = "Nationality:";
-            // 
-            // TrainerAgeTextBox
-            // 
-            this.TrainerAgeTextBox.Location = new System.Drawing.Point(113, 399);
-            this.TrainerAgeTextBox.Name = "TrainerAgeTextBox";
-            this.TrainerAgeTextBox.Size = new System.Drawing.Size(100, 20);
-            this.TrainerAgeTextBox.TabIndex = 29;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(110, 383);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(33, 13);
-            this.label22.TabIndex = 28;
-            this.label22.Text = "*Age:";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(3, 383);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(42, 13);
-            this.label23.TabIndex = 27;
-            this.label23.Text = "*Name:";
-            // 
-            // TrainerNameTextBox
-            // 
-            this.TrainerNameTextBox.Location = new System.Drawing.Point(6, 399);
-            this.TrainerNameTextBox.Name = "TrainerNameTextBox";
-            this.TrainerNameTextBox.Size = new System.Drawing.Size(100, 20);
-            this.TrainerNameTextBox.TabIndex = 26;
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(3, 361);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(136, 13);
-            this.label24.TabIndex = 25;
-            this.label24.Text = "To Add a new row use this:";
+            this.exportPDFButton.Location = new System.Drawing.Point(1000, 395);
+            this.exportPDFButton.Name = "exportPDFButton";
+            this.exportPDFButton.Size = new System.Drawing.Size(75, 23);
+            this.exportPDFButton.TabIndex = 4;
+            this.exportPDFButton.Text = "Export PDF";
+            this.exportPDFButton.UseVisualStyleBackColor = true;
+            this.exportPDFButton.Click += new System.EventHandler(this.exportPDFButton_Click);
             // 
             // MainWindow
             // 
@@ -983,6 +1021,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trainersBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.playerIdPDFExport)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1088,5 +1127,8 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TextBox TrainerNameTextBox;
         private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Button exportPDFButton;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.NumericUpDown playerIdPDFExport;
     }
 }

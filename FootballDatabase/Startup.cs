@@ -11,8 +11,6 @@
         {
             IEngine engine = new Engine();
             engine.Start();
-            //PdfReporters report = new PdfReporters();
-            //report.CreatePdfTable();
         }
     }
 }
