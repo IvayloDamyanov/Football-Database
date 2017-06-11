@@ -1,4 +1,5 @@
 ﻿using FootballDatabase.Data;
+using FootballDatabase.Utils.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -138,6 +139,12 @@ namespace FootballDatabase.UI
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void exportPDFButton_Click(object sender, EventArgs e)
+        {
+            int id = (int)playerIdPDFExport.Value;
+            PdfReporter.ExportPlayerToPDF(id);
         }
     }
 }
