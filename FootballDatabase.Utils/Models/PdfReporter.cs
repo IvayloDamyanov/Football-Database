@@ -38,12 +38,12 @@
                 Team = selection[0].Team
             };
 
-            CreatePDF(player);
+            CreatePDF(player, playerId);
         }
 
-        private static void CreatePDF(Player player)
+        private static void CreatePDF(Player player, int playerId)
         {
-            string filePath = string.Format(ExportFilePaths, 1);
+            string filePath = string.Format(ExportFilePaths, playerId);
             Document document = new Document();
             PdfWriter writer = PdfWriter.GetInstance(document, new FileStream(filePath, FileMode.Create));
 
@@ -64,7 +64,7 @@
                 PdfPCell nationalityCell = new PdfPCell(new Phrase("Nationality: " + player.Nationality));
                 nationalityCell.BackgroundColor = BaseColor.LIGHT_GRAY;
 
-                PdfPCell salaryCell = new PdfPCell(new Phrase("Salary: " + player.Salary.ToString() + " money"));
+                PdfPCell salaryCell = new PdfPCell(new Phrase("Weekly Salary: " + player.Salary.ToString() + " pounds"));
                 salaryCell.BackgroundColor = BaseColor.GRAY;
 
                 PdfPCell contractCell = new PdfPCell(new Phrase("Contract: " + player.Contract.ToString() + " years"));
