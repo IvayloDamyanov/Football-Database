@@ -1,7 +1,6 @@
 ﻿namespace FootballDatabase.Models
 {
     using System;
-    using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
 
     public class Player
@@ -25,7 +24,7 @@
         [MaxLength(MaxNameLength)]
         public string Name { get; set; }
 
-        [Range(MinAge,MaxAge)]
+        [Range(MinAge, MaxAge)]
         public int Age { get; set; }
 
         [MinLength(MinNameLength)]
@@ -48,8 +47,6 @@
 
         public override string ToString()
         {
-            //return this.Team.Name; check how to extract player's team name
-
             return string.Format($@"Id: {this.Id}, Name: {this.Name}, Age: {this.Age}, Nationality: {this.Nationality}, Salary: {this.Salary}, Contract(in years): {this.Contract}, Position: {this.Position}");
         }
     }

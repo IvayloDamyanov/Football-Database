@@ -1,9 +1,4 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-
-namespace FootballDatabase.Models
+﻿namespace FootballDatabase.Models
 {
     public class Trainer
     {
@@ -21,37 +16,35 @@ namespace FootballDatabase.Models
 
         public int Id { get; set; }
 
-        //[Required]
-        //[MinLength(MinNameLength)]
-        //[MaxLength(MaxNameLength)]
+        // [Required]
+        // [MinLength(MinNameLength)]
+        // [MaxLength(MaxNameLength)]
         public string Name { get; set; }
 
-       // [Range(MinAge, MaxAge)]
+        // [Range(MinAge, MaxAge)]
         public int Age { get; set; }
 
-        //[MinLength(MinNameLength)]
-        //[MaxLength(MaxNameLength)]
+        // [MinLength(MinNameLength)]
+        // [MaxLength(MaxNameLength)]
         public string Nationality { get; set; }
 
-        //[Range(MinSalary, Double.MaxValue)]
+        // [Range(MinSalary, Double.MaxValue)]
         public decimal? Salary { get; set; }
 
-       // [Range(MinYears, Double.MaxValue)]
+        // [Range(MinYears, Double.MaxValue)]
         public int? Contract { get; set; }
 
         public int TeamId { get; set; }
 
         public bool IsDeleted { get; set; }
 
-        //[MinLength(MinNameLength)]
-        //[MaxLength(MaxNameLength)]
+        // [MinLength(MinNameLength)]
+        // [MaxLength(MaxNameLength)]
         public virtual Team Team { get; set; }
 
         public override string ToString()
         {
-            //return this.Team.Name; check how to extract trainer's team name
-
-            return string.Format($@"Id: {this.Id}, Name: {this.Name}, Age: {this.Age}, Nationality: {this.Nationality}, Salary: {this.Salary}, Contract(in years): {this.Contract}");
+             return string.Format($@"Id: {this.Id}, Name: {this.Name}, Age: {this.Age}, Nationality: {this.Nationality}, Salary: {this.Salary}, Contract(in years): {this.Contract}");
         }
     }
 }

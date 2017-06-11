@@ -1,8 +1,8 @@
-﻿using FootballDatabase.Models;
-using System.Xml;
-
-namespace FootballDatabase.Utils
+﻿namespace FootballDatabase.Utils
 {
+    using System.Xml;
+    using FootballDatabase.Models;
+
     public static class XMLParser
     {
         public static Trainer[] ReadTrainers(string path)

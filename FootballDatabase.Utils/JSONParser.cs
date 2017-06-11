@@ -8,24 +8,6 @@
     {
         private static JavaScriptSerializer serializer = new JavaScriptSerializer();
 
-        private static string ReadJSON(string filePath)
-        {
-            string fileContent;
-
-            using (StreamReader streamReader = new StreamReader(filePath))
-            {
-                fileContent = streamReader.ReadToEnd();
-            }
-
-            return fileContent;
-        }
-
-        //public static object[] ReadPlayers(string filePath)
-        //{
-        //    string fileContent = ReadJSON(filePath);
-        //    return serializer.Deserialize<object[]>(fileContent);
-        //}
-
         public static Player[] ReadPlayers(string filePath)
         {
             string fileContent = ReadJSON(filePath);
@@ -54,6 +36,18 @@
         {
             string fileContent = ReadJSON(filePath);
             return serializer.Deserialize<Trainer[]>(fileContent);
+        }
+
+        private static string ReadJSON(string filePath)
+        {
+            string fileContent;
+
+            using (StreamReader streamReader = new StreamReader(filePath))
+            {
+                fileContent = streamReader.ReadToEnd();
+            }
+
+            return fileContent;
         }
     }
 }
