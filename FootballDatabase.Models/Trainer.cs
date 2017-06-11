@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace FootballDatabase.Models
 {
-   public class Trainer
+    public class Trainer
     {
         private const int MinNameLength = 2;
         private const int MaxNameLength = 50;
@@ -26,7 +26,7 @@ namespace FootballDatabase.Models
         //[MaxLength(MaxNameLength)]
         public string Name { get; set; }
 
-        //[Range(MinAge, MaxAge)]
+       // [Range(MinAge, MaxAge)]
         public int Age { get; set; }
 
         //[MinLength(MinNameLength)]
@@ -36,7 +36,7 @@ namespace FootballDatabase.Models
         //[Range(MinSalary, Double.MaxValue)]
         public decimal? Salary { get; set; }
 
-        //[Range(MinYears, Double.MaxValue)]
+       // [Range(MinYears, Double.MaxValue)]
         public int? Contract { get; set; }
 
         public int TeamId { get; set; }

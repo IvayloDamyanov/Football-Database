@@ -15,7 +15,7 @@ namespace FootballDatabase.Utils.Models
         private const string Contract = "Years of contract";
         private const string PdfFont = "Segoe UI";
 
-        public void CreatePdfTable(string teamSelected)
+        public void CreatePdfTable()
         {
            
         //    using (FootballDbContext db = new FootballDbContext())

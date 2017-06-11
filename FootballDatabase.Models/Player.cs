@@ -38,8 +38,6 @@
         [Range(MinYears, Double.MaxValue)]
         public int? Contract { get; set; }
 
-        //[MinLength(MinNameLength)]
-        //[MaxLength(MaxNameLength)]
         public int TeamId { get; set; }
 
         public bool IsDeleted { get; set; }
