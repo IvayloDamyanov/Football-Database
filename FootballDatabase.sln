@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDatabase.UI", "Foot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDatabase.PostgreData", "FootballDatabase.PostgreData\FootballDatabase.PostgreData.csproj", "{59691D10-C0D1-4582-939B-227C8C96AF7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDatabaseSqlLiteData", "FootballDatabaseSqlLiteData\FootballDatabaseSqlLiteData.csproj", "{53EEFEF9-9C5F-46E6-AA97-7BA7D6700820}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{59691D10-C0D1-4582-939B-227C8C96AF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59691D10-C0D1-4582-939B-227C8C96AF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59691D10-C0D1-4582-939B-227C8C96AF7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EEFEF9-9C5F-46E6-AA97-7BA7D6700820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EEFEF9-9C5F-46E6-AA97-7BA7D6700820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EEFEF9-9C5F-46E6-AA97-7BA7D6700820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EEFEF9-9C5F-46E6-AA97-7BA7D6700820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
