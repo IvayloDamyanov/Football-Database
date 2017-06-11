@@ -9,10 +9,10 @@
         // Use only to populate the database
         public static void Main()
         {
-            //IEngine engine = new Engine();
-            //engine.Start();
-            PdfReporters report = new PdfReporters();
-            report.CreatePdfTable();
+            IEngine engine = new Engine();
+            engine.Start();
+            //PdfReporters report = new PdfReporters();
+            //report.CreatePdfTable();
         }
     }
 }
