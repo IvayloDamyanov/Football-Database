@@ -65,17 +65,6 @@ namespace FootballDatabase.Utils.Models
                 table.AddCell(cell);
                 decimal totalSalariesForWeek = 0;
 
-                //foreach (var salary in sales)
-                //{
-                //    if (sale.Date == date.Key)
-                //    {
-                //        table.AddCell(sale.DealerName);
-                //        table.AddCell(sale.Car);
-                //        table.AddCell(sale.SoldCars.ToString());
-                //        table.AddCell(sale.TotalIncomeForDay.ToString());
-                //        totalSumForTheDay += sale.TotalIncomeForDay;
-                //    }
-                //}
 
                 Font font = FontFactory.GetFont(PdfFont, 12.0f, Font.BOLD);
                 PdfPCell totalSumCell =
