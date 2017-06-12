@@ -20,6 +20,8 @@
 
         public DbSet<Trainer> Trainers { get; set; }
 
+        public DbSet<Owner> Owners { get; set; }
+
         private void OnTrainerModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Trainer>()
@@ -38,6 +40,15 @@
                 .Property(trainer => trainer.Nationality)
                 .IsRequired()
                 .HasMaxLength(50);
+
+            modelBuilder.Entity<Team>()
+                .HasKey(team => team.Id);
+
+            modelBuilder.Entity<Team>()
+                .HasMany<Owner>(team => team.Owners);
+
+            modelBuilder.Entity<Owner>()
+                .HasMany<Team>(owner => owner.Teams);
         }
     }
 }

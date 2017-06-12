@@ -11,6 +11,7 @@
         public Team()
         {
             this.Players = new HashSet<Player>();
+            this.Owners = new HashSet<Owner>();
             this.IsDeleted = false;
         }
 
@@ -28,6 +29,8 @@
         public virtual Town Town { get; set; }
 
         public virtual ICollection<Player> Players { get; set; }
+
+        public virtual ICollection<Owner> Owners { get; set; }
 
         public override string ToString()
         {

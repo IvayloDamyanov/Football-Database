@@ -91,6 +91,10 @@
     <Compile Include="SqlServerMigrations\201706120824512_Initial.Designer.cs">
       <DependentUpon>201706120824512_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="SqlServerMigrations\201706120955022_OwnerAdded.cs" />
+    <Compile Include="SqlServerMigrations\201706120955022_OwnerAdded.Designer.cs">
+      <DependentUpon>201706120955022_OwnerAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerMigrations\Configuration.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +116,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SqlServerMigrations\201706120824512_Initial.resx">
       <DependentUpon>201706120824512_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SqlServerMigrations\201706120955022_OwnerAdded.resx">
+      <DependentUpon>201706120955022_OwnerAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
