@@ -2,28 +2,34 @@
     {
         "Name": "Milan",
          "Id": 1,
-         "TownId": 1
+         "TownId": 1,
+		 "OwnerId": 1
     },
     {
         "Name": "Inter",
          "Id": 2,
-         "TownId": 1
+         "TownId": 1,
+		 "OwnerId": 1
     },{
         "Name": "Juventus",
          "Id": 3,
-         "TownId": 2
+         "TownId": 2,
+		 "OwnerId": 2
     },{
         "Name": "Real Madrid",
          "Id": 4,
-         "TownId": 3
+         "TownId": 3,
+		 "OwnerId": 3
     },{
         "Name": "Chelsea",
          "Id": 5,
-         "TownId": 5
+         "TownId": 5,
+		 "OwnerId": 5
     },
     {
         "Name": "Bayern",
          "Id": 6,
-         "TownId": 4
+         "TownId": 4,
+		 "OwnerId": 4
     }
 ]
