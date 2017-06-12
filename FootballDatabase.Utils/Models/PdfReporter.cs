@@ -1,12 +1,12 @@
-﻿using System.IO;
-using System.Linq;
-using iTextSharp.text;
-using iTextSharp.text.pdf;
-using FootballDatabase.Data;
-using FootballDatabase.Models;
-
-namespace FootballDatabase.Utils.Models
+﻿namespace FootballDatabase.Utils.Models
 {
+    using System.IO;
+    using System.Linq;
+    using iTextSharp.text;
+    using iTextSharp.text.pdf;
+    using FootballDatabase.Data;
+    using FootballDatabase.Models;
+
     public static class PdfReporter
     {
         private const string ExportFilePaths = "../../../PDFs/Team-report-{0}.pdf";

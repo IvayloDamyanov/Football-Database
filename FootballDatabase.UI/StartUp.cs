@@ -1,13 +1,13 @@
-﻿using FootballDatabase.Contracts;
-using FootballDatabase.Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace FootballDatabase.UI
+﻿namespace FootballDatabase.UI
 {
+    using FootballDatabase.Client.Contracts;
+    using FootballDatabase.Client.Core;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using System.Windows.Forms;
+
     static class StartUp
     {
         /// <summary>

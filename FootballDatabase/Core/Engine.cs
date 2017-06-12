@@ -1,8 +1,8 @@
-﻿namespace FootballDatabase.Core
+﻿namespace FootballDatabase.Client.Core
 {
     using System;
-    using FootballDatabase.Commands;
-    using FootballDatabase.Contracts;
+    using FootballDatabase.Client.Commands;
+    using FootballDatabase.Client.Contracts;
     using FootballDatabase.Data;
     using Models;
     using System.Linq;

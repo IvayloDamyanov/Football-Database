@@ -1,6 +1,7 @@
 ﻿namespace FootballDatabaseSqlLiteData
 {
     using FootballDatabase.Models;
+    using FootballDatabaseSqlLiteData.Migrations;
     using System;
     using System.Collections.Generic;
     using System.Data.Entity;
@@ -13,7 +14,7 @@
         public FootballDbSqlLiteContext()
             : base("SqliteDb")
         {
-            
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<FootballDbSqlLiteContext, Configuration>(true));
         }
 
         public DbSet<Team> Teams { get; set; }
