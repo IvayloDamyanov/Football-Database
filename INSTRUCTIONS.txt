@@ -18,3 +18,26 @@
 8. Ctrl+F5 (to populate the database). If you run it again it will make duplicate rows in the database.
 9. Set FootballDatabase.UI project as Startup Project
 10. Ctrl+F5 (table works with valid data)
+
+
+SQL SERVER Migrations Instructions
+
+0. Delete Migrations folder
+1. Delete SqlServerMigrations folder
+2. Enable-Migrations -ContextTypeName FootballDatabase.Data.Contexts.SqlServerFootballDbContext -MigrationsDirectory SqlServerMigrations
+3. add-migration Initial -ConfigurationTypeName Configuration
+4. update-database -ConfigurationTypeName Configuration
+
+Postgre Migrations Instructions
+1. Delete PostgreSqlMigrations folder
+2. Enable-Migrations -ContextTypeName FootballDatabase.Data.Contexts.PostgreSqlFootballDbContext -MigrationsDirectory PostgreSqlMigrations
+2.1 Rename Configuration.cs to PostgeSqlConfiguration.cs
+3. add-migration Initial -ConfigurationTypeName PostgeSqlConfiguration
+4. update-database -ConfigurationTypeName PostgeSqlConfiguration
+
+SqlLite Migrations Instructions
+1. Delete SqlLiteMigrations folder
+2. Enable-Migrations -ContextTypeName FootballDatabase.Data.Contexts.SqlLiteFootballDbContext -MigrationsDirectory SqlLiteMigrations
+2.1 Rename Configuration.cs to SqlLiteConfiguration.cs
+3. add-migration Initial -ConfigurationTypeName SqlLiteConfiguration
+4. update-database -ConfigurationTypeName SqlLiteConfiguration
