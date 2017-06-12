@@ -1,24 +1,24 @@
 ﻿namespace FootballDatabase.Client.Commands
 {
-    using FootballDatabase.Data;
+    using FootballDatabase.Data.Contexts;
     using FootballDatabase.Models;
     using FootballDatabase.Utils;
 
     public class DataWriter
     {
-        private FootballDbContext dbContext;
+        private SqlServerFootballDbContext dbContext;
         private Country[] countries = JSONParser.ReadCountries("../../../FootballDatabase/Data/countries.json");
         private Town[] towns = JSONParser.ReadTowns("../../../FootballDatabase/Data/towns.json");
         private Team[] teams = JSONParser.ReadTeams("../../../FootballDatabase/Data/teams.json");
         private Player[] players = JSONParser.ReadPlayers("../../../FootballDatabase/Data/players.json");
         private Trainer[] trainers = XMLParser.ReadTrainers("../../../FootballDatabase/Data/trainers.xml");
 
-        public DataWriter(FootballDbContext context)
+        public DataWriter(SqlServerFootballDbContext context)
         {
             this.DbContext = context;
         }
 
-        public FootballDbContext DbContext
+        public SqlServerFootballDbContext DbContext
         {
             get { return this.dbContext; }
             private set { this.dbContext = value; }
@@ -33,7 +33,7 @@
             this.AddTrainers(this.DbContext, this.trainers);
         }
 
-        public void AddCountries(FootballDbContext context, Country[] countries)
+        public void AddCountries(SqlServerFootballDbContext context, Country[] countries)
         {
             for (int i = 0; i < countries.Length; i++)
             {
@@ -43,7 +43,7 @@
             context.SaveChanges();
         }
 
-        public void AddTowns(FootballDbContext context, Town[] towns)
+        public void AddTowns(SqlServerFootballDbContext context, Town[] towns)
         {
             for (int i = 0; i < towns.Length; i++)
             {
@@ -53,7 +53,7 @@
             context.SaveChanges();
         }
 
-        public void AddTeams(FootballDbContext context, Team[] teams)
+        public void AddTeams(SqlServerFootballDbContext context, Team[] teams)
         {
             for (int i = 0; i < teams.Length; i++)
             {
@@ -63,7 +63,7 @@
             context.SaveChanges();
         }
 
-        public void AddPlayers(FootballDbContext context, Player[] players)
+        public void AddPlayers(SqlServerFootballDbContext context, Player[] players)
         {
             for (int i = 0; i < players.Length; i++)
             {
@@ -73,7 +73,7 @@
             context.SaveChanges();
         }
 
-        public void AddTrainers(FootballDbContext context, Trainer[] trainers)
+        public void AddTrainers(SqlServerFootballDbContext context, Trainer[] trainers)
         {
             for (int i = 0; i < trainers.Length; i++)
             {

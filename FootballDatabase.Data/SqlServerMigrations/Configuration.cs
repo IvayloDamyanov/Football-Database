@@ -1,18 +1,19 @@
-namespace FootballDatabaseSqlLiteData.Migrations
+namespace FootballDatabase.Data.SqlServerMigrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<FootballDatabaseSqlLiteData.FootballDbSqlLiteContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<FootballDatabase.Data.Contexts.SqlServerFootballDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
+            MigrationsDirectory = @"SqlServerMigrations";
         }
 
-        protected override void Seed(FootballDatabaseSqlLiteData.FootballDbSqlLiteContext context)
+        protected override void Seed(FootballDatabase.Data.Contexts.SqlServerFootballDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 

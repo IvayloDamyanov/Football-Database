@@ -84,15 +84,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FootballDatabase.Data\FootballDatabase.Data.csproj">
-      <Project>{95C2C446-EEEB-482D-80A1-59D2C25DDCAB}</Project>
+      <Project>{e60d9b16-63f0-46d6-84e9-d15846cb0974}</Project>
       <Name>FootballDatabase.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\FootballDatabase.Models\FootballDatabase.Models.csproj">
@@ -103,6 +99,10 @@
       <Project>{188034f8-aca4-499e-a5c9-5fe3ffa35d80}</Project>
       <Name>FootballDatabase.Utils</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.105.2\build\net451\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.105.2\build\net451\System.Data.SQLite.Core.targets')" />

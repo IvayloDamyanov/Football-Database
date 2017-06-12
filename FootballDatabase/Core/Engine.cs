@@ -3,16 +3,16 @@
     using System;
     using FootballDatabase.Client.Commands;
     using FootballDatabase.Client.Contracts;
-    using FootballDatabase.Data;
+    using FootballDatabase.Data.Contexts;
 
     public class Engine : IEngine
     {
-        private FootballDbContext context;
+        private SqlServerFootballDbContext context;
         private DataWriter dataWriter;
 
         public Engine()
         {
-            this.context = new FootballDbContext();
+            this.context = new SqlServerFootballDbContext();
             this.dataWriter = new DataWriter(this.context);
         }
 

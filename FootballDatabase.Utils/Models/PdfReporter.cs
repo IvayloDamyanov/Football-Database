@@ -2,7 +2,7 @@
 {
     using System.IO;
     using System.Linq;
-    using FootballDatabase.Data;
+    using FootballDatabase.Data.Contexts;
     using FootballDatabase.Models;
     using iTextSharp.text;
     using iTextSharp.text.pdf;
@@ -14,7 +14,7 @@
 
         public static void ExportPlayerToPDF(int playerId)
         {
-            FootballDbContext dbcontext = new FootballDbContext();
+            SqlServerFootballDbContext dbcontext = new SqlServerFootballDbContext();
 
             var selection = dbcontext.Players.Where(x => x.Id == playerId)
                 .Select(x => new

@@ -72,7 +72,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FootballDatabase.Data\FootballDatabase.Data.csproj">
-      <Project>{95c2c446-eeeb-482d-80a1-59d2c25ddcab}</Project>
+      <Project>{e60d9b16-63f0-46d6-84e9-d15846cb0974}</Project>
       <Name>FootballDatabase.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\FootballDatabase.Models\FootballDatabase.Models.csproj">

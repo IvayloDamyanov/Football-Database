@@ -2,12 +2,12 @@
 {
     using System;
     using System.Windows.Forms;
-    using FootballDatabase.Data;
+    using FootballDatabase.Data.Contexts;
     using FootballDatabase.Utils.Models;
 
     public partial class MainWindow : Form
     {
-        private FootballDbContext context = new FootballDbContext();
+        private SqlServerFootballDbContext context = new SqlServerFootballDbContext();
 
         public MainWindow()
         {

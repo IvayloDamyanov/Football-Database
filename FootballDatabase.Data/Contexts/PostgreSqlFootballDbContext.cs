@@ -1,12 +1,12 @@
-﻿namespace FootballDatabase.Data
+﻿namespace FootballDatabase.Data.Contexts
 {
-    using System.Data.Entity;
     using FootballDatabase.Models;
+    using System.Data.Entity;
 
-    public class FootballDbContext : DbContext
+    public class PostgreSqlFootballDbContext : DbContext
     {
-        public FootballDbContext()
-            : base("FootballConnection")
+        public PostgreSqlFootballDbContext() 
+            :base("PgsqlDb")
         {
         }
 
@@ -22,6 +22,8 @@
 
         private void OnTrainerModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.HasDefaultSchema("public");
+
             modelBuilder.Entity<Trainer>()
                 .HasKey(trainer => trainer.Id);
 
