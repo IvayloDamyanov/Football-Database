@@ -4,7 +4,7 @@
 3. In console select as default FootballDatabase.Data
 4. Enable-Migrations
 4.1 For single server migration use the following syntax:
-	Enable-Migrations -ContextTypeName FootballDatabase.Data.Contexts.SqlServerFootballDbContext
+	Enable-Migrations -ContextTypeName FootballDatabase.Data.Contexts.SqlServerFootballDbContext -Force
 
 5. Add-Migration
 5.1. For single server migration use the following syntax:
