@@ -80,6 +80,10 @@
     <Compile Include="PostgreSqlMigrations\201706120839118_Initial.Designer.cs">
       <DependentUpon>201706120839118_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="PostgreSqlMigrations\201706120959576_OwnerAdded.cs" />
+    <Compile Include="PostgreSqlMigrations\201706120959576_OwnerAdded.Designer.cs">
+      <DependentUpon>201706120959576_OwnerAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="PostgreSqlMigrations\PostgreSqlConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlLiteMigrations\201706120901125_Initial.cs" />
@@ -110,6 +114,9 @@
   <ItemGroup>
     <EmbeddedResource Include="PostgreSqlMigrations\201706120839118_Initial.resx">
       <DependentUpon>201706120839118_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PostgreSqlMigrations\201706120959576_OwnerAdded.resx">
+      <DependentUpon>201706120959576_OwnerAdded.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SqlLiteMigrations\201706120901125_Initial.resx">
       <DependentUpon>201706120901125_Initial.cs</DependentUpon>
