@@ -11,7 +11,7 @@
         private const int MaxNameLength = 50;
         private const int MinAge = 30;
         private const int MaxAge = 80;
-        private const double MinIncomes = 100000;
+        private const double MinIncomes = 0;
 
         public Owner()
         {

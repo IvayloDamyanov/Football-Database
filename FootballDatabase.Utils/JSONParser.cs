@@ -38,6 +38,12 @@
             return serializer.Deserialize<Trainer[]>(fileContent);
         }
 
+        public static Owner[] ReadOwners(string filePath)
+        {
+            string fileContent = ReadJSON(filePath);
+            return serializer.Deserialize<Owner[]>(fileContent);
+        }
+
         private static string ReadJSON(string filePath)
         {
             string fileContent;

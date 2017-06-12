@@ -5,6 +5,20 @@
 
     public static class XMLParser
     {
+        private static int ParseInt(string text)
+        {
+            int output = 0;
+            try
+            {
+                output = int.Parse(text);
+            }
+            catch
+            {
+
+            }
+            return output;
+        }
+
         public static Trainer[] ReadTrainers(string path)
         {
             XmlDocument xmldoc = new XmlDocument();
@@ -18,16 +32,15 @@
             for (int i = 0; i < nodeCount; i++)
             {
                 XmlNode trainerNode = trainerList[i];
-
                 trainers[i] = new Trainer()
                 {
-                    Id = int.Parse(trainerNode.ChildNodes[0].InnerText),
+                    Id = ParseInt(trainerNode.ChildNodes[0].InnerText),
                     Name = trainerNode.ChildNodes[1].InnerText,
-                    TeamId = int.Parse(trainerNode.ChildNodes[2].InnerText),
+                    TeamId = ParseInt(trainerNode.ChildNodes[2].InnerText),
                     Nationality = trainerNode.ChildNodes[3].InnerText,
-                    Age = int.Parse(trainerNode.ChildNodes[4].InnerText),
-                    Salary = decimal.Parse(trainerNode.ChildNodes[5].InnerText),
-                    Contract = int.Parse(trainerNode.ChildNodes[6].InnerText)
+                    Age = ParseInt(trainerNode.ChildNodes[4].InnerText),
+                    Salary = ParseInt(trainerNode.ChildNodes[5].InnerText),
+                    Contract = ParseInt(trainerNode.ChildNodes[6].InnerText)
                 };
             }
 

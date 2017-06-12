@@ -7,15 +7,27 @@
     public class DataWriter
     {
         private SqlServerFootballDbContext dbContext;
-        private Country[] countries = JSONParser.ReadCountries("../../../FootballDatabase/Data/countries.json");
-        private Town[] towns = JSONParser.ReadTowns("../../../FootballDatabase/Data/towns.json");
-        private Team[] teams = JSONParser.ReadTeams("../../../FootballDatabase/Data/teams.json");
-        private Player[] players = JSONParser.ReadPlayers("../../../FootballDatabase/Data/players.json");
-        private Trainer[] trainers = XMLParser.ReadTrainers("../../../FootballDatabase/Data/trainers.xml");
+        private Country[] countries;
+        private Town[] towns;
+        private Team[] teams;
+        private Player[] players;
+        private Trainer[] trainers;
+        private Owner[] owners;
 
         public DataWriter(SqlServerFootballDbContext context)
         {
             this.DbContext = context;
+            this.ReadData();
+        }
+
+        private void ReadData()
+        {
+            this.countries = JSONParser.ReadCountries("../../../FootballDatabase/Data/countries.json");
+            this.towns = JSONParser.ReadTowns("../../../FootballDatabase/Data/towns.json");
+            this.teams = JSONParser.ReadTeams("../../../FootballDatabase/Data/teams.json");
+            this.players = JSONParser.ReadPlayers("../../../FootballDatabase/Data/players.json");
+            this.trainers = XMLParser.ReadTrainers("../../../FootballDatabase/Data/trainers.xml");
+            this.owners = JSONParser.ReadOwners("../../../FootballDatabase/Data/owners.json");
         }
 
         public SqlServerFootballDbContext DbContext
@@ -31,6 +43,7 @@
             this.AddTeams(this.DbContext, this.teams);
             this.AddPlayers(this.DbContext, this.players);
             this.AddTrainers(this.DbContext, this.trainers);
+            this.AddOwners(this.DbContext, this.owners);
         }
 
         public void AddCountries(SqlServerFootballDbContext context, Country[] countries)
@@ -78,6 +91,16 @@
             for (int i = 0; i < trainers.Length; i++)
             {
                 context.Trainers.Add(trainers[i]);
+            }
+
+            context.SaveChanges();
+        }
+
+        public void AddOwners(SqlServerFootballDbContext context, Owner[] trainers)
+        {
+            for (int i = 0; i < trainers.Length; i++)
+            {
+                context.Owners.Add(owners[i]);
             }
 
             context.SaveChanges();

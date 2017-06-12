@@ -6,7 +6,7 @@
         <TeamId>1</TeamId>
         <Nationality>Italy</Nationality>
         <Age>42</Age>
-        <Salary>null</Salary>
+        <Salary>50000</Salary>
         <Contract>3</Contract>
     </Trainer>
     <Trainer>
@@ -33,7 +33,7 @@
         <TeamId>4</TeamId>
         <Nationality>France</Nationality>
         <Age>44</Age>
-        <Salary>null</Salary>
+        <Salary>200000</Salary>
         <Contract>4</Contract>
     </Trainer>
     <Trainer>
