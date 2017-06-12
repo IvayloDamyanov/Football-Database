@@ -117,73 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="countriesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>159, 17</value>
-  </metadata>
-  <metadata name="footballDbDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="townsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>638, 17</value>
-  </metadata>
-  <metadata name="footballDbDataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>490, 17</value>
-  </metadata>
-  <metadata name="playersBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1085, 17</value>
-  </metadata>
-  <metadata name="footballDbDataSet2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>937, 17</value>
-  </metadata>
-  <metadata name="teamsBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>614, 91</value>
-  </metadata>
-  <metadata name="teamsDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>493, 91</value>
-  </metadata>
-  <metadata name="trainersBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>766, 54</value>
-  </metadata>
-  <metadata name="footballDbDataSet4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>618, 54</value>
-  </metadata>
-  <metadata name="ownersBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 91</value>
-  </metadata>
-  <metadata name="ownersDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1081, 54</value>
-  </metadata>
-  <metadata name="teamsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>318, 54</value>
-  </metadata>
-  <metadata name="footballDbDataSet3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>170, 54</value>
-  </metadata>
-  <metadata name="countriesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>327, 17</value>
-  </metadata>
-  <metadata name="townsTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>790, 17</value>
-  </metadata>
-  <metadata name="playersTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 54</value>
-  </metadata>
-  <metadata name="teamsTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>470, 54</value>
-  </metadata>
-  <metadata name="trainersTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>926, 54</value>
-  </metadata>
-  <metadata name="ownersTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>175, 91</value>
-  </metadata>
-  <metadata name="ownersBindingSource1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>329, 91</value>
-  </metadata>
-  <metadata name="teamsTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>773, 91</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>37</value>
-  </metadata>
+  <data name="Target" xml:space="preserve">
+    <value>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</value>
+  </data>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
+  </data>
 </root>
