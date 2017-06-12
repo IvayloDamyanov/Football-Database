@@ -8,12 +8,12 @@
         private System.ComponentModel.IContainer components = null;
 
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage CountriesTab;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage TownsTab;
+        private System.Windows.Forms.TabPage PlayersTab;
+        private System.Windows.Forms.TabPage TeamsTab;
+        private System.Windows.Forms.TabPage TrainersTab;
         private FootballDbDataSet footballDbDataSet;
         private System.Windows.Forms.BindingSource countriesBindingSource;
         private FootballDbDataSetTableAdapters.CountriesTableAdapter countriesTableAdapter;
@@ -38,14 +38,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn teamIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewCheckBoxColumn isDeletedDataGridViewCheckBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn positionDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridView dataGridView4;
         private FootballDbDataSet3 footballDbDataSet3;
         private System.Windows.Forms.BindingSource teamsBindingSource;
         private FootballDbDataSet3TableAdapters.TeamsTableAdapter teamsTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn townIdDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewCheckBoxColumn isDeletedDataGridViewCheckBoxColumn3;
         private System.Windows.Forms.DataGridView dataGridView5;
         private FootballDbDataSet4 footballDbDataSet4;
         private System.Windows.Forms.BindingSource trainersBindingSource;
@@ -133,7 +128,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.CountriesTab = new System.Windows.Forms.TabPage();
             this.label3 = new System.Windows.Forms.Label();
             this.countryNameTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -143,7 +138,7 @@
             this.isDeletedDataGridViewCheckBoxColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.countriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.footballDbDataSet = new FootballDatabase.UI.FootballDbDataSet();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.TownsTab = new System.Windows.Forms.TabPage();
             this.townCountryIdTextBox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -156,7 +151,10 @@
             this.isDeletedDataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.townsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.footballDbDataSet1 = new FootballDatabase.UI.FootballDbDataSet1();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.PlayersTab = new System.Windows.Forms.TabPage();
+            this.exportPDFButton = new System.Windows.Forms.Button();
+            this.label25 = new System.Windows.Forms.Label();
+            this.playerIdPDFExport = new System.Windows.Forms.NumericUpDown();
             this.playerPositionTextBox = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.playerTeamIdTextBox = new System.Windows.Forms.TextBox();
@@ -184,20 +182,15 @@
             this.positionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.playersBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.footballDbDataSet2 = new FootballDatabase.UI.FootballDbDataSet2();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.TeamsTab = new System.Windows.Forms.TabPage();
             this.teamTownIdTextBox = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.teamNameTextBox = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.idDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.townIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.isDeletedDataGridViewCheckBoxColumn3 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.teamsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.footballDbDataSet3 = new FootballDatabase.UI.FootballDbDataSet3();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.TrainersTab = new System.Windows.Forms.TabPage();
             this.trainerTeamIdTextBox = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.trainerContractTextBox = new System.Windows.Forms.TextBox();
@@ -222,6 +215,19 @@
             this.isDeletedDataGridViewCheckBoxColumn4 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.trainersBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.footballDbDataSet4 = new FootballDatabase.UI.FootballDbDataSet4();
+            this.OwnersTab = new System.Windows.Forms.TabPage();
+            this.ownerIncomesTextBox = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.ownerTeamIdTextBox = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.ownerNationalityTextBox = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.ownerAgeTextBox = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.ownerNameTextBox = new System.Windows.Forms.TextBox();
+            this.ownersBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.ownersDataSet = new FootballDatabase.UI.OwnersDataSet();
             this.countriesTableAdapter = new FootballDatabase.UI.FootballDbDataSetTableAdapters.CountriesTableAdapter();
             this.townsTableAdapter = new FootballDatabase.UI.FootballDbDataSet1TableAdapters.TownsTableAdapter();
             this.playersTableAdapter = new FootballDatabase.UI.FootballDbDataSet2TableAdapters.PlayersTableAdapter();
@@ -230,59 +236,85 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.playerIdPDFExport = new System.Windows.Forms.NumericUpDown();
-            this.label25 = new System.Windows.Forms.Label();
-            this.exportPDFButton = new System.Windows.Forms.Button();
+            this.ownersTableAdapter = new FootballDatabase.UI.OwnersDataSetTableAdapters.OwnersTableAdapter();
+            this.dataGridView6 = new System.Windows.Forms.DataGridView();
+            this.ownersBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.idDataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ageDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nationalityDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.incomesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.isDeletedDataGridViewCheckBoxColumn5 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.teamIdDataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.teamsDataSet = new FootballDatabase.UI.teamsDataSet();
+            this.teamsBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.teamsTableAdapter1 = new FootballDatabase.UI.teamsDataSetTableAdapters.TeamsTableAdapter();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
+            this.idDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ownerIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nameDataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.townIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.isDeletedDataGridViewCheckBoxColumn3 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.teamOwnerIdTextBox = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
+            this.CountriesTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.countriesBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet)).BeginInit();
-            this.tabPage2.SuspendLayout();
+            this.TownsTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.townsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet1)).BeginInit();
-            this.tabPage3.SuspendLayout();
+            this.PlayersTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.playerIdPDFExport)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.playersBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet2)).BeginInit();
-            this.tabPage4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
+            this.TeamsTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.teamsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet3)).BeginInit();
-            this.tabPage5.SuspendLayout();
+            this.TrainersTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trainersBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.playerIdPDFExport)).BeginInit();
+            this.OwnersTab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ownersBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ownersDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ownersBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teamsDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teamsBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Controls.Add(this.CountriesTab);
+            this.tabControl1.Controls.Add(this.TownsTab);
+            this.tabControl1.Controls.Add(this.PlayersTab);
+            this.tabControl1.Controls.Add(this.TeamsTab);
+            this.tabControl1.Controls.Add(this.TrainersTab);
+            this.tabControl1.Controls.Add(this.OwnersTab);
             this.tabControl1.Location = new System.Drawing.Point(16, 29);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1100, 450);
             this.tabControl1.TabIndex = 0;
             // 
-            // tabPage1
+            // CountriesTab
             // 
-            this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.countryNameTextBox);
-            this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.dataGridView1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1092, 424);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Countries";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.CountriesTab.Controls.Add(this.label3);
+            this.CountriesTab.Controls.Add(this.countryNameTextBox);
+            this.CountriesTab.Controls.Add(this.label2);
+            this.CountriesTab.Controls.Add(this.dataGridView1);
+            this.CountriesTab.Location = new System.Drawing.Point(4, 22);
+            this.CountriesTab.Name = "CountriesTab";
+            this.CountriesTab.Padding = new System.Windows.Forms.Padding(3);
+            this.CountriesTab.Size = new System.Drawing.Size(1092, 424);
+            this.CountriesTab.TabIndex = 0;
+            this.CountriesTab.Text = "Countries";
+            this.CountriesTab.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -353,21 +385,21 @@
             this.footballDbDataSet.DataSetName = "FootballDbDataSet";
             this.footballDbDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // tabPage2
+            // TownsTab
             // 
-            this.tabPage2.Controls.Add(this.townCountryIdTextBox);
-            this.tabPage2.Controls.Add(this.label6);
-            this.tabPage2.Controls.Add(this.label4);
-            this.tabPage2.Controls.Add(this.townNameTextBox);
-            this.tabPage2.Controls.Add(this.label5);
-            this.tabPage2.Controls.Add(this.dataGridView2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1092, 424);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Towns";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.TownsTab.Controls.Add(this.townCountryIdTextBox);
+            this.TownsTab.Controls.Add(this.label6);
+            this.TownsTab.Controls.Add(this.label4);
+            this.TownsTab.Controls.Add(this.townNameTextBox);
+            this.TownsTab.Controls.Add(this.label5);
+            this.TownsTab.Controls.Add(this.dataGridView2);
+            this.TownsTab.Location = new System.Drawing.Point(4, 22);
+            this.TownsTab.Name = "TownsTab";
+            this.TownsTab.Padding = new System.Windows.Forms.Padding(3);
+            this.TownsTab.Size = new System.Drawing.Size(1092, 424);
+            this.TownsTab.TabIndex = 1;
+            this.TownsTab.Text = "Towns";
+            this.TownsTab.UseVisualStyleBackColor = true;
             // 
             // townCountryIdTextBox
             // 
@@ -460,33 +492,64 @@
             this.footballDbDataSet1.DataSetName = "FootballDbDataSet1";
             this.footballDbDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // tabPage3
+            // PlayersTab
             // 
-            this.tabPage3.Controls.Add(this.exportPDFButton);
-            this.tabPage3.Controls.Add(this.label25);
-            this.tabPage3.Controls.Add(this.playerIdPDFExport);
-            this.tabPage3.Controls.Add(this.playerPositionTextBox);
-            this.tabPage3.Controls.Add(this.label14);
-            this.tabPage3.Controls.Add(this.playerTeamIdTextBox);
-            this.tabPage3.Controls.Add(this.label13);
-            this.tabPage3.Controls.Add(this.playerContractTextBox);
-            this.tabPage3.Controls.Add(this.label12);
-            this.tabPage3.Controls.Add(this.playerSalaryTextBox);
-            this.tabPage3.Controls.Add(this.label11);
-            this.tabPage3.Controls.Add(this.playerNationalityTextBox);
-            this.tabPage3.Controls.Add(this.label10);
-            this.tabPage3.Controls.Add(this.playerAgeTextBox);
-            this.tabPage3.Controls.Add(this.label7);
-            this.tabPage3.Controls.Add(this.label8);
-            this.tabPage3.Controls.Add(this.playerNameTextBox);
-            this.tabPage3.Controls.Add(this.label9);
-            this.tabPage3.Controls.Add(this.dataGridView3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1092, 424);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Players";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.PlayersTab.Controls.Add(this.exportPDFButton);
+            this.PlayersTab.Controls.Add(this.label25);
+            this.PlayersTab.Controls.Add(this.playerIdPDFExport);
+            this.PlayersTab.Controls.Add(this.playerPositionTextBox);
+            this.PlayersTab.Controls.Add(this.label14);
+            this.PlayersTab.Controls.Add(this.playerTeamIdTextBox);
+            this.PlayersTab.Controls.Add(this.label13);
+            this.PlayersTab.Controls.Add(this.playerContractTextBox);
+            this.PlayersTab.Controls.Add(this.label12);
+            this.PlayersTab.Controls.Add(this.playerSalaryTextBox);
+            this.PlayersTab.Controls.Add(this.label11);
+            this.PlayersTab.Controls.Add(this.playerNationalityTextBox);
+            this.PlayersTab.Controls.Add(this.label10);
+            this.PlayersTab.Controls.Add(this.playerAgeTextBox);
+            this.PlayersTab.Controls.Add(this.label7);
+            this.PlayersTab.Controls.Add(this.label8);
+            this.PlayersTab.Controls.Add(this.playerNameTextBox);
+            this.PlayersTab.Controls.Add(this.label9);
+            this.PlayersTab.Controls.Add(this.dataGridView3);
+            this.PlayersTab.Location = new System.Drawing.Point(4, 22);
+            this.PlayersTab.Name = "PlayersTab";
+            this.PlayersTab.Size = new System.Drawing.Size(1092, 424);
+            this.PlayersTab.TabIndex = 2;
+            this.PlayersTab.Text = "Players";
+            this.PlayersTab.UseVisualStyleBackColor = true;
+            // 
+            // exportPDFButton
+            // 
+            this.exportPDFButton.Location = new System.Drawing.Point(1000, 395);
+            this.exportPDFButton.Name = "exportPDFButton";
+            this.exportPDFButton.Size = new System.Drawing.Size(75, 23);
+            this.exportPDFButton.TabIndex = 4;
+            this.exportPDFButton.Text = "Export PDF";
+            this.exportPDFButton.UseVisualStyleBackColor = true;
+            this.exportPDFButton.Click += new System.EventHandler(this.ExportPDFButton_Click);
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(952, 344);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(137, 13);
+            this.label25.TabIndex = 28;
+            this.label25.Text = "Select Player\'s Id To Export";
+            // 
+            // playerIdPDFExport
+            // 
+            this.playerIdPDFExport.Location = new System.Drawing.Point(955, 360);
+            this.playerIdPDFExport.Maximum = new decimal(new int[] {
+            300,
+            0,
+            0,
+            0});
+            this.playerIdPDFExport.Name = "playerIdPDFExport";
+            this.playerIdPDFExport.Size = new System.Drawing.Size(120, 20);
+            this.playerIdPDFExport.TabIndex = 27;
             // 
             // playerPositionTextBox
             // 
@@ -694,20 +757,22 @@
             this.footballDbDataSet2.DataSetName = "FootballDbDataSet2";
             this.footballDbDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // tabPage4
+            // TeamsTab
             // 
-            this.tabPage4.Controls.Add(this.teamTownIdTextBox);
-            this.tabPage4.Controls.Add(this.label15);
-            this.tabPage4.Controls.Add(this.label16);
-            this.tabPage4.Controls.Add(this.teamNameTextBox);
-            this.tabPage4.Controls.Add(this.label17);
-            this.tabPage4.Controls.Add(this.dataGridView4);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1092, 424);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Teams";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.TeamsTab.Controls.Add(this.teamOwnerIdTextBox);
+            this.TeamsTab.Controls.Add(this.label26);
+            this.TeamsTab.Controls.Add(this.dataGridView4);
+            this.TeamsTab.Controls.Add(this.teamTownIdTextBox);
+            this.TeamsTab.Controls.Add(this.label15);
+            this.TeamsTab.Controls.Add(this.label16);
+            this.TeamsTab.Controls.Add(this.teamNameTextBox);
+            this.TeamsTab.Controls.Add(this.label17);
+            this.TeamsTab.Location = new System.Drawing.Point(4, 22);
+            this.TeamsTab.Name = "TeamsTab";
+            this.TeamsTab.Size = new System.Drawing.Size(1092, 424);
+            this.TeamsTab.TabIndex = 3;
+            this.TeamsTab.Text = "Teams";
+            this.TeamsTab.UseVisualStyleBackColor = true;
             // 
             // teamTownIdTextBox
             // 
@@ -750,46 +815,6 @@
             this.label17.TabIndex = 12;
             this.label17.Text = "To Add a new row use this:";
             // 
-            // dataGridView4
-            // 
-            this.dataGridView4.AutoGenerateColumns = false;
-            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn3,
-            this.nameDataGridViewTextBoxColumn3,
-            this.townIdDataGridViewTextBoxColumn,
-            this.isDeletedDataGridViewCheckBoxColumn3});
-            this.dataGridView4.DataSource = this.teamsBindingSource;
-            this.dataGridView4.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView4.Name = "dataGridView4";
-            this.dataGridView4.Size = new System.Drawing.Size(1092, 320);
-            this.dataGridView4.TabIndex = 0;
-            // 
-            // idDataGridViewTextBoxColumn3
-            // 
-            this.idDataGridViewTextBoxColumn3.DataPropertyName = "Id";
-            this.idDataGridViewTextBoxColumn3.HeaderText = "Id";
-            this.idDataGridViewTextBoxColumn3.Name = "idDataGridViewTextBoxColumn3";
-            this.idDataGridViewTextBoxColumn3.ReadOnly = true;
-            // 
-            // nameDataGridViewTextBoxColumn3
-            // 
-            this.nameDataGridViewTextBoxColumn3.DataPropertyName = "Name";
-            this.nameDataGridViewTextBoxColumn3.HeaderText = "Name";
-            this.nameDataGridViewTextBoxColumn3.Name = "nameDataGridViewTextBoxColumn3";
-            // 
-            // townIdDataGridViewTextBoxColumn
-            // 
-            this.townIdDataGridViewTextBoxColumn.DataPropertyName = "TownId";
-            this.townIdDataGridViewTextBoxColumn.HeaderText = "TownId";
-            this.townIdDataGridViewTextBoxColumn.Name = "townIdDataGridViewTextBoxColumn";
-            // 
-            // isDeletedDataGridViewCheckBoxColumn3
-            // 
-            this.isDeletedDataGridViewCheckBoxColumn3.DataPropertyName = "IsDeleted";
-            this.isDeletedDataGridViewCheckBoxColumn3.HeaderText = "IsDeleted";
-            this.isDeletedDataGridViewCheckBoxColumn3.Name = "isDeletedDataGridViewCheckBoxColumn3";
-            // 
             // teamsBindingSource
             // 
             this.teamsBindingSource.DataMember = "Teams";
@@ -800,28 +825,28 @@
             this.footballDbDataSet3.DataSetName = "FootballDbDataSet3";
             this.footballDbDataSet3.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
-            // tabPage5
+            // TrainersTab
             // 
-            this.tabPage5.Controls.Add(this.trainerTeamIdTextBox);
-            this.tabPage5.Controls.Add(this.label18);
-            this.tabPage5.Controls.Add(this.trainerContractTextBox);
-            this.tabPage5.Controls.Add(this.label19);
-            this.tabPage5.Controls.Add(this.trainerSalaryTextBox);
-            this.tabPage5.Controls.Add(this.label20);
-            this.tabPage5.Controls.Add(this.trainerNationalityTextBox);
-            this.tabPage5.Controls.Add(this.label21);
-            this.tabPage5.Controls.Add(this.trainerAgeTextBox);
-            this.tabPage5.Controls.Add(this.label22);
-            this.tabPage5.Controls.Add(this.label23);
-            this.tabPage5.Controls.Add(this.trainerNameTextBox);
-            this.tabPage5.Controls.Add(this.label24);
-            this.tabPage5.Controls.Add(this.dataGridView5);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1092, 424);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Trainers";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.TrainersTab.Controls.Add(this.trainerTeamIdTextBox);
+            this.TrainersTab.Controls.Add(this.label18);
+            this.TrainersTab.Controls.Add(this.trainerContractTextBox);
+            this.TrainersTab.Controls.Add(this.label19);
+            this.TrainersTab.Controls.Add(this.trainerSalaryTextBox);
+            this.TrainersTab.Controls.Add(this.label20);
+            this.TrainersTab.Controls.Add(this.trainerNationalityTextBox);
+            this.TrainersTab.Controls.Add(this.label21);
+            this.TrainersTab.Controls.Add(this.trainerAgeTextBox);
+            this.TrainersTab.Controls.Add(this.label22);
+            this.TrainersTab.Controls.Add(this.label23);
+            this.TrainersTab.Controls.Add(this.trainerNameTextBox);
+            this.TrainersTab.Controls.Add(this.label24);
+            this.TrainersTab.Controls.Add(this.dataGridView5);
+            this.TrainersTab.Location = new System.Drawing.Point(4, 22);
+            this.TrainersTab.Name = "TrainersTab";
+            this.TrainersTab.Size = new System.Drawing.Size(1092, 424);
+            this.TrainersTab.TabIndex = 4;
+            this.TrainersTab.Text = "Trainers";
+            this.TrainersTab.UseVisualStyleBackColor = true;
             // 
             // trainerTeamIdTextBox
             // 
@@ -1006,6 +1031,116 @@
             this.footballDbDataSet4.DataSetName = "FootballDbDataSet4";
             this.footballDbDataSet4.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // OwnersTab
+            // 
+            this.OwnersTab.Controls.Add(this.dataGridView6);
+            this.OwnersTab.Controls.Add(this.ownerIncomesTextBox);
+            this.OwnersTab.Controls.Add(this.label30);
+            this.OwnersTab.Controls.Add(this.ownerTeamIdTextBox);
+            this.OwnersTab.Controls.Add(this.label31);
+            this.OwnersTab.Controls.Add(this.ownerNationalityTextBox);
+            this.OwnersTab.Controls.Add(this.label27);
+            this.OwnersTab.Controls.Add(this.ownerAgeTextBox);
+            this.OwnersTab.Controls.Add(this.label28);
+            this.OwnersTab.Controls.Add(this.label29);
+            this.OwnersTab.Controls.Add(this.ownerNameTextBox);
+            this.OwnersTab.Location = new System.Drawing.Point(4, 22);
+            this.OwnersTab.Name = "OwnersTab";
+            this.OwnersTab.Size = new System.Drawing.Size(1092, 424);
+            this.OwnersTab.TabIndex = 5;
+            this.OwnersTab.Text = "Owners";
+            this.OwnersTab.UseVisualStyleBackColor = true;
+            // 
+            // ownerIncomesTextBox
+            // 
+            this.ownerIncomesTextBox.Location = new System.Drawing.Point(440, 398);
+            this.ownerIncomesTextBox.Name = "ownerIncomesTextBox";
+            this.ownerIncomesTextBox.Size = new System.Drawing.Size(100, 20);
+            this.ownerIncomesTextBox.TabIndex = 47;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(437, 382);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(54, 13);
+            this.label30.TabIndex = 46;
+            this.label30.Text = "*Incomes:";
+            // 
+            // ownerTeamIdTextBox
+            // 
+            this.ownerTeamIdTextBox.Location = new System.Drawing.Point(329, 398);
+            this.ownerTeamIdTextBox.Name = "ownerTeamIdTextBox";
+            this.ownerTeamIdTextBox.Size = new System.Drawing.Size(100, 20);
+            this.ownerTeamIdTextBox.TabIndex = 45;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(326, 382);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(79, 13);
+            this.label31.TabIndex = 44;
+            this.label31.Text = "*Valid Team Id:";
+            // 
+            // ownerNationalityTextBox
+            // 
+            this.ownerNationalityTextBox.Location = new System.Drawing.Point(220, 398);
+            this.ownerNationalityTextBox.Name = "ownerNationalityTextBox";
+            this.ownerNationalityTextBox.Size = new System.Drawing.Size(100, 20);
+            this.ownerNationalityTextBox.TabIndex = 43;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(217, 382);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(59, 13);
+            this.label27.TabIndex = 42;
+            this.label27.Text = "Nationality:";
+            // 
+            // ownerAgeTextBox
+            // 
+            this.ownerAgeTextBox.Location = new System.Drawing.Point(113, 398);
+            this.ownerAgeTextBox.Name = "ownerAgeTextBox";
+            this.ownerAgeTextBox.Size = new System.Drawing.Size(100, 20);
+            this.ownerAgeTextBox.TabIndex = 41;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(110, 382);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(33, 13);
+            this.label28.TabIndex = 40;
+            this.label28.Text = "*Age:";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(3, 382);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(42, 13);
+            this.label29.TabIndex = 39;
+            this.label29.Text = "*Name:";
+            // 
+            // ownerNameTextBox
+            // 
+            this.ownerNameTextBox.Location = new System.Drawing.Point(6, 398);
+            this.ownerNameTextBox.Name = "ownerNameTextBox";
+            this.ownerNameTextBox.Size = new System.Drawing.Size(100, 20);
+            this.ownerNameTextBox.TabIndex = 38;
+            // 
+            // ownersBindingSource
+            // 
+            this.ownersBindingSource.DataMember = "Owners";
+            this.ownersBindingSource.DataSource = this.ownersDataSet;
+            // 
+            // ownersDataSet
+            // 
+            this.ownersDataSet.DataSetName = "OwnersDataSet";
+            this.ownersDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // countriesTableAdapter
             // 
             this.countriesTableAdapter.ClearBeforeFill = true;
@@ -1055,36 +1190,152 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "To Update use the following table:";
             // 
-            // playerIdPDFExport
+            // ownersTableAdapter
             // 
-            this.playerIdPDFExport.Location = new System.Drawing.Point(955, 360);
-            this.playerIdPDFExport.Maximum = new decimal(new int[] {
-            300,
-            0,
-            0,
-            0});
-            this.playerIdPDFExport.Name = "playerIdPDFExport";
-            this.playerIdPDFExport.Size = new System.Drawing.Size(120, 20);
-            this.playerIdPDFExport.TabIndex = 27;
+            this.ownersTableAdapter.ClearBeforeFill = true;
             // 
-            // label25
+            // dataGridView6
             // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(952, 344);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(137, 13);
-            this.label25.TabIndex = 28;
-            this.label25.Text = "Select Player\'s Id To Export";
+            this.dataGridView6.AutoGenerateColumns = false;
+            this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView6.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn5,
+            this.nameDataGridViewTextBoxColumn5,
+            this.ageDataGridViewTextBoxColumn2,
+            this.nationalityDataGridViewTextBoxColumn2,
+            this.incomesDataGridViewTextBoxColumn,
+            this.isDeletedDataGridViewCheckBoxColumn5,
+            this.teamIdDataGridViewTextBoxColumn2});
+            this.dataGridView6.DataSource = this.ownersBindingSource;
+            this.dataGridView6.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView6.Name = "dataGridView6";
+            this.dataGridView6.Size = new System.Drawing.Size(1092, 321);
+            this.dataGridView6.TabIndex = 48;
             // 
-            // exportPDFButton
+            // ownersBindingSource1
             // 
-            this.exportPDFButton.Location = new System.Drawing.Point(1000, 395);
-            this.exportPDFButton.Name = "exportPDFButton";
-            this.exportPDFButton.Size = new System.Drawing.Size(75, 23);
-            this.exportPDFButton.TabIndex = 4;
-            this.exportPDFButton.Text = "Export PDF";
-            this.exportPDFButton.UseVisualStyleBackColor = true;
-            this.exportPDFButton.Click += new System.EventHandler(this.ExportPDFButton_Click);
+            this.ownersBindingSource1.DataMember = "Owners";
+            this.ownersBindingSource1.DataSource = this.ownersDataSet;
+            // 
+            // idDataGridViewTextBoxColumn5
+            // 
+            this.idDataGridViewTextBoxColumn5.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn5.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn5.Name = "idDataGridViewTextBoxColumn5";
+            this.idDataGridViewTextBoxColumn5.ReadOnly = true;
+            // 
+            // nameDataGridViewTextBoxColumn5
+            // 
+            this.nameDataGridViewTextBoxColumn5.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn5.HeaderText = "Name";
+            this.nameDataGridViewTextBoxColumn5.Name = "nameDataGridViewTextBoxColumn5";
+            // 
+            // ageDataGridViewTextBoxColumn2
+            // 
+            this.ageDataGridViewTextBoxColumn2.DataPropertyName = "Age";
+            this.ageDataGridViewTextBoxColumn2.HeaderText = "Age";
+            this.ageDataGridViewTextBoxColumn2.Name = "ageDataGridViewTextBoxColumn2";
+            // 
+            // nationalityDataGridViewTextBoxColumn2
+            // 
+            this.nationalityDataGridViewTextBoxColumn2.DataPropertyName = "Nationality";
+            this.nationalityDataGridViewTextBoxColumn2.HeaderText = "Nationality";
+            this.nationalityDataGridViewTextBoxColumn2.Name = "nationalityDataGridViewTextBoxColumn2";
+            // 
+            // incomesDataGridViewTextBoxColumn
+            // 
+            this.incomesDataGridViewTextBoxColumn.DataPropertyName = "Incomes";
+            this.incomesDataGridViewTextBoxColumn.HeaderText = "Incomes";
+            this.incomesDataGridViewTextBoxColumn.Name = "incomesDataGridViewTextBoxColumn";
+            // 
+            // isDeletedDataGridViewCheckBoxColumn5
+            // 
+            this.isDeletedDataGridViewCheckBoxColumn5.DataPropertyName = "IsDeleted";
+            this.isDeletedDataGridViewCheckBoxColumn5.HeaderText = "IsDeleted";
+            this.isDeletedDataGridViewCheckBoxColumn5.Name = "isDeletedDataGridViewCheckBoxColumn5";
+            // 
+            // teamIdDataGridViewTextBoxColumn2
+            // 
+            this.teamIdDataGridViewTextBoxColumn2.DataPropertyName = "TeamId";
+            this.teamIdDataGridViewTextBoxColumn2.HeaderText = "TeamId";
+            this.teamIdDataGridViewTextBoxColumn2.Name = "teamIdDataGridViewTextBoxColumn2";
+            // 
+            // teamsDataSet
+            // 
+            this.teamsDataSet.DataSetName = "teamsDataSet";
+            this.teamsDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // teamsBindingSource1
+            // 
+            this.teamsBindingSource1.DataMember = "Teams";
+            this.teamsBindingSource1.DataSource = this.teamsDataSet;
+            // 
+            // teamsTableAdapter1
+            // 
+            this.teamsTableAdapter1.ClearBeforeFill = true;
+            // 
+            // dataGridView4
+            // 
+            this.dataGridView4.AutoGenerateColumns = false;
+            this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDataGridViewTextBoxColumn3,
+            this.ownerIdDataGridViewTextBoxColumn,
+            this.nameDataGridViewTextBoxColumn3,
+            this.townIdDataGridViewTextBoxColumn,
+            this.isDeletedDataGridViewCheckBoxColumn3});
+            this.dataGridView4.DataSource = this.teamsBindingSource1;
+            this.dataGridView4.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView4.Name = "dataGridView4";
+            this.dataGridView4.Size = new System.Drawing.Size(1089, 319);
+            this.dataGridView4.TabIndex = 17;
+            // 
+            // idDataGridViewTextBoxColumn3
+            // 
+            this.idDataGridViewTextBoxColumn3.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn3.HeaderText = "Id";
+            this.idDataGridViewTextBoxColumn3.Name = "idDataGridViewTextBoxColumn3";
+            this.idDataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // ownerIdDataGridViewTextBoxColumn
+            // 
+            this.ownerIdDataGridViewTextBoxColumn.DataPropertyName = "OwnerId";
+            this.ownerIdDataGridViewTextBoxColumn.HeaderText = "OwnerId";
+            this.ownerIdDataGridViewTextBoxColumn.Name = "ownerIdDataGridViewTextBoxColumn";
+            // 
+            // nameDataGridViewTextBoxColumn3
+            // 
+            this.nameDataGridViewTextBoxColumn3.DataPropertyName = "Name";
+            this.nameDataGridViewTextBoxColumn3.HeaderText = "Name";
+            this.nameDataGridViewTextBoxColumn3.Name = "nameDataGridViewTextBoxColumn3";
+            // 
+            // townIdDataGridViewTextBoxColumn
+            // 
+            this.townIdDataGridViewTextBoxColumn.DataPropertyName = "TownId";
+            this.townIdDataGridViewTextBoxColumn.HeaderText = "TownId";
+            this.townIdDataGridViewTextBoxColumn.Name = "townIdDataGridViewTextBoxColumn";
+            // 
+            // isDeletedDataGridViewCheckBoxColumn3
+            // 
+            this.isDeletedDataGridViewCheckBoxColumn3.DataPropertyName = "IsDeleted";
+            this.isDeletedDataGridViewCheckBoxColumn3.HeaderText = "IsDeleted";
+            this.isDeletedDataGridViewCheckBoxColumn3.Name = "isDeletedDataGridViewCheckBoxColumn3";
+            // 
+            // teamOwnerIdTextBox
+            // 
+            this.teamOwnerIdTextBox.Location = new System.Drawing.Point(243, 400);
+            this.teamOwnerIdTextBox.Name = "teamOwnerIdTextBox";
+            this.teamOwnerIdTextBox.Size = new System.Drawing.Size(100, 20);
+            this.teamOwnerIdTextBox.TabIndex = 19;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(240, 384);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(96, 13);
+            this.label26.TabIndex = 18;
+            this.label26.Text = "*Existing Owner Id:";
             // 
             // MainWindow
             // 
@@ -1099,37 +1350,80 @@
             this.Text = "MainWindow";
             this.Load += new System.EventHandler(this.MainWindow_Load);
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
+            this.CountriesTab.ResumeLayout(false);
+            this.CountriesTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.countriesBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
+            this.TownsTab.ResumeLayout(false);
+            this.TownsTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.townsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet1)).EndInit();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
+            this.PlayersTab.ResumeLayout(false);
+            this.PlayersTab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.playerIdPDFExport)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.playersBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet2)).EndInit();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
+            this.TeamsTab.ResumeLayout(false);
+            this.TeamsTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.teamsBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet3)).EndInit();
-            this.tabPage5.ResumeLayout(false);
-            this.tabPage5.PerformLayout();
+            this.TrainersTab.ResumeLayout(false);
+            this.TrainersTab.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.trainersBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.footballDbDataSet4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.playerIdPDFExport)).EndInit();
+            this.OwnersTab.ResumeLayout(false);
+            this.OwnersTab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ownersBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ownersDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ownersBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teamsDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.teamsBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.TabPage OwnersTab;
+        private OwnersDataSet ownersDataSet;
+        private System.Windows.Forms.BindingSource ownersBindingSource;
+        private OwnersDataSetTableAdapters.OwnersTableAdapter ownersTableAdapter;
+        private System.Windows.Forms.TextBox ownerTeamIdTextBox;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TextBox ownerNationalityTextBox;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.TextBox ownerAgeTextBox;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.TextBox ownerNameTextBox;
+        private System.Windows.Forms.TextBox ownerIncomesTextBox;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.DataGridView dataGridView6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ageDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nationalityDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn incomesDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn isDeletedDataGridViewCheckBoxColumn5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn teamIdDataGridViewTextBoxColumn2;
+        private System.Windows.Forms.BindingSource ownersBindingSource1;
+        private teamsDataSet teamsDataSet;
+        private System.Windows.Forms.BindingSource teamsBindingSource1;
+        private teamsDataSetTableAdapters.TeamsTableAdapter teamsTableAdapter1;
+        private System.Windows.Forms.TextBox teamOwnerIdTextBox;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.DataGridView dataGridView4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ownerIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn townIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewCheckBoxColumn isDeletedDataGridViewCheckBoxColumn3;
     }
 }

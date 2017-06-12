@@ -21,24 +21,24 @@
 
         public int Id { get; set; }
 
-        public int TeamId { get; set; }
-
         [Required]
         [MinLength(MinNameLength)]
         [MaxLength(MaxNameLength)]
         public string Name { get; set; }
 
+        [Range(MinAge, MaxAge)]
+        public int Age { get; set; }
+
         [MinLength(MinNameLength)]
         [MaxLength(MaxNameLength)]
         public string Nationality { get; set; }
-
-        [Range(MinAge, MaxAge)]
-        public int Age { get; set; }
 
         [Range(MinIncomes, Double.MaxValue)]
         public decimal Incomes { get; set; }
 
         public bool IsDeleted { get; set; }
+
+        public int TeamId { get; set; }
 
         [ForeignKey("TeamId")]
         public virtual ICollection<Team> Teams { get; set; }
