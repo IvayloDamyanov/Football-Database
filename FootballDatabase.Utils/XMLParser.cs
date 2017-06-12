@@ -1,7 +1,7 @@
 ﻿namespace FootballDatabase.Utils
 {
-    using System.Xml;
     using FootballDatabase.Models;
+    using System.Xml;
 
     public static class XMLParser
     {

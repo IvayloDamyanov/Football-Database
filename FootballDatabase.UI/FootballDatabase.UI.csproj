@@ -214,9 +214,9 @@
       <Project>{188034f8-aca4-499e-a5c9-5fe3ffa35d80}</Project>
       <Name>FootballDatabase.Utils</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FootballDatabase\FootballDatabase.csproj">
+    <ProjectReference Include="..\FootballDatabase\FootballDatabase.Client.csproj">
       <Project>{784799da-2cff-4497-aa71-e69b13e1d0da}</Project>
-      <Name>FootballDatabase</Name>
+      <Name>FootballDatabase.Client</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

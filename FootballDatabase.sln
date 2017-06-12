@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDatabase", "FootballDatabase\FootballDatabase.csproj", "{784799DA-2CFF-4497-AA71-E69B13E1D0DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDatabase.Client", "FootballDatabase\FootballDatabase.Client.csproj", "{784799DA-2CFF-4497-AA71-E69B13E1D0DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballDatabase.Models", "FootballDatabase.Models\FootballDatabase.Models.csproj", "{A4B22FC3-B6F8-4445-A09B-62AA8D6CED8D}"
 EndProject

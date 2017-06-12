@@ -1,4 +1,4 @@
-﻿namespace FootballDatabase.Commands
+﻿namespace FootballDatabase.Client.Commands
 {
     using FootballDatabase.Data;
     using FootballDatabase.Models;

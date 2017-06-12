@@ -1,7 +1,7 @@
-﻿namespace FootballDatabase
+﻿namespace FootballDatabase.Client
 {
-    using FootballDatabase.Contracts;
-    using FootballDatabase.Core;
+    using FootballDatabase.Client.Contracts;
+    using FootballDatabase.Client.Core;
     using FootballDatabase.Utils.Models;
 
     public class Startup

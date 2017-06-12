@@ -1,7 +1,8 @@
-﻿namespace FootballDatabase.Core
+﻿namespace FootballDatabase.Client.Core
 {
-    using FootballDatabase.Commands;
-    using FootballDatabase.Contracts;
+    using System;
+    using FootballDatabase.Client.Commands;
+    using FootballDatabase.Client.Contracts;
     using FootballDatabase.Data;
 
     public class Engine : IEngine

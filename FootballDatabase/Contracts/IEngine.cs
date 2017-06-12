@@ -1,4 +1,4 @@
-﻿namespace FootballDatabase.Contracts
+﻿namespace FootballDatabase.Client.Contracts
 {
     /// <summary>
     /// Interface for the Engine of the App.
