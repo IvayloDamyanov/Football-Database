@@ -49,6 +49,7 @@
 
             modelBuilder.Entity<Owner>()
                 .HasMany<Team>(owner => owner.Teams);
+
         }
     }
 }

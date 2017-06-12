@@ -2,6 +2,7 @@
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public class Team
     {
@@ -17,6 +18,8 @@
 
         public int Id { get; set; }
 
+        public int OwnerId { get; set; }
+
         [Required]
         [MinLength(MinNameLength)]
         [MaxLength(MaxNameLength)]
@@ -30,6 +33,7 @@
 
         public virtual ICollection<Player> Players { get; set; }
 
+        [ForeignKey("OwnerId")]
         public virtual ICollection<Owner> Owners { get; set; }
 
         public override string ToString()

@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations.Schema;
 
     public class Owner
     {
@@ -19,6 +20,8 @@
         }
 
         public int Id { get; set; }
+
+        public int TeamId { get; set; }
 
         [Required]
         [MinLength(MinNameLength)]
@@ -37,6 +40,7 @@
 
         public bool IsDeleted { get; set; }
 
+        [ForeignKey("TeamId")]
         public virtual ICollection<Team> Teams { get; set; }
 
         public override string ToString()
