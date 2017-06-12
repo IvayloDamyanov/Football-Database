@@ -4,8 +4,6 @@
     using FootballDatabase.Client.Commands;
     using FootballDatabase.Client.Contracts;
     using FootballDatabase.Data;
-    using Models;
-    using System.Linq;
 
     public class Engine : IEngine
     {
@@ -14,13 +12,13 @@
 
         public Engine()
         {
-            context = new FootballDbContext();
-            dataWriter = new DataWriter(context);
+            this.context = new FootballDbContext();
+            this.dataWriter = new DataWriter(this.context);
         }
 
         public void Start()
         {
-            dataWriter.Populate();
+            this.dataWriter.Populate();
         }
     }
 }

@@ -6,52 +6,52 @@
         <TeamId>1</TeamId>
         <Nationality>Italy</Nationality>
         <Age>42</Age>
-        <Salary>0</Salary>
+        <Salary>null</Salary>
         <Contract>3</Contract>
     </Trainer>
     <Trainer>
         <id>2</id>    
-        <Name>Vincenzo Montella</Name>
-        <TeamId>1</TeamId>
+        <Name>Stefano Vecchi</Name>
+        <TeamId>2</TeamId>
         <Nationality>Italy</Nationality>
-        <Age>42</Age>
-        <Salary>0</Salary>
-        <Contract>3</Contract>
+        <Age>45</Age>
+        <Salary>null</Salary>
+        <Contract>1</Contract>
     </Trainer>
      <Trainer>
         <id>3</id>     
-        <Name>Vincenzo Montella</Name>
-        <TeamId>1</TeamId>
+        <Name>Massimiliano Allegri</Name>
+        <TeamId>3</TeamId>
         <Nationality>Italy</Nationality>
-        <Age>42</Age>
-        <Salary>0</Salary>
-        <Contract>3</Contract>
+        <Age>49</Age>
+        <Salary>null</Salary>
+        <Contract>4</Contract>
     </Trainer>
     <Trainer>
         <id>4</id>
-        <Name>Vincenzo Montella</Name>
-        <TeamId>1</TeamId>
-        <Nationality>Italy</Nationality>
-        <Age>42</Age>
-        <Salary>0</Salary>
-        <Contract>3</Contract>
+        <Name>Zinedine Zidane</Name>
+        <TeamId>4</TeamId>
+        <Nationality>France</Nationality>
+        <Age>44</Age>
+        <Salary>null</Salary>
+        <Contract>4</Contract>
     </Trainer>
     <Trainer>
         <id>5</id>    
-        <Name>Vincenzo Montella</Name>
-        <TeamId>1</TeamId>
+        <Name>Antonio Conte</Name>
+        <TeamId>5</TeamId>
         <Nationality>Italy</Nationality>
-        <Age>42</Age>
-        <Salary>0</Salary>
-        <Contract>3</Contract>
+        <Age>47</Age>
+        <Salary>null</Salary>
+        <Contract>5</Contract>
     </Trainer>
     <Trainer>
         <id>6</id>    
-        <Name>Vincenzo Montella</Name>
-        <TeamId>1</TeamId>
+        <Name>Carlo Ancelotti</Name>
+        <TeamId>6</TeamId>
         <Nationality>Italy</Nationality>
-        <Age>42</Age>
-        <Salary>0</Salary>
-        <Contract>3</Contract>
+        <Age>57</Age>
+        <Salary>null</Salary>
+        <Contract>6</Contract>
     </Trainer>
 </Trainers>

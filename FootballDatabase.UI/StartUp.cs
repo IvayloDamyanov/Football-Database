@@ -1,19 +1,13 @@
 ﻿namespace FootballDatabase.UI
 {
-    using FootballDatabase.Client.Contracts;
-    using FootballDatabase.Client.Core;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
     using System.Windows.Forms;
 
-    static class StartUp
+    public static class StartUp
     {
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        static void Main()
+        public static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

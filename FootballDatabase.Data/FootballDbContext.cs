@@ -1,7 +1,7 @@
 ﻿namespace FootballDatabase.Data
 {
-    using FootballDatabase.Models;
     using System.Data.Entity;
+    using FootballDatabase.Models;
 
     public class FootballDbContext : DbContext
     {
@@ -20,17 +20,7 @@
 
         public DbSet<Trainer> Trainers { get; set; }
 
-        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        //{
-        //    this.OnTrainerModelCreating(modelBuilder);
-        //    modelBuilder.HasDefaultSchema("public"); //throws due to already existing SCHEMA "public"
-
-        //    modelBuilder.Entity<Trainer>().HasKey(x => x.Id);
-        //    modelBuilder.Entity<Player>().HasRequired(x => x.Name);
-        //    base.OnModelCreating(modelBuilder);
-        //}
-
-        private void OnTrainerModelCreating (DbModelBuilder modelBuilder)
+        private void OnTrainerModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Trainer>()
                 .HasKey(trainer => trainer.Id);

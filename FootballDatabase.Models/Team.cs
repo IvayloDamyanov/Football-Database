@@ -2,18 +2,17 @@
 {
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
 
     public class Team
     {
+        private const int MinNameLength = 2;
+        private const int MaxNameLength = 50;
+
         public Team()
         {
             this.Players = new HashSet<Player>();
             this.IsDeleted = false;
         }
-
-        private const int MinNameLength = 2;
-        private const int MaxNameLength = 50;
 
         public int Id { get; set; }
 
@@ -32,8 +31,6 @@
 
         public override string ToString()
         {
-            //return this.Team.Name; check how to extract team's town name, players, etc.
-
             return string.Format($@"Id: {this.Id}, Name: {this.Name}");
         }
     }
